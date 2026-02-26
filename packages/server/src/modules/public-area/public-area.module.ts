@@ -1,19 +1,14 @@
-import { Module, OnModuleInit } from '@nestjs/common';
+import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { PublicAreaEntity } from './public-area.entity';
 import { AreaVisitEntity } from './area-visit.entity';
 import { PublicAreaService } from './public-area.service';
+import { VisibilityService } from './visibility.service';
 import { AgentModule } from '../agent/agent.module';
 
 @Module({
   imports: [TypeOrmModule.forFeature([PublicAreaEntity, AreaVisitEntity]), AgentModule],
-  providers: [PublicAreaService],
-  exports: [PublicAreaService],
+  providers: [PublicAreaService, VisibilityService],
+  exports: [PublicAreaService, VisibilityService],
 })
-export class PublicAreaModule implements OnModuleInit {
-  constructor(private readonly publicAreaService: PublicAreaService) {}
-
-  async onModuleInit() {
-    await this.publicAreaService.seedDefaultAreas();
-  }
-}
+export class PublicAreaModule {}

@@ -1,10 +1,11 @@
 import { Injectable, NotFoundException, BadRequestException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository } from 'typeorm';
+import { Repository, IsNull } from 'typeorm';
 import { randomUUID } from 'crypto';
 import { PublicAreaEntity, PublicAreaType, AreaPosition, AreaFacility } from './public-area.entity';
 import { AreaVisitEntity } from './area-visit.entity';
 import { AgentService } from '../agent/agent.service';
+import { VisibilityService } from './visibility.service';
 
 const DEFAULT_AREAS: Partial<PublicAreaEntity>[] = [
   {
@@ -13,7 +14,7 @@ const DEFAULT_AREAS: Partial<PublicAreaEntity>[] = [
     type: 'plaza',
     description: '城市中心的中央广场，是居民聚集交流的主要场所',
     position: { x: 50, y: 50 },
-    capacity: { max: 50, current: 0 },
+    maxVisibleAgents: 30,
     facilities: [
       { id: 'fountain', name: '喷泉', type: 'decoration', position: { x: 0, y: 0 } },
       { id: 'bench-1', name: '长椅', type: 'seat', position: { x: -2, y: 2 } },
@@ -30,7 +31,7 @@ const DEFAULT_AREAS: Partial<PublicAreaEntity>[] = [
     type: 'cafe',
     description: '温馨的咖啡馆，提供各种饮品和小食',
     position: { x: 45, y: 48 },
-    capacity: { max: 20, current: 0 },
+    maxVisibleAgents: 20,
     facilities: [
       { id: 'counter', name: '吧台', type: 'service', position: { x: 0, y: -3 } },
       { id: 'table-1', name: '圆桌', type: 'seat', position: { x: -2, y: 0 } },
@@ -47,7 +48,7 @@ const DEFAULT_AREAS: Partial<PublicAreaEntity>[] = [
     type: 'park',
     description: '宁静的公园，有茂密的树木和清澈的池塘',
     position: { x: 55, y: 45 },
-    capacity: { max: 30, current: 0 },
+    maxVisibleAgents: 25,
     facilities: [
       { id: 'pond', name: '池塘', type: 'decoration', position: { x: 0, y: 0 } },
       { id: 'tree-1', name: '大树', type: 'decoration', position: { x: -3, y: -3 } },
@@ -65,7 +66,7 @@ const DEFAULT_AREAS: Partial<PublicAreaEntity>[] = [
     type: 'shop',
     description: '出售各种日常用品和特色商品',
     position: { x: 48, y: 52 },
-    capacity: { max: 15, current: 0 },
+    maxVisibleAgents: 15,
     facilities: [
       { id: 'counter', name: '收银台', type: 'service', position: { x: 0, y: -2 } },
       { id: 'shelf-1', name: '货架', type: 'display', position: { x: -2, y: 0 } },
@@ -82,7 +83,7 @@ const DEFAULT_AREAS: Partial<PublicAreaEntity>[] = [
     type: 'library',
     description: '安静的图书馆，藏书丰富，适合阅读和学习',
     position: { x: 52, y: 55 },
-    capacity: { max: 25, current: 0 },
+    maxVisibleAgents: 20,
     facilities: [
       { id: 'desk-main', name: '借阅台', type: 'service', position: { x: 0, y: -3 } },
       { id: 'shelf-1', name: '书架', type: 'display', position: { x: -3, y: 0 } },
@@ -101,7 +102,7 @@ const DEFAULT_AREAS: Partial<PublicAreaEntity>[] = [
     type: 'gym',
     description: '现代化的健身中心，提供各种运动设施',
     position: { x: 58, y: 50 },
-    capacity: { max: 20, current: 0 },
+    maxVisibleAgents: 20,
     facilities: [
       { id: 'reception', name: '前台', type: 'service', position: { x: 0, y: -3 } },
       { id: 'treadmill-1', name: '跑步机', type: 'equipment', position: { x: -2, y: 0 } },
@@ -117,12 +118,15 @@ const DEFAULT_AREAS: Partial<PublicAreaEntity>[] = [
 
 @Injectable()
 export class PublicAreaService {
+  private interactionHistory: Map<string, Array<{ type: string; timestamp: Date }>> = new Map();
+
   constructor(
     @InjectRepository(PublicAreaEntity)
     private readonly areaRepository: Repository<PublicAreaEntity>,
     @InjectRepository(AreaVisitEntity)
     private readonly visitRepository: Repository<AreaVisitEntity>,
-    private readonly agentService: AgentService
+    private readonly agentService: AgentService,
+    private readonly visibilityService: VisibilityService
   ) {}
 
   async seedDefaultAreas(): Promise<void> {
@@ -150,20 +154,13 @@ export class PublicAreaService {
       throw new BadRequestException('This area is currently closed');
     }
 
-    if (area.capacity.current >= area.capacity.max) {
-      throw new BadRequestException('This area is at full capacity');
-    }
-
     const existingVisit = await this.visitRepository.findOne({
-      where: { agentId, exitedAt: null },
+      where: { agentId, exitedAt: IsNull() },
     });
 
     if (existingVisit) {
       await this.leaveArea(existingVisit.areaId, agentId);
     }
-
-    area.capacity.current++;
-    await this.areaRepository.save(area);
 
     await this.agentService.setCurrentArea(agentId, areaId);
 
@@ -173,14 +170,34 @@ export class PublicAreaService {
       agentId,
       enteredAt: new Date(),
       activities: [],
+      visibleUsers: [],
+      totalInteractions: 0,
     });
 
-    return this.visitRepository.save(visit);
+    await this.visitRepository.save(visit);
+
+    const allVisits = await this.visitRepository.find({
+      where: { areaId, exitedAt: IsNull() },
+      relations: ['area'],
+    });
+
+    this.visibilityService.onAgentEnter(visit, allVisits, this.interactionHistory);
+
+    await this.visitRepository.save(visit);
+
+    for (const otherVisit of allVisits) {
+      if (otherVisit.id !== visit.id) {
+        this.visibilityService.onAgentEnter(otherVisit, allVisits, this.interactionHistory);
+        await this.visitRepository.save(otherVisit);
+      }
+    }
+
+    return visit;
   }
 
   async leaveArea(areaId: string, agentId: string): Promise<void> {
     const visit = await this.visitRepository.findOne({
-      where: { areaId, agentId, exitedAt: null },
+      where: { areaId, agentId, exitedAt: IsNull() },
     });
 
     if (!visit) {
@@ -190,13 +207,20 @@ export class PublicAreaService {
     visit.exitedAt = new Date();
     await this.visitRepository.save(visit);
 
-    const area = await this.areaRepository.findOne({ where: { id: areaId } });
-    if (area && area.capacity.current > 0) {
-      area.capacity.current--;
-      await this.areaRepository.save(area);
-    }
-
     await this.agentService.setCurrentArea(agentId, null);
+
+    const remainingVisits = await this.visitRepository.find({
+      where: { areaId, exitedAt: IsNull() },
+      relations: ['area'],
+    });
+
+    this.visibilityService.onAgentLeave(visit, remainingVisits, this.interactionHistory);
+
+    for (const otherVisit of remainingVisits) {
+      if (otherVisit.id !== visit.id) {
+        await this.visitRepository.save(otherVisit);
+      }
+    }
   }
 
   async getAreaById(id: string): Promise<PublicAreaEntity> {
@@ -229,14 +253,14 @@ export class PublicAreaService {
 
   async getAreaVisitors(areaId: string): Promise<AreaVisitEntity[]> {
     return this.visitRepository.find({
-      where: { areaId, exitedAt: null },
+      where: { areaId, exitedAt: IsNull() },
       order: { enteredAt: 'ASC' },
     });
   }
 
   async getAgentCurrentVisit(agentId: string): Promise<AreaVisitEntity | null> {
     return this.visitRepository.findOne({
-      where: { agentId, exitedAt: null },
+      where: { agentId, exitedAt: IsNull() },
       relations: ['area'],
     });
   }
@@ -299,5 +323,79 @@ export class PublicAreaService {
       .map(([hour]) => parseInt(hour));
 
     return { totalVisits, avgDuration, peakHours };
+  }
+
+  async recordInteraction(
+    agentId1: string,
+    agentId2: string,
+    interactionType: 'chat' | 'trade' | 'gift' | 'event' | 'visit',
+  ): Promise<void> {
+    this.visibilityService.recordInteraction(
+      agentId1,
+      agentId2,
+      interactionType,
+      this.interactionHistory,
+    );
+
+    const visit1 = await this.visitRepository.findOne({
+      where: { agentId: agentId1, exitedAt: IsNull() },
+    });
+    const visit2 = await this.visitRepository.findOne({
+      where: { agentId: agentId2, exitedAt: IsNull() },
+    });
+
+    if (visit1) {
+      visit1.totalInteractions = (visit1.totalInteractions || 0) + 1;
+      await this.visitRepository.save(visit1);
+    }
+    if (visit2) {
+      visit2.totalInteractions = (visit2.totalInteractions || 0) + 1;
+      await this.visitRepository.save(visit2);
+    }
+  }
+
+  async getVisibleAgentsForUser(agentId: string): Promise<string[]> {
+    const visit = await this.visitRepository.findOne({
+      where: { agentId, exitedAt: IsNull() },
+    });
+
+    if (!visit) {
+      return [];
+    }
+
+    return visit.visibleUsers?.map((u) => u.oderId) || [];
+  }
+
+  async isAgentVisibleTo(targetAgentId: string, observerAgentId: string): Promise<boolean> {
+    const observerVisit = await this.visitRepository.findOne({
+      where: { agentId: observerAgentId, exitedAt: IsNull() },
+    });
+
+    if (!observerVisit) {
+      return false;
+    }
+
+    return this.visibilityService.isAgentVisibleTo(targetAgentId, observerVisit);
+  }
+
+  async broadcastToAreaVisible(
+    areaId: string,
+    message: { type: string; agentId: string; [key: string]: unknown },
+    excludeAgentId?: string,
+  ): Promise<void> {
+    const allVisits = await this.visitRepository.find({
+      where: { areaId, exitedAt: IsNull() },
+    });
+
+    for (const visit of allVisits) {
+      if (excludeAgentId && visit.agentId === excludeAgentId) {
+        continue;
+      }
+
+      const visibleAgentIds = visit.visibleUsers?.map((u) => u.oderId) || [];
+      if (visibleAgentIds.includes(message.agentId)) {
+        continue;
+      }
+    }
   }
 }

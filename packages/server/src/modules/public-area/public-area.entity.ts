@@ -7,16 +7,17 @@ export interface AreaPosition {
   y: number;
 }
 
-export interface AreaCapacity {
-  max: number;
-  current: number;
-}
-
 export interface AreaFacility {
   id: string;
   name: string;
   type: string;
   position: AreaPosition;
+}
+
+export interface InteractionRecord {
+  agentId: string;
+  interactedAt: Date;
+  interactionType: 'chat' | 'trade' | 'gift' | 'event' | 'visit';
 }
 
 @Entity('public_areas')
@@ -39,9 +40,6 @@ export class PublicAreaEntity {
   @Column('jsonb')
   position: AreaPosition;
 
-  @Column('jsonb')
-  capacity: AreaCapacity;
-
   @Column('jsonb', { default: [] })
   facilities: AreaFacility[];
 
@@ -53,6 +51,9 @@ export class PublicAreaEntity {
 
   @Column('uuid', { nullable: true })
   currentEventId: string | null;
+
+  @Column('int', { default: 20 })
+  maxVisibleAgents: number;
 
   @CreateDateColumn()
   createdAt: Date;

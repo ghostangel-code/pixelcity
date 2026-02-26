@@ -7,7 +7,7 @@ export interface PublicAreaData {
   type: 'plaza' | 'cafe' | 'park' | 'shop' | 'library' | 'gym';
   description: string;
   position: { x: number; y: number };
-  capacity: { max: number; current: number };
+  maxVisibleAgents: number;
   facilities: Array<{
     id: string;
     name: string;
@@ -22,7 +22,9 @@ export class PublicAreaScene extends Container {
   private background: Sprite | null = null;
   private facilities: Container[] = [];
   private agents: Map<string, Sprite> = new Map();
+  private visibleAgents: Set<string> = new Set();
   private infoPanel: Container | null = null;
+  private capacityText: Text | null = null;
   private tileSize: number = 32;
 
   constructor(areaData: PublicAreaData) {
@@ -153,16 +155,16 @@ export class PublicAreaScene extends Container {
     typeText.y = 35;
     this.infoPanel.addChild(typeText);
 
-    const capacityText = new Text({
-      text: `人数: ${this.areaData.capacity.current}/${this.areaData.capacity.max}`,
+    this.capacityText = new Text({
+      text: `可见上限: ${this.areaData.maxVisibleAgents}`,
       style: {
         fontSize: 12,
         fill: 0xcccccc,
       },
     });
-    capacityText.x = 10;
-    capacityText.y = 55;
-    this.infoPanel.addChild(capacityText);
+    this.capacityText.x = 10;
+    this.capacityText.y = 55;
+    this.infoPanel.addChild(this.capacityText);
 
     const descText = new Text({
       text: this.areaData.description,
@@ -254,6 +256,28 @@ export class PublicAreaScene extends Container {
     if (sprite) {
       sprite.x = this.tileSize * 5 + x * this.tileSize;
       sprite.y = this.tileSize * 5 + y * this.tileSize;
+    }
+  }
+
+  setVisibleAgents(agentIds: string[]): void {
+    const newVisibleSet = new Set(agentIds);
+
+    for (const agentId of this.visibleAgents) {
+      if (!newVisibleSet.has(agentId)) {
+        this.removeAgent(agentId);
+      }
+    }
+
+    this.visibleAgents = newVisibleSet;
+  }
+
+  getVisibleAgents(): string[] {
+    return Array.from(this.visibleAgents);
+  }
+
+  updateCapacityDisplay(currentCount: number): void {
+    if (this.capacityText) {
+      this.capacityText.text = `可见: ${currentCount}/${this.areaData.maxVisibleAgents}`;
     }
   }
 

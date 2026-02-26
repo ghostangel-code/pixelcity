@@ -1,6 +1,12 @@
 import { Entity, Column, PrimaryColumn, ManyToOne, JoinColumn, CreateDateColumn } from 'typeorm';
 import { PublicAreaEntity } from './public-area.entity';
 
+export interface VisibleUser {
+  oderId: string;
+  addedAt: Date;
+  interactionScore: number;
+}
+
 @Entity('area_visits')
 export class AreaVisitEntity {
   @PrimaryColumn('uuid')
@@ -24,6 +30,12 @@ export class AreaVisitEntity {
 
   @Column('jsonb', { nullable: true })
   activities: string[];
+
+  @Column('jsonb', { default: [] })
+  visibleUsers: VisibleUser[];
+
+  @Column('int', { default: 0 })
+  totalInteractions: number;
 
   @CreateDateColumn()
   createdAt: Date;
