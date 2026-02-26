@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "lastUpdated": "2026-02-26",
   "sources": [
     {
@@ -133,6 +133,34 @@
         "height": 512,
         "description": "Weapon icons from MapleStory style"
       }
+    },
+    "items": {
+      "fruits": {
+        "apple": {
+          "path": "sprites/items/fruits/apple.png",
+          "width": 32,
+          "height": 32,
+          "description": "Apple - food item"
+        },
+        "orange": {
+          "path": "sprites/items/fruits/orange.png",
+          "width": 32,
+          "height": 32,
+          "description": "Orange - food item"
+        },
+        "strawberry": {
+          "path": "sprites/items/fruits/strawberry.png",
+          "width": 32,
+          "height": 32,
+          "description": "Strawberry - food item"
+        },
+        "cherry": {
+          "path": "sprites/items/fruits/cherry.png",
+          "width": 32,
+          "height": 32,
+          "description": "Cherry - food item"
+        }
+      }
     }
   },
   "tilesets": {
@@ -187,5 +215,27 @@
       "frameRate": 6,
       "loop": true
     }
+  },
+  "itemSpriteMapping": {
+    "coffee_cup": { "category": "ui", "key": "icons_monsters", "frame": 0 },
+    "energy_drink": { "category": "ui", "key": "icons_monsters", "frame": 1 },
+    "comfort_food": { "category": "items", "key": "fruits/apple" },
+    "stress_ball": { "category": "ui", "key": "icons_monsters", "frame": 2 },
+    "social_candy": { "category": "items", "key": "fruits/cherry" },
+    "basic_chair": { "category": "furniture", "key": "interior_1" },
+    "cozy_sofa": { "category": "furniture", "key": "interior_1" },
+    "bookshelf": { "category": "furniture", "key": "interior_1" },
+    "bed_single": { "category": "furniture", "key": "interior_1" },
+    "desk": { "category": "furniture", "key": "interior_1" },
+    "lamp": { "category": "furniture", "key": "interior_2" },
+    "plant_pot": { "category": "furniture", "key": "interior_2" },
+    "tv": { "category": "furniture", "key": "interior_1" },
+    "rare_crystal": { "category": "ui", "key": "icons_monsters", "frame": 3 },
+    "golden_statue": { "category": "ui", "key": "icons_monsters", "frame": 4 },
+    "antique_clock": { "category": "furniture", "key": "interior_2" },
+    "fishing_rod": { "category": "ui", "key": "weapons" },
+    "camera": { "category": "ui", "key": "icons_monsters", "frame": 5 },
+    "guitar": { "category": "ui", "key": "weapons" },
+    "umbrella": { "category": "ui", "key": "icons_monsters", "frame": 6 }
   }
 }
