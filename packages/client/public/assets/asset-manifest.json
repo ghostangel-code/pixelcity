@@ -300,6 +300,260 @@
             "height": 80
           }
         }
+      },
+      "monsters": {
+        "description": "Stardew Valley monster sprites",
+        "frameWidth": 16,
+        "frameHeight": 16,
+        "files": {
+          "green_slime": {
+            "path": "sprites/stardew/Characters/Monsters/Green Slime..png",
+            "width": 128,
+            "height": 128
+          },
+          "bat": {
+            "path": "sprites/stardew/Characters/Monsters/Bat..png",
+            "width": 128,
+            "height": 128
+          },
+          "ghost": {
+            "path": "sprites/stardew/Characters/Monsters/Ghost..png",
+            "width": 128,
+            "height": 128
+          },
+          "skeleton": {
+            "path": "sprites/stardew/Characters/Monsters/Skeleton..png",
+            "width": 128,
+            "height": 128
+          },
+          "stone_golem": {
+            "path": "sprites/stardew/Characters/Monsters/Stone Golem..png",
+            "width": 128,
+            "height": 128
+          },
+          "shadow_brute": {
+            "path": "sprites/stardew/Characters/Monsters/Shadow Brute..png",
+            "width": 128,
+            "height": 128
+          }
+        }
+      },
+      "portraits": {
+        "description": "Stardew Valley NPC portrait sprites",
+        "frameWidth": 64,
+        "frameHeight": 64,
+        "files": {
+          "abigail": {
+            "path": "sprites/stardew/Portraits/Abigail..png",
+            "width": 64,
+            "height": 64
+          },
+          "alex": {
+            "path": "sprites/stardew/Portraits/Alex..png",
+            "width": 64,
+            "height": 64
+          },
+          "emily": {
+            "path": "sprites/stardew/Portraits/Emily..png",
+            "width": 64,
+            "height": 64
+          },
+          "haley": {
+            "path": "sprites/stardew/Portraits/Haley..png",
+            "width": 64,
+            "height": 64
+          },
+          "harvey": {
+            "path": "sprites/stardew/Portraits/Harvey..png",
+            "width": 64,
+            "height": 64
+          },
+          "leah": {
+            "path": "sprites/stardew/Portraits/Leah..png",
+            "width": 64,
+            "height": 64
+          },
+          "maru": {
+            "path": "sprites/stardew/Portraits/Maru..png",
+            "width": 64,
+            "height": 64
+          },
+          "penny": {
+            "path": "sprites/stardew/Portraits/Penny..png",
+            "width": 64,
+            "height": 64
+          },
+          "sam": {
+            "path": "sprites/stardew/Portraits/Sam..png",
+            "width": 64,
+            "height": 64
+          },
+          "sebastian": {
+            "path": "sprites/stardew/Portraits/Sebastian..png",
+            "width": 64,
+            "height": 64
+          },
+          "shane": {
+            "path": "sprites/stardew/Portraits/Shane..png",
+            "width": 64,
+            "height": 64
+          },
+          "elliott": {
+            "path": "sprites/stardew/Portraits/Elliott..png",
+            "width": 64,
+            "height": 64
+          }
+        }
+      },
+      "tileSheets": {
+        "description": "Stardew Valley tile sheets",
+        "files": {
+          "craftables": {
+            "path": "sprites/stardew/TileSheets/Craftables..png",
+            "width": 512,
+            "height": 1344,
+            "tileWidth": 16,
+            "tileHeight": 32,
+            "description": "Big craftable items (machines, furniture, etc.)"
+          },
+          "furniture": {
+            "path": "sprites/stardew/TileSheets/furniture..png",
+            "width": 512,
+            "height": 1088,
+            "tileWidth": 16,
+            "tileHeight": 16,
+            "description": "Furniture items"
+          },
+          "tools": {
+            "path": "sprites/stardew/TileSheets/tools..png",
+            "width": 256,
+            "height": 256,
+            "tileWidth": 16,
+            "tileHeight": 16,
+            "description": "Tool sprites"
+          },
+          "weapons": {
+            "path": "sprites/stardew/TileSheets/weapons..png",
+            "width": 128,
+            "height": 128,
+            "tileWidth": 16,
+            "tileHeight": 16,
+            "description": "Weapon sprites"
+          },
+          "floors": {
+            "path": "sprites/stardew/TileSheets/Floors..png",
+            "width": 256,
+            "height": 144,
+            "tileWidth": 16,
+            "tileHeight": 16,
+            "description": "Floor tiles"
+          },
+          "emotes": {
+            "path": "sprites/stardew/TileSheets/emotes..png",
+            "width": 256,
+            "height": 256,
+            "tileWidth": 16,
+            "tileHeight": 16,
+            "description": "Character emotes"
+          },
+          "critters": {
+            "path": "sprites/stardew/TileSheets/critters..png",
+            "width": 256,
+            "height": 256,
+            "tileWidth": 16,
+            "tileHeight": 16,
+            "description": "Small animals and critters"
+          }
+        }
+      },
+      "maps": {
+        "description": "Stardew Valley map tile sheets",
+        "files": {
+          "spring_objects": {
+            "path": "sprites/stardew/Maps/springobjects..png",
+            "width": 832,
+            "height": 1344,
+            "tileWidth": 16,
+            "tileHeight": 16,
+            "description": "Spring season objects and items"
+          },
+          "spring_outdoors": {
+            "path": "sprites/stardew/Maps/spring_outdoorsTileSheet..png",
+            "width": 256,
+            "height": 1664,
+            "tileWidth": 16,
+            "tileHeight": 16,
+            "description": "Spring outdoor terrain tiles"
+          },
+          "summer_outdoors": {
+            "path": "sprites/stardew/Maps/summer_outdoorsTileSheet..png",
+            "width": 256,
+            "height": 1664,
+            "tileWidth": 16,
+            "tileHeight": 16,
+            "description": "Summer outdoor terrain tiles"
+          },
+          "fall_outdoors": {
+            "path": "sprites/stardew/Maps/fall_outdoorsTileSheet..png",
+            "width": 256,
+            "height": 1664,
+            "tileWidth": 16,
+            "tileHeight": 16,
+            "description": "Fall outdoor terrain tiles"
+          },
+          "winter_outdoors": {
+            "path": "sprites/stardew/Maps/winter_outdoorsTileSheet..png",
+            "width": 256,
+            "height": 1664,
+            "tileWidth": 16,
+            "tileHeight": 16,
+            "description": "Winter outdoor terrain tiles"
+          },
+          "town_interior": {
+            "path": "sprites/stardew/Maps/townInterior..png",
+            "width": 256,
+            "height": 2048,
+            "tileWidth": 16,
+            "tileHeight": 16,
+            "description": "Indoor building tiles"
+          }
+        }
+      },
+      "terrainFeatures": {
+        "description": "Stardew Valley terrain features",
+        "files": {
+          "grass": {
+            "path": "sprites/stardew/TerrainFeatures/grass..png",
+            "width": 144,
+            "height": 48,
+            "tileWidth": 16,
+            "tileHeight": 16,
+            "description": "Grass tiles"
+          },
+          "tree_spring": {
+            "path": "sprites/stardew/TerrainFeatures/tree1_spring..png",
+            "width": 48,
+            "height": 128,
+            "description": "Spring trees"
+          }
+        }
+      },
+      "looseSprites": {
+        "description": "Stardew Valley loose sprites",
+        "files": {
+          "cursors": {
+            "path": "sprites/stardew/LooseSprites/Cursors..png",
+            "width": 512,
+            "height": 512,
+            "description": "UI cursors and icons"
+          },
+          "junimo_note": {
+            "path": "sprites/stardew/LooseSprites/JunimoNote..png",
+            "width": 512,
+            "height": 512,
+            "description": "Junimo note UI"
+          }
+        }
       }
     },
     "tiles": {
