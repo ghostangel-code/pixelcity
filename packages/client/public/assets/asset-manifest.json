@@ -1,7 +1,12 @@
 {
-  "version": "1.1.0",
+  "version": "2.0.0",
   "lastUpdated": "2026-02-26",
   "sources": [
+    {
+      "name": "Stardew Valley Assets",
+      "url": "https://github.com/Huu-Yuu/StardewValley-Assets",
+      "license": "Non-commercial use only"
+    },
     {
       "name": "PixelSRPG-Forge",
       "url": "https://github.com/Huu-Yuu/PixelSRPG-Forge",
@@ -14,6 +19,289 @@
     }
   ],
   "sprites": {
+    "stardew": {
+      "characters": {
+        "description": "Stardew Valley character sprites",
+        "frameSize": { "width": 16, "height": 24 },
+        "frameLayout": {
+          "directions": ["down", "left", "right", "up"],
+          "framesPerDirection": 4,
+          "animations": {
+            "idle": { "frames": [0], "frameRate": 1 },
+            "walk": { "frames": [0, 1, 2, 3], "frameRate": 8 },
+            "run": { "frames": [0, 1, 2, 3], "frameRate": 12 }
+          }
+        },
+        "files": {
+          "abigail": {
+            "path": "sprites/stardew/Characters/Abigail..png",
+            "width": 64,
+            "height": 416,
+            "frameWidth": 16,
+            "frameHeight": 16
+          },
+          "alex": {
+            "path": "sprites/stardew/Characters/Alex..png",
+            "width": 64,
+            "height": 416
+          },
+          "emily": {
+            "path": "sprites/stardew/Characters/Emily..png",
+            "width": 64,
+            "height": 448
+          },
+          "haley": {
+            "path": "sprites/stardew/Characters/Haley..png",
+            "width": 64,
+            "height": 416
+          },
+          "harvey": {
+            "path": "sprites/stardew/Characters/Harvey..png",
+            "width": 64,
+            "height": 416
+          },
+          "leah": {
+            "path": "sprites/stardew/Characters/Leah..png",
+            "width": 64,
+            "height": 384
+          },
+          "maru": {
+            "path": "sprites/stardew/Characters/Maru..png",
+            "width": 64,
+            "height": 384
+          },
+          "penny": {
+            "path": "sprites/stardew/Characters/Penny..png",
+            "width": 64,
+            "height": 384
+          },
+          "sam": {
+            "path": "sprites/stardew/Characters/Sam..png",
+            "width": 64,
+            "height": 416
+          },
+          "sebastian": {
+            "path": "sprites/stardew/Characters/Sebastian..png",
+            "width": 64,
+            "height": 416
+          },
+          "shane": {
+            "path": "sprites/stardew/Characters/Shane..png",
+            "width": 64,
+            "height": 416
+          },
+          "elliott": {
+            "path": "sprites/stardew/Characters/Elliott..png",
+            "width": 64,
+            "height": 416
+          },
+          "farmer": {
+            "path": "sprites/stardew/Characters/Farmer/farmer_base..png",
+            "width": 384,
+            "height": 672,
+            "frameWidth": 16,
+            "frameHeight": 32,
+            "description": "Player character base sprite"
+          },
+          "farmer_girl": {
+            "path": "sprites/stardew/Characters/Farmer/farmer_girl_base..png",
+            "width": 384,
+            "height": 672,
+            "frameWidth": 16,
+            "frameHeight": 32
+          },
+          "junimo": {
+            "path": "sprites/stardew/Characters/Junimo..png",
+            "width": 64,
+            "height": 256,
+            "frameWidth": 16,
+            "frameHeight": 16
+          }
+        }
+      },
+      "animals": {
+        "description": "Stardew Valley animal sprites",
+        "files": {
+          "cat": {
+            "path": "sprites/stardew/Animals/cat..png",
+            "width": 128,
+            "height": 256,
+            "frameWidth": 16,
+            "frameHeight": 16
+          },
+          "dog": {
+            "path": "sprites/stardew/Animals/dog..png",
+            "width": 128,
+            "height": 256,
+            "frameWidth": 16,
+            "frameHeight": 16
+          },
+          "horse": {
+            "path": "sprites/stardew/Animals/horse..png",
+            "width": 224,
+            "height": 128,
+            "frameWidth": 32,
+            "frameHeight": 32
+          },
+          "chicken_brown": {
+            "path": "sprites/stardew/Animals/Brown Chicken..png",
+            "width": 64,
+            "height": 112,
+            "frameWidth": 16,
+            "frameHeight": 16
+          },
+          "chicken_white": {
+            "path": "sprites/stardew/Animals/White Chicken..png",
+            "width": 64,
+            "height": 112
+          },
+          "chicken_blue": {
+            "path": "sprites/stardew/Animals/Blue Chicken..png",
+            "width": 64,
+            "height": 112
+          },
+          "chicken_void": {
+            "path": "sprites/stardew/Animals/Void Chicken..png",
+            "width": 64,
+            "height": 112
+          },
+          "cow_brown": {
+            "path": "sprites/stardew/Animals/Brown Cow..png",
+            "width": 128,
+            "height": 160,
+            "frameWidth": 32,
+            "frameHeight": 32
+          },
+          "cow_white": {
+            "path": "sprites/stardew/Animals/White Cow..png",
+            "width": 128,
+            "height": 160
+          },
+          "duck": {
+            "path": "sprites/stardew/Animals/Duck..png",
+            "width": 64,
+            "height": 112
+          },
+          "rabbit": {
+            "path": "sprites/stardew/Animals/Rabbit..png",
+            "width": 64,
+            "height": 112
+          },
+          "sheep": {
+            "path": "sprites/stardew/Animals/Sheep..png",
+            "width": 128,
+            "height": 160
+          },
+          "goat": {
+            "path": "sprites/stardew/Animals/Goat..png",
+            "width": 128,
+            "height": 160
+          },
+          "pig": {
+            "path": "sprites/stardew/Animals/Pig..png",
+            "width": 128,
+            "height": 160
+          },
+          "dinosaur": {
+            "path": "sprites/stardew/Animals/Dinosaur..png",
+            "width": 64,
+            "height": 112
+          }
+        }
+      },
+      "buildings": {
+        "description": "Stardew Valley building sprites",
+        "files": {
+          "house": {
+            "path": "sprites/stardew/Buildings/houses..png",
+            "width": 272,
+            "height": 432,
+            "frameWidth": 48,
+            "frameHeight": 64
+          },
+          "barn": {
+            "path": "sprites/stardew/Buildings/Barn..png",
+            "width": 112,
+            "height": 128
+          },
+          "big_barn": {
+            "path": "sprites/stardew/Buildings/Big Barn..png",
+            "width": 112,
+            "height": 128
+          },
+          "deluxe_barn": {
+            "path": "sprites/stardew/Buildings/Deluxe Barn..png",
+            "width": 112,
+            "height": 128
+          },
+          "coop": {
+            "path": "sprites/stardew/Buildings/Coop..png",
+            "width": 96,
+            "height": 128
+          },
+          "big_coop": {
+            "path": "sprites/stardew/Buildings/Big Coop..png",
+            "width": 96,
+            "height": 128
+          },
+          "deluxe_coop": {
+            "path": "sprites/stardew/Buildings/Deluxe Coop..png",
+            "width": 96,
+            "height": 128
+          },
+          "silo": {
+            "path": "sprites/stardew/Buildings/Silo..png",
+            "width": 48,
+            "height": 128
+          },
+          "mill": {
+            "path": "sprites/stardew/Buildings/Mill..png",
+            "width": 224,
+            "height": 128
+          },
+          "stable": {
+            "path": "sprites/stardew/Buildings/Stable..png",
+            "width": 64,
+            "height": 96
+          },
+          "well": {
+            "path": "sprites/stardew/Buildings/Well..png",
+            "width": 48,
+            "height": 80
+          },
+          "shed": {
+            "path": "sprites/stardew/Buildings/Shed..png",
+            "width": 112,
+            "height": 128
+          },
+          "junimo_hut": {
+            "path": "sprites/stardew/Buildings/Junimo Hut..png",
+            "width": 256,
+            "height": 64
+          },
+          "slime_hutch": {
+            "path": "sprites/stardew/Buildings/Slime Hutch..png",
+            "width": 176,
+            "height": 144
+          },
+          "earth_obelisk": {
+            "path": "sprites/stardew/Buildings/Earth Obelisk..png",
+            "width": 48,
+            "height": 128
+          },
+          "water_obelisk": {
+            "path": "sprites/stardew/Buildings/Water Obelisk..png",
+            "width": 48,
+            "height": 128
+          },
+          "gold_clock": {
+            "path": "sprites/stardew/Buildings/Gold Clock..png",
+            "width": 48,
+            "height": 80
+          }
+        }
+      }
+    },
     "tiles": {
       "rpg_tiles": {
         "path": "sprites/tiles/rpg_tiles.png",
@@ -52,61 +340,21 @@
         "description": "RPG sample scene from Kenney"
       }
     },
-    "characters": {
-      "monster_preview": {
-        "path": "sprites/characters/monster_preview.png",
-        "width": 1024,
-        "height": 1024,
-        "description": "Monster character preview from PixelSRPG-Forge"
-      },
-      "slime": {
-        "idle-run": {
-          "path": "sprites/characters/slime/idle-run.png",
-          "width": 44,
-          "height": 30,
-          "frames": 4,
-          "description": "Slime idle and run animation"
-        },
-        "hit": {
-          "path": "sprites/characters/slime/hit.png",
-          "width": 44,
-          "height": 30,
-          "frames": 4,
-          "description": "Slime hit animation"
-        }
-      },
-      "ghost": {
-        "idle": {
-          "path": "sprites/characters/ghost/idle.png",
-          "width": 44,
-          "height": 30,
-          "frames": 4,
-          "description": "Ghost idle animation"
-        },
-        "appear": {
-          "path": "sprites/characters/ghost/appear.png",
-          "width": 44,
-          "height": 30,
-          "frames": 4,
-          "description": "Ghost appear animation"
-        }
-      }
-    },
     "furniture": {
       "interior_1": {
         "path": "sprites/furniture/interior_1.png",
-        "width": 512,
-        "height": 512,
+        "width": 675,
+        "height": 672,
         "description": "Interior decoration set 1 from PixelSRPG-Forge"
       },
       "interior_2": {
         "path": "sprites/furniture/interior_2.png",
-        "width": 256,
-        "height": 256,
+        "width": 160,
+        "height": 160,
         "description": "Interior decoration set 2 from PixelSRPG-Forge"
       }
     },
-    "buildings": {
+    "buildings_kenney": {
       "sandstone_dungeons": {
         "path": "sprites/buildings/sandstone_dungeons.png",
         "width": 512,
@@ -163,79 +411,209 @@
       }
     }
   },
-  "tilesets": {
-    "city": {
-      "ground": {
-        "grass": { "tileId": 0, "variants": [0, 1, 2, 3] },
-        "path": { "tileId": 4, "variants": [4, 5, 6, 7] },
-        "water": { "tileId": 8, "variants": [8, 9, 10, 11] }
+  "characterAnimations": {
+    "stardew_npc": {
+      "frameWidth": 16,
+      "frameHeight": 24,
+      "directions": {
+        "down": { "row": 0, "frames": 4 },
+        "right": { "row": 1, "frames": 4 },
+        "left": { "row": 2, "frames": 4 },
+        "up": { "row": 3, "frames": 4 }
       },
-      "buildings": {
-        "wall": { "tileId": 16, "variants": [16, 17, 18, 19] },
-        "floor": { "tileId": 20, "variants": [20, 21, 22, 23] },
-        "door": { "tileId": 24, "variants": [24, 25] },
-        "window": { "tileId": 26, "variants": [26, 27] }
+      "animations": {
+        "idle_down": { "frames": [0], "frameRate": 1 },
+        "idle_right": { "frames": [4], "frameRate": 1 },
+        "idle_left": { "frames": [8], "frameRate": 1 },
+        "idle_up": { "frames": [12], "frameRate": 1 },
+        "walk_down": { "frames": [0, 1, 2, 3], "frameRate": 8, "loop": true },
+        "walk_right": { "frames": [4, 5, 6, 7], "frameRate": 8, "loop": true },
+        "walk_left": { "frames": [8, 9, 10, 11], "frameRate": 8, "loop": true },
+        "walk_up": { "frames": [12, 13, 14, 15], "frameRate": 8, "loop": true }
+      }
+    },
+    "stardew_farmer": {
+      "frameWidth": 16,
+      "frameHeight": 32,
+      "directions": {
+        "down": { "row": 0, "frames": 4 },
+        "right": { "row": 1, "frames": 4 },
+        "left": { "row": 2, "frames": 4 },
+        "up": { "row": 3, "frames": 4 }
       },
-      "furniture": {
-        "chair": { "tileId": 32 },
-        "table": { "tileId": 33 },
-        "bed": { "tileId": 34 },
-        "shelf": { "tileId": 35 }
+      "animations": {
+        "idle_down": { "frames": [0], "frameRate": 1 },
+        "walk_down": { "frames": [0, 1, 2, 3], "frameRate": 8, "loop": true },
+        "run_down": { "frames": [0, 1, 2, 3], "frameRate": 12, "loop": true }
       }
     }
   },
-  "animations": {
-    "slime_idle": {
-      "frames": [
-        { "x": 0, "y": 0, "width": 11, "height": 10 },
-        { "x": 11, "y": 0, "width": 11, "height": 10 },
-        { "x": 22, "y": 0, "width": 11, "height": 10 },
-        { "x": 33, "y": 0, "width": 11, "height": 10 }
-      ],
-      "frameRate": 8,
-      "loop": true
+  "itemSpriteMapping": {
+    "coffee_cup": {
+      "category": "items",
+      "key": "fruits/apple",
+      "description": "Using apple as placeholder"
     },
-    "slime_run": {
-      "frames": [
-        { "x": 0, "y": 10, "width": 11, "height": 10 },
-        { "x": 11, "y": 10, "width": 11, "height": 10 },
-        { "x": 22, "y": 10, "width": 11, "height": 10 },
-        { "x": 33, "y": 10, "width": 11, "height": 10 }
-      ],
-      "frameRate": 12,
-      "loop": true
+    "energy_drink": {
+      "category": "items",
+      "key": "fruits/orange"
     },
-    "ghost_idle": {
-      "frames": [
-        { "x": 0, "y": 0, "width": 11, "height": 15 },
-        { "x": 11, "y": 0, "width": 11, "height": 15 },
-        { "x": 22, "y": 0, "width": 11, "height": 15 },
-        { "x": 33, "y": 0, "width": 11, "height": 15 }
-      ],
-      "frameRate": 6,
-      "loop": true
+    "comfort_food": {
+      "category": "items",
+      "key": "fruits/apple"
+    },
+    "stress_ball": {
+      "category": "items",
+      "key": "fruits/cherry"
+    },
+    "social_candy": {
+      "category": "items",
+      "key": "fruits/strawberry"
+    },
+    "basic_chair": {
+      "category": "furniture",
+      "key": "interior_1",
+      "frame": { "x": 0, "y": 0, "width": 32, "height": 32 }
+    },
+    "cozy_sofa": {
+      "category": "furniture",
+      "key": "interior_1",
+      "frame": { "x": 32, "y": 0, "width": 64, "height": 32 }
+    },
+    "bookshelf": {
+      "category": "furniture",
+      "key": "interior_1",
+      "frame": { "x": 96, "y": 0, "width": 48, "height": 64 }
+    },
+    "bed_single": {
+      "category": "furniture",
+      "key": "interior_1",
+      "frame": { "x": 144, "y": 0, "width": 48, "height": 64 }
+    },
+    "desk": {
+      "category": "furniture",
+      "key": "interior_1",
+      "frame": { "x": 192, "y": 0, "width": 48, "height": 32 }
+    },
+    "lamp": {
+      "category": "furniture",
+      "key": "interior_2",
+      "frame": { "x": 0, "y": 0, "width": 16, "height": 32 }
+    },
+    "plant_pot": {
+      "category": "furniture",
+      "key": "interior_2",
+      "frame": { "x": 16, "y": 0, "width": 16, "height": 24 }
+    },
+    "tv": {
+      "category": "furniture",
+      "key": "interior_1",
+      "frame": { "x": 240, "y": 0, "width": 48, "height": 32 }
+    },
+    "rare_crystal": {
+      "category": "ui",
+      "key": "icons_monsters",
+      "frame": { "x": 0, "y": 0, "width": 32, "height": 32 }
+    },
+    "golden_statue": {
+      "category": "ui",
+      "key": "icons_monsters",
+      "frame": { "x": 32, "y": 0, "width": 32, "height": 32 }
+    },
+    "antique_clock": {
+      "category": "furniture",
+      "key": "interior_2",
+      "frame": { "x": 32, "y": 0, "width": 24, "height": 32 }
+    },
+    "fishing_rod": {
+      "category": "ui",
+      "key": "weapons",
+      "frame": { "x": 0, "y": 0, "width": 32, "height": 32 }
+    },
+    "camera": {
+      "category": "ui",
+      "key": "icons_monsters",
+      "frame": { "x": 64, "y": 0, "width": 32, "height": 32 }
+    },
+    "guitar": {
+      "category": "ui",
+      "key": "weapons",
+      "frame": { "x": 0, "y": 32, "width": 32, "height": 48 }
+    },
+    "umbrella": {
+      "category": "ui",
+      "key": "icons_monsters",
+      "frame": { "x": 96, "y": 0, "width": 24, "height": 32 }
     }
   },
-  "itemSpriteMapping": {
-    "coffee_cup": { "category": "ui", "key": "icons_monsters", "frame": 0 },
-    "energy_drink": { "category": "ui", "key": "icons_monsters", "frame": 1 },
-    "comfort_food": { "category": "items", "key": "fruits/apple" },
-    "stress_ball": { "category": "ui", "key": "icons_monsters", "frame": 2 },
-    "social_candy": { "category": "items", "key": "fruits/cherry" },
-    "basic_chair": { "category": "furniture", "key": "interior_1" },
-    "cozy_sofa": { "category": "furniture", "key": "interior_1" },
-    "bookshelf": { "category": "furniture", "key": "interior_1" },
-    "bed_single": { "category": "furniture", "key": "interior_1" },
-    "desk": { "category": "furniture", "key": "interior_1" },
-    "lamp": { "category": "furniture", "key": "interior_2" },
-    "plant_pot": { "category": "furniture", "key": "interior_2" },
-    "tv": { "category": "furniture", "key": "interior_1" },
-    "rare_crystal": { "category": "ui", "key": "icons_monsters", "frame": 3 },
-    "golden_statue": { "category": "ui", "key": "icons_monsters", "frame": 4 },
-    "antique_clock": { "category": "furniture", "key": "interior_2" },
-    "fishing_rod": { "category": "ui", "key": "weapons" },
-    "camera": { "category": "ui", "key": "icons_monsters", "frame": 5 },
-    "guitar": { "category": "ui", "key": "weapons" },
-    "umbrella": { "category": "ui", "key": "icons_monsters", "frame": 6 }
+  "publicAreaSprites": {
+    "plaza": {
+      "background": "tiles/rpg_tiles",
+      "facilities": {
+        "fountain": { "tileId": 100, "width": 32, "height": 32 },
+        "bench": { "tileId": 101, "width": 32, "height": 16 }
+      }
+    },
+    "cafe": {
+      "background": "furniture/interior_1",
+      "facilities": {
+        "counter": { "x": 0, "y": 64, "width": 48, "height": 32 },
+        "table": { "x": 48, "y": 64, "width": 32, "height": 32 },
+        "chair": { "x": 80, "y": 64, "width": 16, "height": 16 }
+      }
+    },
+    "park": {
+      "background": "tiles/cave",
+      "facilities": {
+        "pond": { "tileId": 50, "width": 48, "height": 48 },
+        "tree": { "tileId": 51, "width": 32, "height": 48 },
+        "bench": { "tileId": 52, "width": 32, "height": 16 }
+      }
+    },
+    "shop": {
+      "background": "buildings/sandstone_dungeons",
+      "facilities": {
+        "counter": { "tileId": 20, "width": 48, "height": 32 },
+        "shelf": { "tileId": 21, "width": 16, "height": 48 }
+      }
+    },
+    "library": {
+      "background": "furniture/interior_2",
+      "facilities": {
+        "desk": { "x": 0, "y": 0, "width": 48, "height": 32 },
+        "bookshelf": { "x": 48, "y": 0, "width": 32, "height": 64 },
+        "reading_spot": { "x": 80, "y": 0, "width": 16, "height": 16 }
+      }
+    },
+    "gym": {
+      "background": "tiles/platformer_spritesheet",
+      "facilities": {
+        "treadmill": { "tileId": 30, "width": 32, "height": 16 },
+        "weights": { "tileId": 31, "width": 24, "height": 16 },
+        "yoga_mat": { "tileId": 32, "width": 32, "height": 16 }
+      }
+    }
+  },
+  "npcSpriteMapping": {
+    "default": {
+      "category": "stardew",
+      "type": "characters",
+      "sprite": "junimo"
+    },
+    "shopkeeper": {
+      "category": "stardew",
+      "type": "characters",
+      "sprite": "gus"
+    },
+    "librarian": {
+      "category": "stardew",
+      "type": "characters",
+      "sprite": "gunther"
+    },
+    "farmer": {
+      "category": "stardew",
+      "type": "characters",
+      "sprite": "farmer"
+    }
   }
 }
