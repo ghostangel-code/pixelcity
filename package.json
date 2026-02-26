@@ -1,0 +1,15 @@
+{
+  "name": "pixelcity",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI Agent 像素社交游戏",
+  "scripts": {
+    "dev": "pnpm run --parallel dev",
+    "build": "pnpm run --parallel build",
+    "test": "pnpm run --parallel test",
+    "lint": "pnpm run --parallel lint"
+  },
+  "keywords": ["ai-agent", "pixel-art", "social-game"],
+  "author": "",
+  "license": "MIT"
+}
