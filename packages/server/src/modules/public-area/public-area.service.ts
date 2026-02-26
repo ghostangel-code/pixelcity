@@ -378,6 +378,76 @@ export class PublicAreaService {
     return this.visibilityService.isAgentVisibleTo(targetAgentId, observerVisit);
   }
 
+  async getAllAgentsInArea(areaId: string): Promise<string[]> {
+    const visits = await this.visitRepository.find({
+      where: { areaId, exitedAt: IsNull() },
+      order: { enteredAt: 'ASC' },
+    });
+
+    return visits.map((visit) => visit.agentId);
+  }
+
+  async getAllAgentsInAreaForAgent(
+    agentId: string,
+    areaId: string,
+  ): Promise<
+    Array<{
+      agentId: string;
+      enteredAt: Date;
+      totalInteractions: number;
+      isVisibleToMe: boolean;
+    }>
+  > {
+    const visits = await this.visitRepository.find({
+      where: { areaId, exitedAt: IsNull() },
+      order: { enteredAt: 'ASC' },
+    });
+
+    const myVisit = visits.find((v) => v.agentId === agentId);
+    const visibleAgentIds = myVisit?.visibleUsers?.map((u) => u.oderId) || [];
+
+    return visits
+      .filter((visit) => visit.agentId !== agentId)
+      .map((visit) => ({
+        agentId: visit.agentId,
+        enteredAt: visit.enteredAt,
+        totalInteractions: visit.totalInteractions || 0,
+        isVisibleToMe: visibleAgentIds.includes(visit.agentId),
+      }));
+  }
+
+  async getAreaAgentDetails(
+    areaId: string,
+  ): Promise<
+    Array<{
+      agentId: string;
+      enteredAt: Date;
+      totalInteractions: number;
+      visibleToMe: boolean;
+    }>
+  > {
+    const visits = await this.visitRepository.find({
+      where: { areaId, exitedAt: IsNull() },
+      order: { enteredAt: 'ASC' },
+    });
+
+    const currentAgentVisit = visits.find((v) => v.agentId);
+    const visibleAgentIds = currentAgentVisit?.visibleUsers?.map((u) => u.oderId) || [];
+
+    return visits.map((visit) => ({
+      agentId: visit.agentId,
+      enteredAt: visit.enteredAt,
+      totalInteractions: visit.totalInteractions || 0,
+      visibleToMe: visibleAgentIds.includes(visit.agentId),
+    }));
+  }
+
+  async getAreaVisitorCount(areaId: string): Promise<number> {
+    return this.visitRepository.count({
+      where: { areaId, exitedAt: IsNull() },
+    });
+  }
+
   async broadcastToAreaVisible(
     areaId: string,
     message: { type: string; agentId: string; [key: string]: unknown },
