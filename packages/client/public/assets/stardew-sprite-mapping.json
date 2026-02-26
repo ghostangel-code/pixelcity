@@ -1,0 +1,7708 @@
+{
+  "version": "1.0.0",
+  "source": "Stardew Valley Game Data",
+  "generated": "2026-02-26",
+  "spriteSheet": {
+    "objects": {
+      "path": "LooseSprites/Craftables",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "description": "Items from the game's Craftables sprite sheet"
+    },
+    "bigCraftables": {
+      "path": "TileSheets/Craftables",
+      "frameWidth": 16,
+      "frameHeight": 32,
+      "description": "Large craftable items (furniture, machines, etc.)"
+    },
+    "characters": {
+      "path": "Characters",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "description": "NPC character sprites"
+    }
+  },
+  "categories": {
+    "Litter": [
+      "0",
+      "294",
+      "295",
+      "313",
+      "314",
+      "315",
+      "316",
+      "317",
+      "318",
+      "319",
+      "320",
+      "321",
+      "452",
+      "674",
+      "675",
+      "676",
+      "677",
+      "678",
+      "679",
+      "750",
+      "784",
+      "785",
+      "786",
+      "792",
+      "793",
+      "794",
+      "882",
+      "883",
+      "884"
+    ],
+    "Basic": [
+      "16",
+      "18",
+      "20",
+      "22",
+      "30",
+      "71",
+      "78",
+      "79",
+      "92",
+      "93",
+      "94",
+      "96",
+      "97",
+      "98",
+      "99",
+      "100",
+      "101",
+      "102",
+      "103",
+      "104",
+      "105",
+      "106",
+      "107",
+      "108",
+      "109",
+      "110",
+      "111",
+      "112",
+      "113",
+      "114",
+      "115",
+      "116",
+      "117",
+      "118",
+      "119",
+      "120",
+      "121",
+      "122",
+      "123",
+      "124",
+      "125",
+      "126",
+      "127",
+      "152",
+      "153",
+      "157",
+      "166",
+      "178",
+      "191",
+      "245",
+      "246",
+      "247",
+      "257",
+      "261",
+      "275",
+      "277",
+      "281",
+      "283",
+      "297",
+      "349",
+      "351",
+      "373",
+      "395",
+      "399",
+      "403",
+      "404",
+      "408",
+      "412",
+      "413",
+      "416",
+      "419",
+      "420",
+      "422",
+      "423",
+      "434",
+      "437",
+      "439",
+      "441",
+      "449",
+      "458",
+      "460",
+      "461",
+      "463",
+      "464",
+      "516",
+      "517",
+      "518",
+      "519",
+      "520",
+      "521",
+      "522",
+      "523",
+      "524",
+      "525",
+      "526",
+      "527",
+      "528",
+      "529",
+      "530",
+      "531",
+      "532",
+      "533",
+      "534",
+      "535",
+      "536",
+      "537",
+      "579",
+      "580",
+      "581",
+      "582",
+      "583",
+      "584",
+      "585",
+      "586",
+      "587",
+      "588",
+      "589",
+      "590",
+      "680",
+      "681",
+      "688",
+      "689",
+      "690",
+      "710",
+      "742",
+      "749",
+      "788",
+      "789",
+      "790",
+      "797",
+      "801",
+      "803",
+      "808",
+      "809",
+      "810",
+      "811",
+      "73",
+      "791",
+      "820",
+      "821",
+      "822",
+      "823",
+      "824",
+      "825",
+      "826",
+      "827",
+      "828",
+      "829",
+      "839",
+      "842",
+      "851",
+      "852",
+      "857",
+      "858",
+      "859",
+      "860",
+      "861",
+      "862",
+      "863",
+      "864",
+      "865",
+      "866",
+      "867",
+      "868",
+      "869",
+      "870",
+      "872",
+      "874",
+      "875",
+      "876",
+      "879",
+      "880",
+      "886",
+      "887",
+      "888",
+      "892",
+      "896",
+      "897",
+      "911",
+      "913",
+      "915",
+      "917",
+      "922",
+      "923",
+      "924",
+      "925",
+      "926",
+      "927",
+      "930"
+    ],
+    "Fruit": [
+      "24",
+      "188",
+      "190",
+      "192",
+      "248",
+      "250",
+      "256",
+      "259",
+      "262",
+      "264",
+      "266",
+      "270",
+      "271",
+      "272",
+      "274",
+      "276",
+      "278",
+      "280",
+      "284",
+      "300",
+      "304",
+      "815",
+      "830"
+    ],
+    "Category_-2": [
+      "60",
+      "62",
+      "64",
+      "66",
+      "68",
+      "70",
+      "72",
+      "74",
+      "80",
+      "82",
+      "84",
+      "86"
+    ],
+    "Seed": [
+      "88",
+      "90",
+      "252",
+      "254",
+      "258",
+      "260",
+      "268",
+      "282",
+      "296",
+      "396",
+      "398",
+      "400",
+      "406",
+      "410",
+      "414",
+      "454",
+      "613",
+      "634",
+      "635",
+      "636",
+      "637",
+      "638",
+      "91",
+      "832",
+      "834",
+      "889"
+    ],
+    "Fertilizer": [
+      "128",
+      "129",
+      "130",
+      "131",
+      "132",
+      "136",
+      "137",
+      "138",
+      "139",
+      "140",
+      "141",
+      "142",
+      "143",
+      "144",
+      "145",
+      "146",
+      "147",
+      "148",
+      "149",
+      "150",
+      "151",
+      "154",
+      "155",
+      "156",
+      "158",
+      "159",
+      "160",
+      "161",
+      "162",
+      "163",
+      "164",
+      "165",
+      "176",
+      "174",
+      "180",
+      "182",
+      "184",
+      "186",
+      "305",
+      "372",
+      "436",
+      "438",
+      "442",
+      "682",
+      "698",
+      "699",
+      "700",
+      "701",
+      "702",
+      "704",
+      "705",
+      "706",
+      "707",
+      "708",
+      "715",
+      "716",
+      "717",
+      "718",
+      "719",
+      "720",
+      "721",
+      "722",
+      "723",
+      "734",
+      "775",
+      "795",
+      "796",
+      "798",
+      "799",
+      "800",
+      "267",
+      "269",
+      "289",
+      "836",
+      "837",
+      "838",
+      "898",
+      "899",
+      "900",
+      "901",
+      "902",
+      "928"
+    ],
+    "Minerals": [
+      "167",
+      "168",
+      "169",
+      "170",
+      "171",
+      "172",
+      "293",
+      "328",
+      "329",
+      "330",
+      "331",
+      "333",
+      "341",
+      "368",
+      "369",
+      "370",
+      "371",
+      "388",
+      "392",
+      "393",
+      "394",
+      "397",
+      "401",
+      "405",
+      "407",
+      "409",
+      "411",
+      "415",
+      "417",
+      "430",
+      "440",
+      "444",
+      "446",
+      "465",
+      "466",
+      "685",
+      "686",
+      "687",
+      "691",
+      "692",
+      "693",
+      "694",
+      "695",
+      "703",
+      "709",
+      "747",
+      "748",
+      "771",
+      "774",
+      "787",
+      "805",
+      "812",
+      "814",
+      "840",
+      "841",
+      "856",
+      "877",
+      "908",
+      "918",
+      "919",
+      "920"
+    ],
+    "Bait": [
+      "194",
+      "195",
+      "196",
+      "197",
+      "198",
+      "199",
+      "200",
+      "201",
+      "202",
+      "203",
+      "204",
+      "205",
+      "206",
+      "207",
+      "208",
+      "209",
+      "210",
+      "211",
+      "212",
+      "213",
+      "214",
+      "215",
+      "216",
+      "218",
+      "219",
+      "220",
+      "221",
+      "222",
+      "223",
+      "224",
+      "225",
+      "226",
+      "227",
+      "228",
+      "229",
+      "230",
+      "231",
+      "232",
+      "233",
+      "234",
+      "235",
+      "236",
+      "237",
+      "238",
+      "239",
+      "240",
+      "241",
+      "242",
+      "243",
+      "244",
+      "253",
+      "279",
+      "456",
+      "457",
+      "604",
+      "605",
+      "606",
+      "607",
+      "608",
+      "609",
+      "610",
+      "611",
+      "612",
+      "618",
+      "648",
+      "649",
+      "651",
+      "727",
+      "730",
+      "728",
+      "729",
+      "731",
+      "732",
+      "733",
+      "772",
+      "773",
+      "265",
+      "873",
+      "903",
+      "904",
+      "905",
+      "906",
+      "907",
+      "921"
+    ],
+    "Egg": [
+      "251",
+      "273",
+      "299",
+      "301",
+      "302",
+      "309",
+      "310",
+      "311",
+      "347",
+      "433",
+      "472",
+      "473",
+      "474",
+      "475",
+      "476",
+      "477",
+      "478",
+      "479",
+      "480",
+      "481",
+      "482",
+      "483",
+      "484",
+      "485",
+      "486",
+      "487",
+      "488",
+      "489",
+      "490",
+      "491",
+      "492",
+      "493",
+      "494",
+      "495",
+      "496",
+      "497",
+      "498",
+      "499",
+      "427",
+      "429",
+      "453",
+      "455",
+      "431",
+      "425",
+      "628",
+      "629",
+      "630",
+      "631",
+      "632",
+      "633",
+      "745",
+      "770",
+      "802",
+      "292",
+      "69",
+      "831",
+      "833",
+      "835",
+      "885",
+      "890",
+      "891"
+    ],
+    "Tackle": [
+      "286",
+      "287",
+      "288",
+      "298",
+      "322",
+      "323",
+      "324",
+      "325",
+      "326",
+      "599",
+      "621",
+      "645",
+      "746",
+      "893",
+      "894",
+      "895",
+      "929"
+    ],
+    "ArtisanGoods": [
+      "303",
+      "306",
+      "307",
+      "308",
+      "340",
+      "342",
+      "344",
+      "346",
+      "348",
+      "350",
+      "424",
+      "426",
+      "428",
+      "432",
+      "447",
+      "459",
+      "614",
+      "724",
+      "725",
+      "726",
+      "807",
+      "445"
+    ],
+    "Meat": [
+      "334",
+      "335",
+      "336",
+      "337",
+      "338",
+      "378",
+      "380",
+      "382",
+      "384",
+      "386",
+      "848",
+      "881",
+      "909",
+      "910"
+    ],
+    "Flower": [
+      "402",
+      "418",
+      "421",
+      "591",
+      "593",
+      "595",
+      "597",
+      "376"
+    ],
+    "Gem": [
+      "538",
+      "539",
+      "540",
+      "541",
+      "542",
+      "543",
+      "544",
+      "545",
+      "546",
+      "547",
+      "548",
+      "549",
+      "550",
+      "551",
+      "552",
+      "553",
+      "554",
+      "555",
+      "556",
+      "557",
+      "558",
+      "559",
+      "560",
+      "561",
+      "562",
+      "563",
+      "564",
+      "565",
+      "566",
+      "567",
+      "568",
+      "569",
+      "570",
+      "571",
+      "572",
+      "573",
+      "574",
+      "575",
+      "576",
+      "577",
+      "578"
+    ],
+    "Category_-28": [
+      "684",
+      "766",
+      "767",
+      "768",
+      "769"
+    ]
+  },
+  "items": {
+    "0": {
+      "name": "Weeds",
+      "spriteIndex": 0,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "16": {
+      "name": "Wild Horseradish",
+      "spriteIndex": 16,
+      "category": "Basic",
+      "price": 50,
+      "type": "Basic"
+    },
+    "18": {
+      "name": "Daffodil",
+      "spriteIndex": 18,
+      "category": "Basic",
+      "price": 30,
+      "type": "Basic"
+    },
+    "20": {
+      "name": "Leek",
+      "spriteIndex": 20,
+      "category": "Basic",
+      "price": 60,
+      "type": "Basic"
+    },
+    "22": {
+      "name": "Dandelion",
+      "spriteIndex": 22,
+      "category": "Basic",
+      "price": 40,
+      "type": "Basic"
+    },
+    "24": {
+      "name": "Parsnip",
+      "spriteIndex": 24,
+      "category": "Fruit",
+      "price": 35,
+      "type": "Basic"
+    },
+    "30": {
+      "name": "Lumber",
+      "spriteIndex": 30,
+      "category": "Basic",
+      "price": 2,
+      "type": "Basic"
+    },
+    "60": {
+      "name": "Emerald",
+      "spriteIndex": 60,
+      "category": "Category_-2",
+      "price": 250,
+      "type": "Minerals"
+    },
+    "62": {
+      "name": "Aquamarine",
+      "spriteIndex": 62,
+      "category": "Category_-2",
+      "price": 180,
+      "type": "Minerals"
+    },
+    "64": {
+      "name": "Ruby",
+      "spriteIndex": 64,
+      "category": "Category_-2",
+      "price": 250,
+      "type": "Minerals"
+    },
+    "66": {
+      "name": "Amethyst",
+      "spriteIndex": 66,
+      "category": "Category_-2",
+      "price": 100,
+      "type": "Minerals"
+    },
+    "68": {
+      "name": "Topaz",
+      "spriteIndex": 68,
+      "category": "Category_-2",
+      "price": 80,
+      "type": "Minerals"
+    },
+    "70": {
+      "name": "Jade",
+      "spriteIndex": 70,
+      "category": "Category_-2",
+      "price": 200,
+      "type": "Minerals"
+    },
+    "71": {
+      "name": "Trimmed Lucky Purple Shorts",
+      "spriteIndex": 71,
+      "category": "Basic",
+      "price": 0,
+      "type": "Quest"
+    },
+    "72": {
+      "name": "Diamond",
+      "spriteIndex": 72,
+      "category": "Category_-2",
+      "price": 750,
+      "type": "Minerals"
+    },
+    "74": {
+      "name": "Prismatic Shard",
+      "spriteIndex": 74,
+      "category": "Category_-2",
+      "price": 2000,
+      "type": "Minerals"
+    },
+    "78": {
+      "name": "Cave Carrot",
+      "spriteIndex": 78,
+      "category": "Basic",
+      "price": 25,
+      "type": "Basic"
+    },
+    "79": {
+      "name": "Secret Note",
+      "spriteIndex": 79,
+      "category": "Basic",
+      "price": 1,
+      "type": "asdf"
+    },
+    "80": {
+      "name": "Quartz",
+      "spriteIndex": 80,
+      "category": "Category_-2",
+      "price": 25,
+      "type": "Minerals"
+    },
+    "82": {
+      "name": "Fire Quartz",
+      "spriteIndex": 82,
+      "category": "Category_-2",
+      "price": 100,
+      "type": "Minerals"
+    },
+    "84": {
+      "name": "Frozen Tear",
+      "spriteIndex": 84,
+      "category": "Category_-2",
+      "price": 75,
+      "type": "Minerals"
+    },
+    "86": {
+      "name": "Earth Crystal",
+      "spriteIndex": 86,
+      "category": "Category_-2",
+      "price": 50,
+      "type": "Minerals"
+    },
+    "88": {
+      "name": "Coconut",
+      "spriteIndex": 88,
+      "category": "Seed",
+      "price": 100,
+      "type": "Basic"
+    },
+    "90": {
+      "name": "Cactus Fruit",
+      "spriteIndex": 90,
+      "category": "Seed",
+      "price": 75,
+      "type": "Basic"
+    },
+    "92": {
+      "name": "Sap",
+      "spriteIndex": 92,
+      "category": "Basic",
+      "price": 2,
+      "type": "Basic"
+    },
+    "93": {
+      "name": "Torch",
+      "spriteIndex": 93,
+      "category": "Basic",
+      "price": 5,
+      "type": "Crafting"
+    },
+    "94": {
+      "name": "Spirit Torch",
+      "spriteIndex": 94,
+      "category": "Basic",
+      "price": 5,
+      "type": "Crafting"
+    },
+    "96": {
+      "name": "Dwarf Scroll I",
+      "spriteIndex": 96,
+      "category": "Basic",
+      "price": 1,
+      "type": "Arch"
+    },
+    "97": {
+      "name": "Dwarf Scroll II",
+      "spriteIndex": 97,
+      "category": "Basic",
+      "price": 1,
+      "type": "Arch"
+    },
+    "98": {
+      "name": "Dwarf Scroll III",
+      "spriteIndex": 98,
+      "category": "Basic",
+      "price": 1,
+      "type": "Arch"
+    },
+    "99": {
+      "name": "Dwarf Scroll IV",
+      "spriteIndex": 99,
+      "category": "Basic",
+      "price": 1,
+      "type": "Arch"
+    },
+    "100": {
+      "name": "Chipped Amphora",
+      "spriteIndex": 100,
+      "category": "Basic",
+      "price": 40,
+      "type": "Arch"
+    },
+    "101": {
+      "name": "Arrowhead",
+      "spriteIndex": 101,
+      "category": "Basic",
+      "price": 40,
+      "type": "Arch"
+    },
+    "102": {
+      "name": "Lost Book",
+      "spriteIndex": 102,
+      "category": "Basic",
+      "price": 0,
+      "type": "asdf"
+    },
+    "103": {
+      "name": "Ancient Doll",
+      "spriteIndex": 103,
+      "category": "Basic",
+      "price": 60,
+      "type": "Arch"
+    },
+    "104": {
+      "name": "Elvish Jewelry",
+      "spriteIndex": 104,
+      "category": "Basic",
+      "price": 200,
+      "type": "Arch"
+    },
+    "105": {
+      "name": "Chewing Stick",
+      "spriteIndex": 105,
+      "category": "Basic",
+      "price": 50,
+      "type": "Arch"
+    },
+    "106": {
+      "name": "Ornamental Fan",
+      "spriteIndex": 106,
+      "category": "Basic",
+      "price": 300,
+      "type": "Arch"
+    },
+    "107": {
+      "name": "Dinosaur Egg",
+      "spriteIndex": 107,
+      "category": "Basic",
+      "price": 350,
+      "type": "Arch"
+    },
+    "108": {
+      "name": "Rare Disc",
+      "spriteIndex": 108,
+      "category": "Basic",
+      "price": 300,
+      "type": "Arch"
+    },
+    "109": {
+      "name": "Ancient Sword",
+      "spriteIndex": 109,
+      "category": "Basic",
+      "price": 100,
+      "type": "Arch"
+    },
+    "110": {
+      "name": "Rusty Spoon",
+      "spriteIndex": 110,
+      "category": "Basic",
+      "price": 25,
+      "type": "Arch"
+    },
+    "111": {
+      "name": "Rusty Spur",
+      "spriteIndex": 111,
+      "category": "Basic",
+      "price": 25,
+      "type": "Arch"
+    },
+    "112": {
+      "name": "Rusty Cog",
+      "spriteIndex": 112,
+      "category": "Basic",
+      "price": 25,
+      "type": "Arch"
+    },
+    "113": {
+      "name": "Chicken Statue",
+      "spriteIndex": 113,
+      "category": "Basic",
+      "price": 50,
+      "type": "Arch"
+    },
+    "114": {
+      "name": "Ancient Seed",
+      "spriteIndex": 114,
+      "category": "Basic",
+      "price": 5,
+      "type": "Arch"
+    },
+    "115": {
+      "name": "Prehistoric Tool",
+      "spriteIndex": 115,
+      "category": "Basic",
+      "price": 50,
+      "type": "Arch"
+    },
+    "116": {
+      "name": "Dried Starfish",
+      "spriteIndex": 116,
+      "category": "Basic",
+      "price": 40,
+      "type": "Arch"
+    },
+    "117": {
+      "name": "Anchor",
+      "spriteIndex": 117,
+      "category": "Basic",
+      "price": 100,
+      "type": "Arch"
+    },
+    "118": {
+      "name": "Glass Shards",
+      "spriteIndex": 118,
+      "category": "Basic",
+      "price": 20,
+      "type": "Arch"
+    },
+    "119": {
+      "name": "Bone Flute",
+      "spriteIndex": 119,
+      "category": "Basic",
+      "price": 100,
+      "type": "Arch"
+    },
+    "120": {
+      "name": "Prehistoric Handaxe",
+      "spriteIndex": 120,
+      "category": "Basic",
+      "price": 50,
+      "type": "Arch"
+    },
+    "121": {
+      "name": "Dwarvish Helm",
+      "spriteIndex": 121,
+      "category": "Basic",
+      "price": 100,
+      "type": "Arch"
+    },
+    "122": {
+      "name": "Dwarf Gadget",
+      "spriteIndex": 122,
+      "category": "Basic",
+      "price": 200,
+      "type": "Arch"
+    },
+    "123": {
+      "name": "Ancient Drum",
+      "spriteIndex": 123,
+      "category": "Basic",
+      "price": 100,
+      "type": "Arch"
+    },
+    "124": {
+      "name": "Golden Mask",
+      "spriteIndex": 124,
+      "category": "Basic",
+      "price": 500,
+      "type": "Arch"
+    },
+    "125": {
+      "name": "Golden Relic",
+      "spriteIndex": 125,
+      "category": "Basic",
+      "price": 250,
+      "type": "Arch"
+    },
+    "126": {
+      "name": "Strange Doll",
+      "spriteIndex": 126,
+      "category": "Basic",
+      "price": 1000,
+      "type": "Arch"
+    },
+    "127": {
+      "name": "Strange Doll",
+      "spriteIndex": 127,
+      "category": "Basic",
+      "price": 1000,
+      "type": "Arch"
+    },
+    "128": {
+      "name": "Pufferfish",
+      "spriteIndex": 128,
+      "category": "Fertilizer",
+      "price": 200,
+      "type": "Fish"
+    },
+    "129": {
+      "name": "Anchovy",
+      "spriteIndex": 129,
+      "category": "Fertilizer",
+      "price": 30,
+      "type": "Fish"
+    },
+    "130": {
+      "name": "Tuna",
+      "spriteIndex": 130,
+      "category": "Fertilizer",
+      "price": 100,
+      "type": "Fish"
+    },
+    "131": {
+      "name": "Sardine",
+      "spriteIndex": 131,
+      "category": "Fertilizer",
+      "price": 40,
+      "type": "Fish"
+    },
+    "132": {
+      "name": "Bream",
+      "spriteIndex": 132,
+      "category": "Fertilizer",
+      "price": 45,
+      "type": "Fish"
+    },
+    "136": {
+      "name": "Largemouth Bass",
+      "spriteIndex": 136,
+      "category": "Fertilizer",
+      "price": 100,
+      "type": "Fish"
+    },
+    "137": {
+      "name": "Smallmouth Bass",
+      "spriteIndex": 137,
+      "category": "Fertilizer",
+      "price": 50,
+      "type": "Fish"
+    },
+    "138": {
+      "name": "Rainbow Trout",
+      "spriteIndex": 138,
+      "category": "Fertilizer",
+      "price": 65,
+      "type": "Fish"
+    },
+    "139": {
+      "name": "Salmon",
+      "spriteIndex": 139,
+      "category": "Fertilizer",
+      "price": 75,
+      "type": "Fish"
+    },
+    "140": {
+      "name": "Walleye",
+      "spriteIndex": 140,
+      "category": "Fertilizer",
+      "price": 105,
+      "type": "Fish"
+    },
+    "141": {
+      "name": "Perch",
+      "spriteIndex": 141,
+      "category": "Fertilizer",
+      "price": 55,
+      "type": "Fish"
+    },
+    "142": {
+      "name": "Carp",
+      "spriteIndex": 142,
+      "category": "Fertilizer",
+      "price": 30,
+      "type": "Fish"
+    },
+    "143": {
+      "name": "Catfish",
+      "spriteIndex": 143,
+      "category": "Fertilizer",
+      "price": 200,
+      "type": "Fish"
+    },
+    "144": {
+      "name": "Pike",
+      "spriteIndex": 144,
+      "category": "Fertilizer",
+      "price": 100,
+      "type": "Fish"
+    },
+    "145": {
+      "name": "Sunfish",
+      "spriteIndex": 145,
+      "category": "Fertilizer",
+      "price": 30,
+      "type": "Fish"
+    },
+    "146": {
+      "name": "Red Mullet",
+      "spriteIndex": 146,
+      "category": "Fertilizer",
+      "price": 75,
+      "type": "Fish"
+    },
+    "147": {
+      "name": "Herring",
+      "spriteIndex": 147,
+      "category": "Fertilizer",
+      "price": 30,
+      "type": "Fish"
+    },
+    "148": {
+      "name": "Eel",
+      "spriteIndex": 148,
+      "category": "Fertilizer",
+      "price": 85,
+      "type": "Fish"
+    },
+    "149": {
+      "name": "Octopus",
+      "spriteIndex": 149,
+      "category": "Fertilizer",
+      "price": 150,
+      "type": "Fish"
+    },
+    "150": {
+      "name": "Red Snapper",
+      "spriteIndex": 150,
+      "category": "Fertilizer",
+      "price": 50,
+      "type": "Fish"
+    },
+    "151": {
+      "name": "Squid",
+      "spriteIndex": 151,
+      "category": "Fertilizer",
+      "price": 80,
+      "type": "Fish"
+    },
+    "152": {
+      "name": "Seaweed",
+      "spriteIndex": 152,
+      "category": "Basic",
+      "price": 20,
+      "type": "Fish"
+    },
+    "153": {
+      "name": "Green Algae",
+      "spriteIndex": 153,
+      "category": "Basic",
+      "price": 15,
+      "type": "Fish"
+    },
+    "154": {
+      "name": "Sea Cucumber",
+      "spriteIndex": 154,
+      "category": "Fertilizer",
+      "price": 75,
+      "type": "Fish"
+    },
+    "155": {
+      "name": "Super Cucumber",
+      "spriteIndex": 155,
+      "category": "Fertilizer",
+      "price": 250,
+      "type": "Fish"
+    },
+    "156": {
+      "name": "Ghostfish",
+      "spriteIndex": 156,
+      "category": "Fertilizer",
+      "price": 45,
+      "type": "Fish"
+    },
+    "157": {
+      "name": "White Algae",
+      "spriteIndex": 157,
+      "category": "Basic",
+      "price": 25,
+      "type": "Fish"
+    },
+    "158": {
+      "name": "Stonefish",
+      "spriteIndex": 158,
+      "category": "Fertilizer",
+      "price": 300,
+      "type": "Fish"
+    },
+    "159": {
+      "name": "Crimsonfish",
+      "spriteIndex": 159,
+      "category": "Fertilizer",
+      "price": 1500,
+      "type": "Fish"
+    },
+    "160": {
+      "name": "Angler",
+      "spriteIndex": 160,
+      "category": "Fertilizer",
+      "price": 900,
+      "type": "Fish"
+    },
+    "161": {
+      "name": "Ice Pip",
+      "spriteIndex": 161,
+      "category": "Fertilizer",
+      "price": 500,
+      "type": "Fish"
+    },
+    "162": {
+      "name": "Lava Eel",
+      "spriteIndex": 162,
+      "category": "Fertilizer",
+      "price": 700,
+      "type": "Fish"
+    },
+    "163": {
+      "name": "Legend",
+      "spriteIndex": 163,
+      "category": "Fertilizer",
+      "price": 5000,
+      "type": "Fish"
+    },
+    "164": {
+      "name": "Sandfish",
+      "spriteIndex": 164,
+      "category": "Fertilizer",
+      "price": 75,
+      "type": "Fish"
+    },
+    "165": {
+      "name": "Scorpion Carp",
+      "spriteIndex": 165,
+      "category": "Fertilizer",
+      "price": 150,
+      "type": "Fish"
+    },
+    "166": {
+      "name": "Treasure Chest",
+      "spriteIndex": 166,
+      "category": "Basic",
+      "price": 5000,
+      "type": "Basic"
+    },
+    "167": {
+      "name": "Joja Cola",
+      "spriteIndex": 167,
+      "category": "Minerals",
+      "price": 25,
+      "type": "Fish"
+    },
+    "168": {
+      "name": "Trash",
+      "spriteIndex": 168,
+      "category": "Minerals",
+      "price": 0,
+      "type": "Fish"
+    },
+    "169": {
+      "name": "Driftwood",
+      "spriteIndex": 169,
+      "category": "Minerals",
+      "price": 0,
+      "type": "Fish"
+    },
+    "170": {
+      "name": "Broken Glasses",
+      "spriteIndex": 170,
+      "category": "Minerals",
+      "price": 0,
+      "type": "Fish"
+    },
+    "171": {
+      "name": "Broken CD",
+      "spriteIndex": 171,
+      "category": "Minerals",
+      "price": 0,
+      "type": "Fish"
+    },
+    "172": {
+      "name": "Soggy Newspaper",
+      "spriteIndex": 172,
+      "category": "Minerals",
+      "price": 0,
+      "type": "Fish"
+    },
+    "176": {
+      "name": "Egg",
+      "spriteIndex": 176,
+      "category": "Fertilizer",
+      "price": 50,
+      "type": "Basic"
+    },
+    "174": {
+      "name": "Large Egg",
+      "spriteIndex": 174,
+      "category": "Fertilizer",
+      "price": 95,
+      "type": "Basic"
+    },
+    "178": {
+      "name": "Hay",
+      "spriteIndex": 178,
+      "category": "Basic",
+      "price": 0,
+      "type": "Basic"
+    },
+    "180": {
+      "name": "Egg",
+      "spriteIndex": 180,
+      "category": "Fertilizer",
+      "price": 50,
+      "type": "Basic"
+    },
+    "182": {
+      "name": "Large Egg",
+      "spriteIndex": 182,
+      "category": "Fertilizer",
+      "price": 95,
+      "type": "Basic"
+    },
+    "184": {
+      "name": "Milk",
+      "spriteIndex": 184,
+      "category": "Fertilizer",
+      "price": 125,
+      "type": "Basic"
+    },
+    "186": {
+      "name": "Large Milk",
+      "spriteIndex": 186,
+      "category": "Fertilizer",
+      "price": 190,
+      "type": "Basic"
+    },
+    "188": {
+      "name": "Green Bean",
+      "spriteIndex": 188,
+      "category": "Fruit",
+      "price": 40,
+      "type": "Basic"
+    },
+    "190": {
+      "name": "Cauliflower",
+      "spriteIndex": 190,
+      "category": "Fruit",
+      "price": 175,
+      "type": "Basic"
+    },
+    "191": {
+      "name": "Ornate Necklace",
+      "spriteIndex": 191,
+      "category": "Basic",
+      "price": 0,
+      "type": "Quest"
+    },
+    "192": {
+      "name": "Potato",
+      "spriteIndex": 192,
+      "category": "Fruit",
+      "price": 80,
+      "type": "Basic"
+    },
+    "194": {
+      "name": "Fried Egg",
+      "spriteIndex": 194,
+      "category": "Bait",
+      "price": 35,
+      "type": "Cooking"
+    },
+    "195": {
+      "name": "Omelet",
+      "spriteIndex": 195,
+      "category": "Bait",
+      "price": 125,
+      "type": "Cooking"
+    },
+    "196": {
+      "name": "Salad",
+      "spriteIndex": 196,
+      "category": "Bait",
+      "price": 110,
+      "type": "Cooking"
+    },
+    "197": {
+      "name": "Cheese Cauliflower",
+      "spriteIndex": 197,
+      "category": "Bait",
+      "price": 300,
+      "type": "Cooking"
+    },
+    "198": {
+      "name": "Baked Fish",
+      "spriteIndex": 198,
+      "category": "Bait",
+      "price": 100,
+      "type": "Cooking"
+    },
+    "199": {
+      "name": "Parsnip Soup",
+      "spriteIndex": 199,
+      "category": "Bait",
+      "price": 120,
+      "type": "Cooking"
+    },
+    "200": {
+      "name": "Vegetable Medley",
+      "spriteIndex": 200,
+      "category": "Bait",
+      "price": 120,
+      "type": "Cooking"
+    },
+    "201": {
+      "name": "Complete Breakfast",
+      "spriteIndex": 201,
+      "category": "Bait",
+      "price": 350,
+      "type": "Cooking"
+    },
+    "202": {
+      "name": "Fried Calamari",
+      "spriteIndex": 202,
+      "category": "Bait",
+      "price": 150,
+      "type": "Cooking"
+    },
+    "203": {
+      "name": "Strange Bun",
+      "spriteIndex": 203,
+      "category": "Bait",
+      "price": 225,
+      "type": "Cooking"
+    },
+    "204": {
+      "name": "Lucky Lunch",
+      "spriteIndex": 204,
+      "category": "Bait",
+      "price": 250,
+      "type": "Cooking"
+    },
+    "205": {
+      "name": "Fried Mushroom",
+      "spriteIndex": 205,
+      "category": "Bait",
+      "price": 200,
+      "type": "Cooking"
+    },
+    "206": {
+      "name": "Pizza",
+      "spriteIndex": 206,
+      "category": "Bait",
+      "price": 300,
+      "type": "Cooking"
+    },
+    "207": {
+      "name": "Bean Hotpot",
+      "spriteIndex": 207,
+      "category": "Bait",
+      "price": 100,
+      "type": "Cooking"
+    },
+    "208": {
+      "name": "Glazed Yams",
+      "spriteIndex": 208,
+      "category": "Bait",
+      "price": 200,
+      "type": "Cooking"
+    },
+    "209": {
+      "name": "Carp Surprise",
+      "spriteIndex": 209,
+      "category": "Bait",
+      "price": 150,
+      "type": "Cooking"
+    },
+    "210": {
+      "name": "Hashbrowns",
+      "spriteIndex": 210,
+      "category": "Bait",
+      "price": 120,
+      "type": "Cooking"
+    },
+    "211": {
+      "name": "Pancakes",
+      "spriteIndex": 211,
+      "category": "Bait",
+      "price": 80,
+      "type": "Cooking"
+    },
+    "212": {
+      "name": "Salmon Dinner",
+      "spriteIndex": 212,
+      "category": "Bait",
+      "price": 300,
+      "type": "Cooking"
+    },
+    "213": {
+      "name": "Fish Taco",
+      "spriteIndex": 213,
+      "category": "Bait",
+      "price": 500,
+      "type": "Cooking"
+    },
+    "214": {
+      "name": "Crispy Bass",
+      "spriteIndex": 214,
+      "category": "Bait",
+      "price": 150,
+      "type": "Cooking"
+    },
+    "215": {
+      "name": "Pepper Poppers",
+      "spriteIndex": 215,
+      "category": "Bait",
+      "price": 200,
+      "type": "Cooking"
+    },
+    "216": {
+      "name": "Bread",
+      "spriteIndex": 216,
+      "category": "Bait",
+      "price": 60,
+      "type": "Cooking"
+    },
+    "218": {
+      "name": "Tom Kha Soup",
+      "spriteIndex": 218,
+      "category": "Bait",
+      "price": 250,
+      "type": "Cooking"
+    },
+    "219": {
+      "name": "Trout Soup",
+      "spriteIndex": 219,
+      "category": "Bait",
+      "price": 100,
+      "type": "Cooking"
+    },
+    "220": {
+      "name": "Chocolate Cake",
+      "spriteIndex": 220,
+      "category": "Bait",
+      "price": 200,
+      "type": "Cooking"
+    },
+    "221": {
+      "name": "Pink Cake",
+      "spriteIndex": 221,
+      "category": "Bait",
+      "price": 480,
+      "type": "Cooking"
+    },
+    "222": {
+      "name": "Rhubarb Pie",
+      "spriteIndex": 222,
+      "category": "Bait",
+      "price": 400,
+      "type": "Cooking"
+    },
+    "223": {
+      "name": "Cookie",
+      "spriteIndex": 223,
+      "category": "Bait",
+      "price": 140,
+      "type": "Cooking"
+    },
+    "224": {
+      "name": "Spaghetti",
+      "spriteIndex": 224,
+      "category": "Bait",
+      "price": 120,
+      "type": "Cooking"
+    },
+    "225": {
+      "name": "Fried Eel",
+      "spriteIndex": 225,
+      "category": "Bait",
+      "price": 120,
+      "type": "Cooking"
+    },
+    "226": {
+      "name": "Spicy Eel",
+      "spriteIndex": 226,
+      "category": "Bait",
+      "price": 175,
+      "type": "Cooking"
+    },
+    "227": {
+      "name": "Sashimi",
+      "spriteIndex": 227,
+      "category": "Bait",
+      "price": 75,
+      "type": "Cooking"
+    },
+    "228": {
+      "name": "Maki Roll",
+      "spriteIndex": 228,
+      "category": "Bait",
+      "price": 220,
+      "type": "Cooking"
+    },
+    "229": {
+      "name": "Tortilla",
+      "spriteIndex": 229,
+      "category": "Bait",
+      "price": 50,
+      "type": "Cooking"
+    },
+    "230": {
+      "name": "Red Plate",
+      "spriteIndex": 230,
+      "category": "Bait",
+      "price": 400,
+      "type": "Cooking"
+    },
+    "231": {
+      "name": "Eggplant Parmesan",
+      "spriteIndex": 231,
+      "category": "Bait",
+      "price": 200,
+      "type": "Cooking"
+    },
+    "232": {
+      "name": "Rice Pudding",
+      "spriteIndex": 232,
+      "category": "Bait",
+      "price": 260,
+      "type": "Cooking"
+    },
+    "233": {
+      "name": "Ice Cream",
+      "spriteIndex": 233,
+      "category": "Bait",
+      "price": 120,
+      "type": "Cooking"
+    },
+    "234": {
+      "name": "Blueberry Tart",
+      "spriteIndex": 234,
+      "category": "Bait",
+      "price": 150,
+      "type": "Cooking"
+    },
+    "235": {
+      "name": "Autumn's Bounty",
+      "spriteIndex": 235,
+      "category": "Bait",
+      "price": 350,
+      "type": "Cooking"
+    },
+    "236": {
+      "name": "Pumpkin Soup",
+      "spriteIndex": 236,
+      "category": "Bait",
+      "price": 300,
+      "type": "Cooking"
+    },
+    "237": {
+      "name": "Super Meal",
+      "spriteIndex": 237,
+      "category": "Bait",
+      "price": 220,
+      "type": "Cooking"
+    },
+    "238": {
+      "name": "Cranberry Sauce",
+      "spriteIndex": 238,
+      "category": "Bait",
+      "price": 120,
+      "type": "Cooking"
+    },
+    "239": {
+      "name": "Stuffing",
+      "spriteIndex": 239,
+      "category": "Bait",
+      "price": 165,
+      "type": "Cooking"
+    },
+    "240": {
+      "name": "Farmer's Lunch",
+      "spriteIndex": 240,
+      "category": "Bait",
+      "price": 150,
+      "type": "Cooking"
+    },
+    "241": {
+      "name": "Survival Burger",
+      "spriteIndex": 241,
+      "category": "Bait",
+      "price": 180,
+      "type": "Cooking"
+    },
+    "242": {
+      "name": "Dish O' The Sea",
+      "spriteIndex": 242,
+      "category": "Bait",
+      "price": 220,
+      "type": "Cooking"
+    },
+    "243": {
+      "name": "Miner's Treat",
+      "spriteIndex": 243,
+      "category": "Bait",
+      "price": 200,
+      "type": "Cooking"
+    },
+    "244": {
+      "name": "Roots Platter",
+      "spriteIndex": 244,
+      "category": "Bait",
+      "price": 100,
+      "type": "Cooking"
+    },
+    "245": {
+      "name": "Sugar",
+      "spriteIndex": 245,
+      "category": "Basic",
+      "price": 50,
+      "type": "Basic"
+    },
+    "246": {
+      "name": "Wheat Flour",
+      "spriteIndex": 246,
+      "category": "Basic",
+      "price": 50,
+      "type": "Basic"
+    },
+    "247": {
+      "name": "Oil",
+      "spriteIndex": 247,
+      "category": "Basic",
+      "price": 100,
+      "type": "Basic"
+    },
+    "248": {
+      "name": "Garlic",
+      "spriteIndex": 248,
+      "category": "Fruit",
+      "price": 60,
+      "type": "Basic"
+    },
+    "250": {
+      "name": "Kale",
+      "spriteIndex": 250,
+      "category": "Fruit",
+      "price": 110,
+      "type": "Basic"
+    },
+    "251": {
+      "name": "Tea Sapling",
+      "spriteIndex": 251,
+      "category": "Egg",
+      "price": 250,
+      "type": "Basic"
+    },
+    "252": {
+      "name": "Rhubarb",
+      "spriteIndex": 252,
+      "category": "Seed",
+      "price": 220,
+      "type": "Basic"
+    },
+    "253": {
+      "name": "Triple Shot Espresso",
+      "spriteIndex": 253,
+      "category": "Bait",
+      "price": 450,
+      "type": "Cooking"
+    },
+    "254": {
+      "name": "Melon",
+      "spriteIndex": 254,
+      "category": "Seed",
+      "price": 250,
+      "type": "Basic"
+    },
+    "256": {
+      "name": "Tomato",
+      "spriteIndex": 256,
+      "category": "Fruit",
+      "price": 60,
+      "type": "Basic"
+    },
+    "257": {
+      "name": "Morel",
+      "spriteIndex": 257,
+      "category": "Basic",
+      "price": 150,
+      "type": "Basic"
+    },
+    "258": {
+      "name": "Blueberry",
+      "spriteIndex": 258,
+      "category": "Seed",
+      "price": 50,
+      "type": "Basic"
+    },
+    "259": {
+      "name": "Fiddlehead Fern",
+      "spriteIndex": 259,
+      "category": "Fruit",
+      "price": 90,
+      "type": "Basic"
+    },
+    "260": {
+      "name": "Hot Pepper",
+      "spriteIndex": 260,
+      "category": "Seed",
+      "price": 40,
+      "type": "Basic"
+    },
+    "261": {
+      "name": "Warp Totem: Desert",
+      "spriteIndex": 261,
+      "category": "Basic",
+      "price": 20,
+      "type": "Crafting"
+    },
+    "262": {
+      "name": "Wheat",
+      "spriteIndex": 262,
+      "category": "Fruit",
+      "price": 25,
+      "type": "Basic"
+    },
+    "264": {
+      "name": "Radish",
+      "spriteIndex": 264,
+      "category": "Fruit",
+      "price": 90,
+      "type": "Basic"
+    },
+    "266": {
+      "name": "Red Cabbage",
+      "spriteIndex": 266,
+      "category": "Fruit",
+      "price": 260,
+      "type": "Basic"
+    },
+    "268": {
+      "name": "Starfruit",
+      "spriteIndex": 268,
+      "category": "Seed",
+      "price": 750,
+      "type": "Basic"
+    },
+    "270": {
+      "name": "Corn",
+      "spriteIndex": 270,
+      "category": "Fruit",
+      "price": 50,
+      "type": "Basic"
+    },
+    "271": {
+      "name": "Unmilled Rice",
+      "spriteIndex": 271,
+      "category": "Fruit",
+      "price": 30,
+      "type": "Basic"
+    },
+    "272": {
+      "name": "Eggplant",
+      "spriteIndex": 272,
+      "category": "Fruit",
+      "price": 60,
+      "type": "Basic"
+    },
+    "273": {
+      "name": "Rice Shoot",
+      "spriteIndex": 273,
+      "category": "Egg",
+      "price": 20,
+      "type": "Seeds"
+    },
+    "274": {
+      "name": "Artichoke",
+      "spriteIndex": 274,
+      "category": "Fruit",
+      "price": 160,
+      "type": "Basic"
+    },
+    "275": {
+      "name": "Artifact Trove",
+      "spriteIndex": 275,
+      "category": "Basic",
+      "price": 0,
+      "type": "Basic"
+    },
+    "276": {
+      "name": "Pumpkin",
+      "spriteIndex": 276,
+      "category": "Fruit",
+      "price": 320,
+      "type": "Basic"
+    },
+    "277": {
+      "name": "Wilted Bouquet",
+      "spriteIndex": 277,
+      "category": "Basic",
+      "price": 100,
+      "type": "Basic"
+    },
+    "278": {
+      "name": "Bok Choy",
+      "spriteIndex": 278,
+      "category": "Fruit",
+      "price": 80,
+      "type": "Basic"
+    },
+    "279": {
+      "name": "Magic Rock Candy",
+      "spriteIndex": 279,
+      "category": "Bait",
+      "price": 5000,
+      "type": "Cooking"
+    },
+    "280": {
+      "name": "Yam",
+      "spriteIndex": 280,
+      "category": "Fruit",
+      "price": 160,
+      "type": "Basic"
+    },
+    "281": {
+      "name": "Chanterelle",
+      "spriteIndex": 281,
+      "category": "Basic",
+      "price": 160,
+      "type": "Basic"
+    },
+    "282": {
+      "name": "Cranberries",
+      "spriteIndex": 282,
+      "category": "Seed",
+      "price": 75,
+      "type": "Basic"
+    },
+    "283": {
+      "name": "Holly",
+      "spriteIndex": 283,
+      "category": "Basic",
+      "price": 80,
+      "type": "Basic"
+    },
+    "284": {
+      "name": "Beet",
+      "spriteIndex": 284,
+      "category": "Fruit",
+      "price": 100,
+      "type": "Basic"
+    },
+    "286": {
+      "name": "Cherry Bomb",
+      "spriteIndex": 286,
+      "category": "Tackle",
+      "price": 50,
+      "type": "Crafting"
+    },
+    "287": {
+      "name": "Bomb",
+      "spriteIndex": 287,
+      "category": "Tackle",
+      "price": 50,
+      "type": "Crafting"
+    },
+    "288": {
+      "name": "Mega Bomb",
+      "spriteIndex": 288,
+      "category": "Tackle",
+      "price": 50,
+      "type": "Crafting"
+    },
+    "293": {
+      "name": "Brick Floor",
+      "spriteIndex": 293,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "294": {
+      "name": "Twig",
+      "spriteIndex": 294,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "295": {
+      "name": "Twig",
+      "spriteIndex": 295,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "296": {
+      "name": "Salmonberry",
+      "spriteIndex": 296,
+      "category": "Seed",
+      "price": 5,
+      "type": "Basic"
+    },
+    "297": {
+      "name": "Grass Starter",
+      "spriteIndex": 297,
+      "category": "Basic",
+      "price": 50,
+      "type": "Crafting"
+    },
+    "298": {
+      "name": "Hardwood Fence",
+      "spriteIndex": 298,
+      "category": "Tackle",
+      "price": 10,
+      "type": "Crafting"
+    },
+    "299": {
+      "name": "Amaranth Seeds",
+      "spriteIndex": 299,
+      "category": "Egg",
+      "price": 35,
+      "type": "Seeds"
+    },
+    "300": {
+      "name": "Amaranth",
+      "spriteIndex": 300,
+      "category": "Fruit",
+      "price": 150,
+      "type": "Basic"
+    },
+    "301": {
+      "name": "Grape Starter",
+      "spriteIndex": 301,
+      "category": "Egg",
+      "price": 30,
+      "type": "Seeds"
+    },
+    "302": {
+      "name": "Hops Starter",
+      "spriteIndex": 302,
+      "category": "Egg",
+      "price": 30,
+      "type": "Seeds"
+    },
+    "303": {
+      "name": "Pale Ale",
+      "spriteIndex": 303,
+      "category": "ArtisanGoods",
+      "price": 300,
+      "type": "Basic"
+    },
+    "304": {
+      "name": "Hops",
+      "spriteIndex": 304,
+      "category": "Fruit",
+      "price": 25,
+      "type": "Basic"
+    },
+    "305": {
+      "name": "Void Egg",
+      "spriteIndex": 305,
+      "category": "Fertilizer",
+      "price": 65,
+      "type": "Basic"
+    },
+    "306": {
+      "name": "Mayonnaise",
+      "spriteIndex": 306,
+      "category": "ArtisanGoods",
+      "price": 190,
+      "type": "Basic"
+    },
+    "307": {
+      "name": "Duck Mayonnaise",
+      "spriteIndex": 307,
+      "category": "ArtisanGoods",
+      "price": 375,
+      "type": "Basic"
+    },
+    "308": {
+      "name": "Void Mayonnaise",
+      "spriteIndex": 308,
+      "category": "ArtisanGoods",
+      "price": 275,
+      "type": "Basic"
+    },
+    "309": {
+      "name": "Acorn",
+      "spriteIndex": 309,
+      "category": "Egg",
+      "price": 20,
+      "type": "Crafting"
+    },
+    "310": {
+      "name": "Maple Seed",
+      "spriteIndex": 310,
+      "category": "Egg",
+      "price": 5,
+      "type": "Crafting"
+    },
+    "311": {
+      "name": "Pine Cone",
+      "spriteIndex": 311,
+      "category": "Egg",
+      "price": 5,
+      "type": "Crafting"
+    },
+    "313": {
+      "name": "Weeds",
+      "spriteIndex": 313,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "314": {
+      "name": "Weeds",
+      "spriteIndex": 314,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "315": {
+      "name": "Weeds",
+      "spriteIndex": 315,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "316": {
+      "name": "Weeds",
+      "spriteIndex": 316,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "317": {
+      "name": "Weeds",
+      "spriteIndex": 317,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "318": {
+      "name": "Weeds",
+      "spriteIndex": 318,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "319": {
+      "name": "Weeds",
+      "spriteIndex": 319,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "320": {
+      "name": "Weeds",
+      "spriteIndex": 320,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "321": {
+      "name": "Weeds",
+      "spriteIndex": 321,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "322": {
+      "name": "Wood Fence",
+      "spriteIndex": 322,
+      "category": "Tackle",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "323": {
+      "name": "Stone Fence",
+      "spriteIndex": 323,
+      "category": "Tackle",
+      "price": 2,
+      "type": "Crafting"
+    },
+    "324": {
+      "name": "Iron Fence",
+      "spriteIndex": 324,
+      "category": "Tackle",
+      "price": 6,
+      "type": "Crafting"
+    },
+    "325": {
+      "name": "Gate",
+      "spriteIndex": 325,
+      "category": "Tackle",
+      "price": 4,
+      "type": "Crafting"
+    },
+    "326": {
+      "name": "Dwarvish Translation Guide",
+      "spriteIndex": 326,
+      "category": "Tackle",
+      "price": 50,
+      "type": "Crafting"
+    },
+    "328": {
+      "name": "Wood Floor",
+      "spriteIndex": 328,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "329": {
+      "name": "Stone Floor",
+      "spriteIndex": 329,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "330": {
+      "name": "Clay",
+      "spriteIndex": 330,
+      "category": "Minerals",
+      "price": 20,
+      "type": "Basic"
+    },
+    "331": {
+      "name": "Weathered Floor",
+      "spriteIndex": 331,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "333": {
+      "name": "Crystal Floor",
+      "spriteIndex": 333,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "334": {
+      "name": "Copper Bar",
+      "spriteIndex": 334,
+      "category": "Meat",
+      "price": 60,
+      "type": "Basic"
+    },
+    "335": {
+      "name": "Iron Bar",
+      "spriteIndex": 335,
+      "category": "Meat",
+      "price": 120,
+      "type": "Basic"
+    },
+    "336": {
+      "name": "Gold Bar",
+      "spriteIndex": 336,
+      "category": "Meat",
+      "price": 250,
+      "type": "Basic"
+    },
+    "337": {
+      "name": "Iridium Bar",
+      "spriteIndex": 337,
+      "category": "Meat",
+      "price": 1000,
+      "type": "Basic"
+    },
+    "338": {
+      "name": "Refined Quartz",
+      "spriteIndex": 338,
+      "category": "Meat",
+      "price": 50,
+      "type": "Basic"
+    },
+    "340": {
+      "name": "Honey",
+      "spriteIndex": 340,
+      "category": "ArtisanGoods",
+      "price": 100,
+      "type": "Basic"
+    },
+    "341": {
+      "name": "Tea Set",
+      "spriteIndex": 341,
+      "category": "Minerals",
+      "price": 200,
+      "type": "Basic"
+    },
+    "342": {
+      "name": "Pickles",
+      "spriteIndex": 128,
+      "category": "ArtisanGoods",
+      "price": 100,
+      "type": "Basic"
+    },
+    "344": {
+      "name": "Jelly",
+      "spriteIndex": 130,
+      "category": "ArtisanGoods",
+      "price": 160,
+      "type": "Basic"
+    },
+    "346": {
+      "name": "Beer",
+      "spriteIndex": 346,
+      "category": "ArtisanGoods",
+      "price": 200,
+      "type": "Basic"
+    },
+    "347": {
+      "name": "Rare Seed",
+      "spriteIndex": 347,
+      "category": "Egg",
+      "price": 200,
+      "type": "Seeds"
+    },
+    "348": {
+      "name": "Wine",
+      "spriteIndex": 123,
+      "category": "ArtisanGoods",
+      "price": 400,
+      "type": "Basic"
+    },
+    "349": {
+      "name": "Energy Tonic",
+      "spriteIndex": 349,
+      "category": "Basic",
+      "price": 500,
+      "type": "Crafting"
+    },
+    "350": {
+      "name": "Juice",
+      "spriteIndex": 125,
+      "category": "ArtisanGoods",
+      "price": 150,
+      "type": "Basic"
+    },
+    "351": {
+      "name": "Muscle Remedy",
+      "spriteIndex": 351,
+      "category": "Basic",
+      "price": 500,
+      "type": "Crafting"
+    },
+    "368": {
+      "name": "Basic Fertilizer",
+      "spriteIndex": 368,
+      "category": "Minerals",
+      "price": 2,
+      "type": "Basic"
+    },
+    "369": {
+      "name": "Quality Fertilizer",
+      "spriteIndex": 369,
+      "category": "Minerals",
+      "price": 10,
+      "type": "Basic"
+    },
+    "370": {
+      "name": "Basic Retaining Soil",
+      "spriteIndex": 370,
+      "category": "Minerals",
+      "price": 4,
+      "type": "Basic"
+    },
+    "371": {
+      "name": "Quality Retaining Soil",
+      "spriteIndex": 371,
+      "category": "Minerals",
+      "price": 5,
+      "type": "Basic"
+    },
+    "372": {
+      "name": "Clam",
+      "spriteIndex": 372,
+      "category": "Fertilizer",
+      "price": 50,
+      "type": "Fish"
+    },
+    "373": {
+      "name": "Golden Pumpkin",
+      "spriteIndex": 373,
+      "category": "Basic",
+      "price": 2500,
+      "type": "Basic"
+    },
+    "378": {
+      "name": "Copper Ore",
+      "spriteIndex": 378,
+      "category": "Meat",
+      "price": 5,
+      "type": "Basic"
+    },
+    "380": {
+      "name": "Iron Ore",
+      "spriteIndex": 380,
+      "category": "Meat",
+      "price": 10,
+      "type": "Basic"
+    },
+    "382": {
+      "name": "Coal",
+      "spriteIndex": 382,
+      "category": "Meat",
+      "price": 15,
+      "type": "Basic"
+    },
+    "384": {
+      "name": "Gold Ore",
+      "spriteIndex": 384,
+      "category": "Meat",
+      "price": 25,
+      "type": "Basic"
+    },
+    "386": {
+      "name": "Iridium Ore",
+      "spriteIndex": 386,
+      "category": "Meat",
+      "price": 100,
+      "type": "Basic"
+    },
+    "388": {
+      "name": "Wood",
+      "spriteIndex": 388,
+      "category": "Minerals",
+      "price": 2,
+      "type": "Basic"
+    },
+    "392": {
+      "name": "Nautilus Shell",
+      "spriteIndex": 392,
+      "category": "Minerals",
+      "price": 120,
+      "type": "Basic"
+    },
+    "393": {
+      "name": "Coral",
+      "spriteIndex": 393,
+      "category": "Minerals",
+      "price": 80,
+      "type": "Basic"
+    },
+    "394": {
+      "name": "Rainbow Shell",
+      "spriteIndex": 394,
+      "category": "Minerals",
+      "price": 300,
+      "type": "Basic"
+    },
+    "395": {
+      "name": "Coffee",
+      "spriteIndex": 395,
+      "category": "Basic",
+      "price": 150,
+      "type": "Crafting"
+    },
+    "396": {
+      "name": "Spice Berry",
+      "spriteIndex": 396,
+      "category": "Seed",
+      "price": 80,
+      "type": "Basic"
+    },
+    "397": {
+      "name": "Sea Urchin",
+      "spriteIndex": 397,
+      "category": "Minerals",
+      "price": 160,
+      "type": "Basic"
+    },
+    "398": {
+      "name": "Grape",
+      "spriteIndex": 398,
+      "category": "Seed",
+      "price": 80,
+      "type": "Basic"
+    },
+    "399": {
+      "name": "Spring Onion",
+      "spriteIndex": 399,
+      "category": "Basic",
+      "price": 8,
+      "type": "Basic"
+    },
+    "400": {
+      "name": "Strawberry",
+      "spriteIndex": 400,
+      "category": "Seed",
+      "price": 120,
+      "type": "Basic"
+    },
+    "401": {
+      "name": "Straw Floor",
+      "spriteIndex": 401,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "402": {
+      "name": "Sweet Pea",
+      "spriteIndex": 402,
+      "category": "Flower",
+      "price": 50,
+      "type": "Basic"
+    },
+    "403": {
+      "name": "Field Snack",
+      "spriteIndex": 403,
+      "category": "Basic",
+      "price": 20,
+      "type": "Crafting"
+    },
+    "404": {
+      "name": "Common Mushroom",
+      "spriteIndex": 404,
+      "category": "Basic",
+      "price": 40,
+      "type": "Basic"
+    },
+    "405": {
+      "name": "Wood Path",
+      "spriteIndex": 405,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "406": {
+      "name": "Wild Plum",
+      "spriteIndex": 406,
+      "category": "Seed",
+      "price": 80,
+      "type": "Basic"
+    },
+    "407": {
+      "name": "Gravel Path",
+      "spriteIndex": 407,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "408": {
+      "name": "Hazelnut",
+      "spriteIndex": 408,
+      "category": "Basic",
+      "price": 90,
+      "type": "Basic"
+    },
+    "409": {
+      "name": "Crystal Path",
+      "spriteIndex": 409,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "410": {
+      "name": "Blackberry",
+      "spriteIndex": 410,
+      "category": "Seed",
+      "price": 20,
+      "type": "Basic"
+    },
+    "411": {
+      "name": "Cobblestone Path",
+      "spriteIndex": 411,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "412": {
+      "name": "Winter Root",
+      "spriteIndex": 412,
+      "category": "Basic",
+      "price": 70,
+      "type": "Basic"
+    },
+    "413": {
+      "name": "Blue Slime Egg",
+      "spriteIndex": 413,
+      "category": "Basic",
+      "price": 1750,
+      "type": "Basic"
+    },
+    "414": {
+      "name": "Crystal Fruit",
+      "spriteIndex": 414,
+      "category": "Seed",
+      "price": 150,
+      "type": "Basic"
+    },
+    "415": {
+      "name": "Stepping Stone Path",
+      "spriteIndex": 415,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "416": {
+      "name": "Snow Yam",
+      "spriteIndex": 416,
+      "category": "Basic",
+      "price": 100,
+      "type": "Basic"
+    },
+    "417": {
+      "name": "Sweet Gem Berry",
+      "spriteIndex": 417,
+      "category": "Minerals",
+      "price": 3000,
+      "type": "Basic"
+    },
+    "418": {
+      "name": "Crocus",
+      "spriteIndex": 418,
+      "category": "Flower",
+      "price": 60,
+      "type": "Basic"
+    },
+    "419": {
+      "name": "Vinegar",
+      "spriteIndex": 419,
+      "category": "Basic",
+      "price": 100,
+      "type": "Basic"
+    },
+    "420": {
+      "name": "Red Mushroom",
+      "spriteIndex": 420,
+      "category": "Basic",
+      "price": 75,
+      "type": "Basic"
+    },
+    "421": {
+      "name": "Sunflower",
+      "spriteIndex": 421,
+      "category": "Flower",
+      "price": 80,
+      "type": "Basic"
+    },
+    "422": {
+      "name": "Purple Mushroom",
+      "spriteIndex": 422,
+      "category": "Basic",
+      "price": 250,
+      "type": "Basic"
+    },
+    "423": {
+      "name": "Rice",
+      "spriteIndex": 423,
+      "category": "Basic",
+      "price": 100,
+      "type": "Basic"
+    },
+    "424": {
+      "name": "Cheese",
+      "spriteIndex": 424,
+      "category": "ArtisanGoods",
+      "price": 230,
+      "type": "Basic"
+    },
+    "426": {
+      "name": "Goat Cheese",
+      "spriteIndex": 426,
+      "category": "ArtisanGoods",
+      "price": 400,
+      "type": "Basic"
+    },
+    "428": {
+      "name": "Cloth",
+      "spriteIndex": 428,
+      "category": "ArtisanGoods",
+      "price": 470,
+      "type": "Basic"
+    },
+    "430": {
+      "name": "Truffle",
+      "spriteIndex": 430,
+      "category": "Minerals",
+      "price": 625,
+      "type": "Basic"
+    },
+    "432": {
+      "name": "Truffle Oil",
+      "spriteIndex": 432,
+      "category": "ArtisanGoods",
+      "price": 1065,
+      "type": "Basic"
+    },
+    "433": {
+      "name": "Coffee Bean",
+      "spriteIndex": 433,
+      "category": "Egg",
+      "price": 15,
+      "type": "Seeds"
+    },
+    "434": {
+      "name": "Stardrop",
+      "spriteIndex": 434,
+      "category": "Basic",
+      "price": 7777,
+      "type": "Crafting"
+    },
+    "436": {
+      "name": "Goat Milk",
+      "spriteIndex": 436,
+      "category": "Fertilizer",
+      "price": 225,
+      "type": "Basic"
+    },
+    "437": {
+      "name": "Red Slime Egg",
+      "spriteIndex": 437,
+      "category": "Basic",
+      "price": 2500,
+      "type": "Basic"
+    },
+    "438": {
+      "name": "L. Goat Milk",
+      "spriteIndex": 438,
+      "category": "Fertilizer",
+      "price": 345,
+      "type": "Basic"
+    },
+    "439": {
+      "name": "Purple Slime Egg",
+      "spriteIndex": 439,
+      "category": "Basic",
+      "price": 5000,
+      "type": "Basic"
+    },
+    "440": {
+      "name": "Wool",
+      "spriteIndex": 440,
+      "category": "Minerals",
+      "price": 340,
+      "type": "Basic"
+    },
+    "441": {
+      "name": "Explosive Ammo",
+      "spriteIndex": 441,
+      "category": "Basic",
+      "price": 20,
+      "type": "Basic"
+    },
+    "442": {
+      "name": "Duck Egg",
+      "spriteIndex": 442,
+      "category": "Fertilizer",
+      "price": 95,
+      "type": "Basic"
+    },
+    "444": {
+      "name": "Duck Feather",
+      "spriteIndex": 444,
+      "category": "Minerals",
+      "price": 250,
+      "type": "Basic"
+    },
+    "446": {
+      "name": "Rabbit's Foot",
+      "spriteIndex": 446,
+      "category": "Minerals",
+      "price": 565,
+      "type": "Basic"
+    },
+    "447": {
+      "name": "Aged Roe",
+      "spriteIndex": 447,
+      "category": "ArtisanGoods",
+      "price": 100,
+      "type": "Basic"
+    },
+    "449": {
+      "name": "Stone Base",
+      "spriteIndex": 449,
+      "category": "Basic",
+      "price": 0,
+      "type": "asdf"
+    },
+    "452": {
+      "name": "Weeds",
+      "spriteIndex": 452,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "454": {
+      "name": "Ancient Fruit",
+      "spriteIndex": 454,
+      "category": "Seed",
+      "price": 550,
+      "type": "Basic"
+    },
+    "456": {
+      "name": "Algae Soup",
+      "spriteIndex": 456,
+      "category": "Bait",
+      "price": 100,
+      "type": "Cooking"
+    },
+    "457": {
+      "name": "Pale Broth",
+      "spriteIndex": 457,
+      "category": "Bait",
+      "price": 150,
+      "type": "Cooking"
+    },
+    "458": {
+      "name": "Bouquet",
+      "spriteIndex": 458,
+      "category": "Basic",
+      "price": 100,
+      "type": "Basic"
+    },
+    "459": {
+      "name": "Mead",
+      "spriteIndex": 459,
+      "category": "ArtisanGoods",
+      "price": 300,
+      "type": "Basic"
+    },
+    "460": {
+      "name": "Mermaid's Pendant",
+      "spriteIndex": 460,
+      "category": "Basic",
+      "price": 2500,
+      "type": "Basic"
+    },
+    "461": {
+      "name": "Decorative Pot",
+      "spriteIndex": 461,
+      "category": "Basic",
+      "price": 200,
+      "type": "Crafting"
+    },
+    "463": {
+      "name": "Drum Block",
+      "spriteIndex": 463,
+      "category": "Basic",
+      "price": 100,
+      "type": "Crafting"
+    },
+    "464": {
+      "name": "Flute Block",
+      "spriteIndex": 464,
+      "category": "Basic",
+      "price": 100,
+      "type": "Crafting"
+    },
+    "465": {
+      "name": "Speed-Gro",
+      "spriteIndex": 465,
+      "category": "Minerals",
+      "price": 20,
+      "type": "Basic"
+    },
+    "466": {
+      "name": "Deluxe Speed-Gro",
+      "spriteIndex": 466,
+      "category": "Minerals",
+      "price": 40,
+      "type": "Basic"
+    },
+    "472": {
+      "name": "Parsnip Seeds",
+      "spriteIndex": 472,
+      "category": "Egg",
+      "price": 10,
+      "type": "Seeds"
+    },
+    "473": {
+      "name": "Bean Starter",
+      "spriteIndex": 473,
+      "category": "Egg",
+      "price": 30,
+      "type": "Seeds"
+    },
+    "474": {
+      "name": "Cauliflower Seeds",
+      "spriteIndex": 474,
+      "category": "Egg",
+      "price": 40,
+      "type": "Seeds"
+    },
+    "475": {
+      "name": "Potato Seeds",
+      "spriteIndex": 475,
+      "category": "Egg",
+      "price": 25,
+      "type": "Seeds"
+    },
+    "476": {
+      "name": "Garlic Seeds",
+      "spriteIndex": 476,
+      "category": "Egg",
+      "price": 20,
+      "type": "Seeds"
+    },
+    "477": {
+      "name": "Kale Seeds",
+      "spriteIndex": 477,
+      "category": "Egg",
+      "price": 35,
+      "type": "Seeds"
+    },
+    "478": {
+      "name": "Rhubarb Seeds",
+      "spriteIndex": 478,
+      "category": "Egg",
+      "price": 50,
+      "type": "Seeds"
+    },
+    "479": {
+      "name": "Melon Seeds",
+      "spriteIndex": 479,
+      "category": "Egg",
+      "price": 40,
+      "type": "Seeds"
+    },
+    "480": {
+      "name": "Tomato Seeds",
+      "spriteIndex": 480,
+      "category": "Egg",
+      "price": 25,
+      "type": "Seeds"
+    },
+    "481": {
+      "name": "Blueberry Seeds",
+      "spriteIndex": 481,
+      "category": "Egg",
+      "price": 40,
+      "type": "Seeds"
+    },
+    "482": {
+      "name": "Pepper Seeds",
+      "spriteIndex": 482,
+      "category": "Egg",
+      "price": 20,
+      "type": "Seeds"
+    },
+    "483": {
+      "name": "Wheat Seeds",
+      "spriteIndex": 483,
+      "category": "Egg",
+      "price": 5,
+      "type": "Seeds"
+    },
+    "484": {
+      "name": "Radish Seeds",
+      "spriteIndex": 484,
+      "category": "Egg",
+      "price": 20,
+      "type": "Seeds"
+    },
+    "485": {
+      "name": "Red Cabbage Seeds",
+      "spriteIndex": 485,
+      "category": "Egg",
+      "price": 50,
+      "type": "Seeds"
+    },
+    "486": {
+      "name": "Starfruit Seeds",
+      "spriteIndex": 486,
+      "category": "Egg",
+      "price": 200,
+      "type": "Seeds"
+    },
+    "487": {
+      "name": "Corn Seeds",
+      "spriteIndex": 487,
+      "category": "Egg",
+      "price": 75,
+      "type": "Seeds"
+    },
+    "488": {
+      "name": "Eggplant Seeds",
+      "spriteIndex": 488,
+      "category": "Egg",
+      "price": 10,
+      "type": "Seeds"
+    },
+    "489": {
+      "name": "Artichoke Seeds",
+      "spriteIndex": 489,
+      "category": "Egg",
+      "price": 15,
+      "type": "Seeds"
+    },
+    "490": {
+      "name": "Pumpkin Seeds",
+      "spriteIndex": 490,
+      "category": "Egg",
+      "price": 50,
+      "type": "Seeds"
+    },
+    "491": {
+      "name": "Bok Choy Seeds",
+      "spriteIndex": 491,
+      "category": "Egg",
+      "price": 25,
+      "type": "Seeds"
+    },
+    "492": {
+      "name": "Yam Seeds",
+      "spriteIndex": 492,
+      "category": "Egg",
+      "price": 30,
+      "type": "Seeds"
+    },
+    "493": {
+      "name": "Cranberry Seeds",
+      "spriteIndex": 493,
+      "category": "Egg",
+      "price": 120,
+      "type": "Seeds"
+    },
+    "494": {
+      "name": "Beet Seeds",
+      "spriteIndex": 494,
+      "category": "Egg",
+      "price": 10,
+      "type": "Seeds"
+    },
+    "495": {
+      "name": "Spring Seeds",
+      "spriteIndex": 495,
+      "category": "Egg",
+      "price": 35,
+      "type": "Seeds"
+    },
+    "496": {
+      "name": "Summer Seeds",
+      "spriteIndex": 496,
+      "category": "Egg",
+      "price": 55,
+      "type": "Seeds"
+    },
+    "497": {
+      "name": "Fall Seeds",
+      "spriteIndex": 497,
+      "category": "Egg",
+      "price": 45,
+      "type": "Seeds"
+    },
+    "498": {
+      "name": "Winter Seeds",
+      "spriteIndex": 498,
+      "category": "Egg",
+      "price": 30,
+      "type": "Seeds"
+    },
+    "499": {
+      "name": "Ancient Seeds",
+      "spriteIndex": 499,
+      "category": "Egg",
+      "price": 30,
+      "type": "Seeds"
+    },
+    "427": {
+      "name": "Tulip Bulb",
+      "spriteIndex": 427,
+      "category": "Egg",
+      "price": 10,
+      "type": "Seeds"
+    },
+    "429": {
+      "name": "Jazz Seeds",
+      "spriteIndex": 429,
+      "category": "Egg",
+      "price": 15,
+      "type": "Seeds"
+    },
+    "453": {
+      "name": "Poppy Seeds",
+      "spriteIndex": 453,
+      "category": "Egg",
+      "price": 50,
+      "type": "Seeds"
+    },
+    "455": {
+      "name": "Spangle Seeds",
+      "spriteIndex": 455,
+      "category": "Egg",
+      "price": 25,
+      "type": "Seeds"
+    },
+    "431": {
+      "name": "Sunflower Seeds",
+      "spriteIndex": 431,
+      "category": "Egg",
+      "price": 20,
+      "type": "Seeds"
+    },
+    "425": {
+      "name": "Fairy Seeds",
+      "spriteIndex": 425,
+      "category": "Egg",
+      "price": 100,
+      "type": "Seeds"
+    },
+    "516": {
+      "name": "Small Glow Ring",
+      "spriteIndex": 516,
+      "category": "Basic",
+      "price": 100,
+      "type": "Ring"
+    },
+    "517": {
+      "name": "Glow Ring",
+      "spriteIndex": 517,
+      "category": "Basic",
+      "price": 200,
+      "type": "Ring"
+    },
+    "518": {
+      "name": "Small Magnet Ring",
+      "spriteIndex": 518,
+      "category": "Basic",
+      "price": 100,
+      "type": "Ring"
+    },
+    "519": {
+      "name": "Magnet Ring",
+      "spriteIndex": 519,
+      "category": "Basic",
+      "price": 200,
+      "type": "Ring"
+    },
+    "520": {
+      "name": "Slime Charmer Ring",
+      "spriteIndex": 520,
+      "category": "Basic",
+      "price": 700,
+      "type": "Ring"
+    },
+    "521": {
+      "name": "Warrior Ring",
+      "spriteIndex": 521,
+      "category": "Basic",
+      "price": 1500,
+      "type": "Ring"
+    },
+    "522": {
+      "name": "Vampire Ring",
+      "spriteIndex": 522,
+      "category": "Basic",
+      "price": 1500,
+      "type": "Ring"
+    },
+    "523": {
+      "name": "Savage Ring",
+      "spriteIndex": 523,
+      "category": "Basic",
+      "price": 1500,
+      "type": "Ring"
+    },
+    "524": {
+      "name": "Ring of Yoba",
+      "spriteIndex": 524,
+      "category": "Basic",
+      "price": 1500,
+      "type": "Ring"
+    },
+    "525": {
+      "name": "Sturdy Ring",
+      "spriteIndex": 525,
+      "category": "Basic",
+      "price": 1500,
+      "type": "Ring"
+    },
+    "526": {
+      "name": "Burglar's Ring",
+      "spriteIndex": 526,
+      "category": "Basic",
+      "price": 1500,
+      "type": "Ring"
+    },
+    "527": {
+      "name": "Iridium Band",
+      "spriteIndex": 527,
+      "category": "Basic",
+      "price": 2000,
+      "type": "Ring"
+    },
+    "528": {
+      "name": "Jukebox Ring",
+      "spriteIndex": 528,
+      "category": "Basic",
+      "price": 200,
+      "type": "Ring"
+    },
+    "529": {
+      "name": "Amethyst Ring",
+      "spriteIndex": 529,
+      "category": "Basic",
+      "price": 200,
+      "type": "Ring"
+    },
+    "530": {
+      "name": "Topaz Ring",
+      "spriteIndex": 530,
+      "category": "Basic",
+      "price": 200,
+      "type": "Ring"
+    },
+    "531": {
+      "name": "Aquamarine Ring",
+      "spriteIndex": 531,
+      "category": "Basic",
+      "price": 400,
+      "type": "Ring"
+    },
+    "532": {
+      "name": "Jade Ring",
+      "spriteIndex": 532,
+      "category": "Basic",
+      "price": 400,
+      "type": "Ring"
+    },
+    "533": {
+      "name": "Emerald Ring",
+      "spriteIndex": 533,
+      "category": "Basic",
+      "price": 600,
+      "type": "Ring"
+    },
+    "534": {
+      "name": "Ruby Ring",
+      "spriteIndex": 534,
+      "category": "Basic",
+      "price": 600,
+      "type": "Ring"
+    },
+    "535": {
+      "name": "Geode",
+      "spriteIndex": 535,
+      "category": "Basic",
+      "price": 50,
+      "type": "Basic"
+    },
+    "536": {
+      "name": "Frozen Geode",
+      "spriteIndex": 536,
+      "category": "Basic",
+      "price": 100,
+      "type": "Basic"
+    },
+    "537": {
+      "name": "Magma Geode",
+      "spriteIndex": 537,
+      "category": "Basic",
+      "price": 150,
+      "type": "Basic"
+    },
+    "538": {
+      "name": "Alamite",
+      "spriteIndex": 538,
+      "category": "Gem",
+      "price": 150,
+      "type": "Minerals"
+    },
+    "539": {
+      "name": "Bixite",
+      "spriteIndex": 539,
+      "category": "Gem",
+      "price": 300,
+      "type": "Minerals"
+    },
+    "540": {
+      "name": "Baryte",
+      "spriteIndex": 540,
+      "category": "Gem",
+      "price": 50,
+      "type": "Minerals"
+    },
+    "541": {
+      "name": "Aerinite",
+      "spriteIndex": 541,
+      "category": "Gem",
+      "price": 125,
+      "type": "Minerals"
+    },
+    "542": {
+      "name": "Calcite",
+      "spriteIndex": 542,
+      "category": "Gem",
+      "price": 75,
+      "type": "Minerals"
+    },
+    "543": {
+      "name": "Dolomite",
+      "spriteIndex": 543,
+      "category": "Gem",
+      "price": 300,
+      "type": "Minerals"
+    },
+    "544": {
+      "name": "Esperite",
+      "spriteIndex": 544,
+      "category": "Gem",
+      "price": 100,
+      "type": "Minerals"
+    },
+    "545": {
+      "name": "Fluorapatite",
+      "spriteIndex": 545,
+      "category": "Gem",
+      "price": 200,
+      "type": "Minerals"
+    },
+    "546": {
+      "name": "Geminite",
+      "spriteIndex": 546,
+      "category": "Gem",
+      "price": 150,
+      "type": "Minerals"
+    },
+    "547": {
+      "name": "Helvite",
+      "spriteIndex": 547,
+      "category": "Gem",
+      "price": 450,
+      "type": "Minerals"
+    },
+    "548": {
+      "name": "Jamborite",
+      "spriteIndex": 548,
+      "category": "Gem",
+      "price": 150,
+      "type": "Minerals"
+    },
+    "549": {
+      "name": "Jagoite",
+      "spriteIndex": 549,
+      "category": "Gem",
+      "price": 115,
+      "type": "Minerals"
+    },
+    "550": {
+      "name": "Kyanite",
+      "spriteIndex": 550,
+      "category": "Gem",
+      "price": 250,
+      "type": "Minerals"
+    },
+    "551": {
+      "name": "Lunarite",
+      "spriteIndex": 551,
+      "category": "Gem",
+      "price": 200,
+      "type": "Minerals"
+    },
+    "552": {
+      "name": "Malachite",
+      "spriteIndex": 552,
+      "category": "Gem",
+      "price": 100,
+      "type": "Minerals"
+    },
+    "553": {
+      "name": "Neptunite",
+      "spriteIndex": 553,
+      "category": "Gem",
+      "price": 400,
+      "type": "Minerals"
+    },
+    "554": {
+      "name": "Lemon Stone",
+      "spriteIndex": 554,
+      "category": "Gem",
+      "price": 200,
+      "type": "Minerals"
+    },
+    "555": {
+      "name": "Nekoite",
+      "spriteIndex": 555,
+      "category": "Gem",
+      "price": 80,
+      "type": "Minerals"
+    },
+    "556": {
+      "name": "Orpiment",
+      "spriteIndex": 556,
+      "category": "Gem",
+      "price": 80,
+      "type": "Minerals"
+    },
+    "557": {
+      "name": "Petrified Slime",
+      "spriteIndex": 557,
+      "category": "Gem",
+      "price": 120,
+      "type": "Minerals"
+    },
+    "558": {
+      "name": "Thunder Egg",
+      "spriteIndex": 558,
+      "category": "Gem",
+      "price": 100,
+      "type": "Minerals"
+    },
+    "559": {
+      "name": "Pyrite",
+      "spriteIndex": 559,
+      "category": "Gem",
+      "price": 120,
+      "type": "Minerals"
+    },
+    "560": {
+      "name": "Ocean Stone",
+      "spriteIndex": 560,
+      "category": "Gem",
+      "price": 220,
+      "type": "Minerals"
+    },
+    "561": {
+      "name": "Ghost Crystal",
+      "spriteIndex": 561,
+      "category": "Gem",
+      "price": 200,
+      "type": "Minerals"
+    },
+    "562": {
+      "name": "Tigerseye",
+      "spriteIndex": 562,
+      "category": "Gem",
+      "price": 275,
+      "type": "Minerals"
+    },
+    "563": {
+      "name": "Jasper",
+      "spriteIndex": 563,
+      "category": "Gem",
+      "price": 150,
+      "type": "Minerals"
+    },
+    "564": {
+      "name": "Opal",
+      "spriteIndex": 564,
+      "category": "Gem",
+      "price": 150,
+      "type": "Minerals"
+    },
+    "565": {
+      "name": "Fire Opal",
+      "spriteIndex": 565,
+      "category": "Gem",
+      "price": 350,
+      "type": "Minerals"
+    },
+    "566": {
+      "name": "Celestine",
+      "spriteIndex": 566,
+      "category": "Gem",
+      "price": 125,
+      "type": "Minerals"
+    },
+    "567": {
+      "name": "Marble",
+      "spriteIndex": 567,
+      "category": "Gem",
+      "price": 110,
+      "type": "Minerals"
+    },
+    "568": {
+      "name": "Sandstone",
+      "spriteIndex": 568,
+      "category": "Gem",
+      "price": 60,
+      "type": "Minerals"
+    },
+    "569": {
+      "name": "Granite",
+      "spriteIndex": 569,
+      "category": "Gem",
+      "price": 75,
+      "type": "Minerals"
+    },
+    "570": {
+      "name": "Basalt",
+      "spriteIndex": 570,
+      "category": "Gem",
+      "price": 175,
+      "type": "Minerals"
+    },
+    "571": {
+      "name": "Limestone",
+      "spriteIndex": 571,
+      "category": "Gem",
+      "price": 15,
+      "type": "Minerals"
+    },
+    "572": {
+      "name": "Soapstone",
+      "spriteIndex": 572,
+      "category": "Gem",
+      "price": 120,
+      "type": "Minerals"
+    },
+    "573": {
+      "name": "Hematite",
+      "spriteIndex": 573,
+      "category": "Gem",
+      "price": 150,
+      "type": "Minerals"
+    },
+    "574": {
+      "name": "Mudstone",
+      "spriteIndex": 574,
+      "category": "Gem",
+      "price": 25,
+      "type": "Minerals"
+    },
+    "575": {
+      "name": "Obsidian",
+      "spriteIndex": 575,
+      "category": "Gem",
+      "price": 200,
+      "type": "Minerals"
+    },
+    "576": {
+      "name": "Slate",
+      "spriteIndex": 576,
+      "category": "Gem",
+      "price": 85,
+      "type": "Minerals"
+    },
+    "577": {
+      "name": "Fairy Stone",
+      "spriteIndex": 577,
+      "category": "Gem",
+      "price": 250,
+      "type": "Minerals"
+    },
+    "578": {
+      "name": "Star Shards",
+      "spriteIndex": 578,
+      "category": "Gem",
+      "price": 500,
+      "type": "Minerals"
+    },
+    "579": {
+      "name": "Prehistoric Scapula",
+      "spriteIndex": 579,
+      "category": "Basic",
+      "price": 100,
+      "type": "Arch"
+    },
+    "580": {
+      "name": "Prehistoric Tibia",
+      "spriteIndex": 580,
+      "category": "Basic",
+      "price": 100,
+      "type": "Arch"
+    },
+    "581": {
+      "name": "Prehistoric Skull",
+      "spriteIndex": 581,
+      "category": "Basic",
+      "price": 100,
+      "type": "Arch"
+    },
+    "582": {
+      "name": "Skeletal Hand",
+      "spriteIndex": 582,
+      "category": "Basic",
+      "price": 100,
+      "type": "Arch"
+    },
+    "583": {
+      "name": "Prehistoric Rib",
+      "spriteIndex": 583,
+      "category": "Basic",
+      "price": 100,
+      "type": "Arch"
+    },
+    "584": {
+      "name": "Prehistoric Vertebra",
+      "spriteIndex": 584,
+      "category": "Basic",
+      "price": 100,
+      "type": "Arch"
+    },
+    "585": {
+      "name": "Skeletal Tail",
+      "spriteIndex": 585,
+      "category": "Basic",
+      "price": 100,
+      "type": "Arch"
+    },
+    "586": {
+      "name": "Nautilus Fossil",
+      "spriteIndex": 586,
+      "category": "Basic",
+      "price": 80,
+      "type": "Arch"
+    },
+    "587": {
+      "name": "Amphibian Fossil",
+      "spriteIndex": 587,
+      "category": "Basic",
+      "price": 150,
+      "type": "Arch"
+    },
+    "588": {
+      "name": "Palm Fossil",
+      "spriteIndex": 588,
+      "category": "Basic",
+      "price": 100,
+      "type": "Arch"
+    },
+    "589": {
+      "name": "Trilobite",
+      "spriteIndex": 589,
+      "category": "Basic",
+      "price": 50,
+      "type": "Arch"
+    },
+    "590": {
+      "name": "Artifact Spot",
+      "spriteIndex": 590,
+      "category": "Basic",
+      "price": 0,
+      "type": "asdf"
+    },
+    "591": {
+      "name": "Tulip",
+      "spriteIndex": 591,
+      "category": "Flower",
+      "price": 30,
+      "type": "Basic"
+    },
+    "593": {
+      "name": "Summer Spangle",
+      "spriteIndex": 593,
+      "category": "Flower",
+      "price": 90,
+      "type": "Basic"
+    },
+    "595": {
+      "name": "Fairy Rose",
+      "spriteIndex": 595,
+      "category": "Flower",
+      "price": 290,
+      "type": "Basic"
+    },
+    "597": {
+      "name": "Blue Jazz",
+      "spriteIndex": 597,
+      "category": "Flower",
+      "price": 50,
+      "type": "Basic"
+    },
+    "599": {
+      "name": "Sprinkler",
+      "spriteIndex": 599,
+      "category": "Tackle",
+      "price": 100,
+      "type": "Crafting"
+    },
+    "376": {
+      "name": "Poppy",
+      "spriteIndex": 376,
+      "category": "Flower",
+      "price": 140,
+      "type": "Basic"
+    },
+    "604": {
+      "name": "Plum Pudding",
+      "spriteIndex": 604,
+      "category": "Bait",
+      "price": 260,
+      "type": "Cooking"
+    },
+    "605": {
+      "name": "Artichoke Dip",
+      "spriteIndex": 605,
+      "category": "Bait",
+      "price": 210,
+      "type": "Cooking"
+    },
+    "606": {
+      "name": "Stir Fry",
+      "spriteIndex": 606,
+      "category": "Bait",
+      "price": 335,
+      "type": "Cooking"
+    },
+    "607": {
+      "name": "Roasted Hazelnuts",
+      "spriteIndex": 607,
+      "category": "Bait",
+      "price": 270,
+      "type": "Cooking"
+    },
+    "608": {
+      "name": "Pumpkin Pie",
+      "spriteIndex": 608,
+      "category": "Bait",
+      "price": 385,
+      "type": "Cooking"
+    },
+    "609": {
+      "name": "Radish Salad",
+      "spriteIndex": 609,
+      "category": "Bait",
+      "price": 300,
+      "type": "Cooking"
+    },
+    "610": {
+      "name": "Fruit Salad",
+      "spriteIndex": 610,
+      "category": "Bait",
+      "price": 450,
+      "type": "Cooking"
+    },
+    "611": {
+      "name": "Blackberry Cobbler",
+      "spriteIndex": 611,
+      "category": "Bait",
+      "price": 260,
+      "type": "Cooking"
+    },
+    "612": {
+      "name": "Cranberry Candy",
+      "spriteIndex": 612,
+      "category": "Bait",
+      "price": 175,
+      "type": "Cooking"
+    },
+    "613": {
+      "name": "Apple",
+      "spriteIndex": 613,
+      "category": "Seed",
+      "price": 100,
+      "type": "Basic"
+    },
+    "614": {
+      "name": "Green Tea",
+      "spriteIndex": 614,
+      "category": "ArtisanGoods",
+      "price": 100,
+      "type": "Basic"
+    },
+    "618": {
+      "name": "Bruschetta",
+      "spriteIndex": 618,
+      "category": "Bait",
+      "price": 210,
+      "type": "Cooking"
+    },
+    "621": {
+      "name": "Quality Sprinkler",
+      "spriteIndex": 621,
+      "category": "Tackle",
+      "price": 450,
+      "type": "Crafting"
+    },
+    "645": {
+      "name": "Iridium Sprinkler",
+      "spriteIndex": 645,
+      "category": "Tackle",
+      "price": 1000,
+      "type": "Crafting"
+    },
+    "648": {
+      "name": "Coleslaw",
+      "spriteIndex": 648,
+      "category": "Bait",
+      "price": 345,
+      "type": "Cooking"
+    },
+    "649": {
+      "name": "Fiddlehead Risotto",
+      "spriteIndex": 649,
+      "category": "Bait",
+      "price": 350,
+      "type": "Cooking"
+    },
+    "651": {
+      "name": "Poppyseed Muffin",
+      "spriteIndex": 651,
+      "category": "Bait",
+      "price": 250,
+      "type": "Cooking"
+    },
+    "628": {
+      "name": "Cherry Sapling",
+      "spriteIndex": 628,
+      "category": "Egg",
+      "price": 850,
+      "type": "Basic"
+    },
+    "629": {
+      "name": "Apricot Sapling",
+      "spriteIndex": 629,
+      "category": "Egg",
+      "price": 500,
+      "type": "Basic"
+    },
+    "630": {
+      "name": "Orange Sapling",
+      "spriteIndex": 630,
+      "category": "Egg",
+      "price": 1000,
+      "type": "Basic"
+    },
+    "631": {
+      "name": "Peach Sapling",
+      "spriteIndex": 631,
+      "category": "Egg",
+      "price": 1500,
+      "type": "Basic"
+    },
+    "632": {
+      "name": "Pomegranate Sapling",
+      "spriteIndex": 632,
+      "category": "Egg",
+      "price": 1500,
+      "type": "Basic"
+    },
+    "633": {
+      "name": "Apple Sapling",
+      "spriteIndex": 633,
+      "category": "Egg",
+      "price": 1000,
+      "type": "Basic"
+    },
+    "634": {
+      "name": "Apricot",
+      "spriteIndex": 634,
+      "category": "Seed",
+      "price": 50,
+      "type": "Basic"
+    },
+    "635": {
+      "name": "Orange",
+      "spriteIndex": 635,
+      "category": "Seed",
+      "price": 100,
+      "type": "Basic"
+    },
+    "636": {
+      "name": "Peach",
+      "spriteIndex": 636,
+      "category": "Seed",
+      "price": 140,
+      "type": "Basic"
+    },
+    "637": {
+      "name": "Pomegranate",
+      "spriteIndex": 637,
+      "category": "Seed",
+      "price": 140,
+      "type": "Basic"
+    },
+    "638": {
+      "name": "Cherry",
+      "spriteIndex": 638,
+      "category": "Seed",
+      "price": 80,
+      "type": "Basic"
+    },
+    "674": {
+      "name": "Weeds",
+      "spriteIndex": 674,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "675": {
+      "name": "Weeds",
+      "spriteIndex": 675,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "676": {
+      "name": "Weeds",
+      "spriteIndex": 676,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "677": {
+      "name": "Weeds",
+      "spriteIndex": 677,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "678": {
+      "name": "Weeds",
+      "spriteIndex": 678,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "679": {
+      "name": "Weeds",
+      "spriteIndex": 679,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "680": {
+      "name": "Green Slime Egg",
+      "spriteIndex": 680,
+      "category": "Basic",
+      "price": 1000,
+      "type": "Basic"
+    },
+    "681": {
+      "name": "Rain Totem",
+      "spriteIndex": 681,
+      "category": "Basic",
+      "price": 20,
+      "type": "Crafting"
+    },
+    "682": {
+      "name": "Mutant Carp",
+      "spriteIndex": 682,
+      "category": "Fertilizer",
+      "price": 1000,
+      "type": "Fish"
+    },
+    "684": {
+      "name": "Bug Meat",
+      "spriteIndex": 684,
+      "category": "Category_-28",
+      "price": 8,
+      "type": "Basic"
+    },
+    "685": {
+      "name": "Bait",
+      "spriteIndex": 685,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Basic"
+    },
+    "686": {
+      "name": "Spinner",
+      "spriteIndex": 686,
+      "category": "Minerals",
+      "price": 250,
+      "type": "Basic"
+    },
+    "687": {
+      "name": "Dressed Spinner",
+      "spriteIndex": 687,
+      "category": "Minerals",
+      "price": 500,
+      "type": "Basic"
+    },
+    "688": {
+      "name": "Warp Totem: Farm",
+      "spriteIndex": 688,
+      "category": "Basic",
+      "price": 20,
+      "type": "Crafting"
+    },
+    "689": {
+      "name": "Warp Totem: Mountains",
+      "spriteIndex": 689,
+      "category": "Basic",
+      "price": 20,
+      "type": "Crafting"
+    },
+    "690": {
+      "name": "Warp Totem: Beach",
+      "spriteIndex": 690,
+      "category": "Basic",
+      "price": 20,
+      "type": "Crafting"
+    },
+    "691": {
+      "name": "Barbed Hook",
+      "spriteIndex": 691,
+      "category": "Minerals",
+      "price": 500,
+      "type": "Basic"
+    },
+    "692": {
+      "name": "Lead Bobber",
+      "spriteIndex": 692,
+      "category": "Minerals",
+      "price": 150,
+      "type": "Basic"
+    },
+    "693": {
+      "name": "Treasure Hunter",
+      "spriteIndex": 693,
+      "category": "Minerals",
+      "price": 250,
+      "type": "Basic"
+    },
+    "694": {
+      "name": "Trap Bobber",
+      "spriteIndex": 694,
+      "category": "Minerals",
+      "price": 200,
+      "type": "Basic"
+    },
+    "695": {
+      "name": "Cork Bobber",
+      "spriteIndex": 695,
+      "category": "Minerals",
+      "price": 250,
+      "type": "Basic"
+    },
+    "698": {
+      "name": "Sturgeon",
+      "spriteIndex": 698,
+      "category": "Fertilizer",
+      "price": 200,
+      "type": "Fish"
+    },
+    "699": {
+      "name": "Tiger Trout",
+      "spriteIndex": 699,
+      "category": "Fertilizer",
+      "price": 150,
+      "type": "Fish"
+    },
+    "700": {
+      "name": "Bullhead",
+      "spriteIndex": 700,
+      "category": "Fertilizer",
+      "price": 75,
+      "type": "Fish"
+    },
+    "701": {
+      "name": "Tilapia",
+      "spriteIndex": 701,
+      "category": "Fertilizer",
+      "price": 75,
+      "type": "Fish"
+    },
+    "702": {
+      "name": "Chub",
+      "spriteIndex": 702,
+      "category": "Fertilizer",
+      "price": 50,
+      "type": "Fish"
+    },
+    "703": {
+      "name": "Magnet",
+      "spriteIndex": 703,
+      "category": "Minerals",
+      "price": 15,
+      "type": "Basic"
+    },
+    "704": {
+      "name": "Dorado",
+      "spriteIndex": 704,
+      "category": "Fertilizer",
+      "price": 100,
+      "type": "Fish"
+    },
+    "705": {
+      "name": "Albacore",
+      "spriteIndex": 705,
+      "category": "Fertilizer",
+      "price": 75,
+      "type": "Fish"
+    },
+    "706": {
+      "name": "Shad",
+      "spriteIndex": 706,
+      "category": "Fertilizer",
+      "price": 60,
+      "type": "Fish"
+    },
+    "707": {
+      "name": "Lingcod",
+      "spriteIndex": 707,
+      "category": "Fertilizer",
+      "price": 120,
+      "type": "Fish"
+    },
+    "708": {
+      "name": "Halibut",
+      "spriteIndex": 708,
+      "category": "Fertilizer",
+      "price": 80,
+      "type": "Fish"
+    },
+    "709": {
+      "name": "Hardwood",
+      "spriteIndex": 709,
+      "category": "Minerals",
+      "price": 15,
+      "type": "Basic"
+    },
+    "710": {
+      "name": "Crab Pot",
+      "spriteIndex": 710,
+      "category": "Basic",
+      "price": 50,
+      "type": "Crafting"
+    },
+    "715": {
+      "name": "Lobster",
+      "spriteIndex": 715,
+      "category": "Fertilizer",
+      "price": 120,
+      "type": "Fish"
+    },
+    "716": {
+      "name": "Crayfish",
+      "spriteIndex": 716,
+      "category": "Fertilizer",
+      "price": 75,
+      "type": "Fish"
+    },
+    "717": {
+      "name": "Crab",
+      "spriteIndex": 717,
+      "category": "Fertilizer",
+      "price": 100,
+      "type": "Fish"
+    },
+    "718": {
+      "name": "Cockle",
+      "spriteIndex": 718,
+      "category": "Fertilizer",
+      "price": 50,
+      "type": "Fish"
+    },
+    "719": {
+      "name": "Mussel",
+      "spriteIndex": 719,
+      "category": "Fertilizer",
+      "price": 30,
+      "type": "Fish"
+    },
+    "720": {
+      "name": "Shrimp",
+      "spriteIndex": 720,
+      "category": "Fertilizer",
+      "price": 60,
+      "type": "Fish"
+    },
+    "721": {
+      "name": "Snail",
+      "spriteIndex": 721,
+      "category": "Fertilizer",
+      "price": 65,
+      "type": "Fish"
+    },
+    "722": {
+      "name": "Periwinkle",
+      "spriteIndex": 722,
+      "category": "Fertilizer",
+      "price": 20,
+      "type": "Fish"
+    },
+    "723": {
+      "name": "Oyster",
+      "spriteIndex": 723,
+      "category": "Fertilizer",
+      "price": 40,
+      "type": "Fish"
+    },
+    "724": {
+      "name": "Maple Syrup",
+      "spriteIndex": 724,
+      "category": "ArtisanGoods",
+      "price": 200,
+      "type": "Basic"
+    },
+    "725": {
+      "name": "Oak Resin",
+      "spriteIndex": 725,
+      "category": "ArtisanGoods",
+      "price": 150,
+      "type": "Basic"
+    },
+    "726": {
+      "name": "Pine Tar",
+      "spriteIndex": 726,
+      "category": "ArtisanGoods",
+      "price": 100,
+      "type": "Basic"
+    },
+    "727": {
+      "name": "Chowder",
+      "spriteIndex": 727,
+      "category": "Bait",
+      "price": 135,
+      "type": "Cooking"
+    },
+    "730": {
+      "name": "Lobster Bisque",
+      "spriteIndex": 730,
+      "category": "Bait",
+      "price": 205,
+      "type": "Cooking"
+    },
+    "728": {
+      "name": "Fish Stew",
+      "spriteIndex": 728,
+      "category": "Bait",
+      "price": 175,
+      "type": "Cooking"
+    },
+    "729": {
+      "name": "Escargot",
+      "spriteIndex": 729,
+      "category": "Bait",
+      "price": 125,
+      "type": "Cooking"
+    },
+    "731": {
+      "name": "Maple Bar",
+      "spriteIndex": 731,
+      "category": "Bait",
+      "price": 300,
+      "type": "Cooking"
+    },
+    "732": {
+      "name": "Crab Cakes",
+      "spriteIndex": 732,
+      "category": "Bait",
+      "price": 275,
+      "type": "Cooking"
+    },
+    "733": {
+      "name": "Shrimp Cocktail",
+      "spriteIndex": 733,
+      "category": "Bait",
+      "price": 160,
+      "type": "Cooking"
+    },
+    "734": {
+      "name": "Woodskip",
+      "spriteIndex": 734,
+      "category": "Fertilizer",
+      "price": 75,
+      "type": "Fish"
+    },
+    "742": {
+      "name": "Haley's Lost Bracelet",
+      "spriteIndex": 742,
+      "category": "Basic",
+      "price": 0,
+      "type": "Quest"
+    },
+    "745": {
+      "name": "Strawberry Seeds",
+      "spriteIndex": 745,
+      "category": "Egg",
+      "price": 0,
+      "type": "Seeds"
+    },
+    "746": {
+      "name": "Jack-O-Lantern",
+      "spriteIndex": 746,
+      "category": "Tackle",
+      "price": 0,
+      "type": "Crafting"
+    },
+    "747": {
+      "name": "Rotten Plant",
+      "spriteIndex": 747,
+      "category": "Minerals",
+      "price": 0,
+      "type": "Basic"
+    },
+    "748": {
+      "name": "Rotten Plant",
+      "spriteIndex": 748,
+      "category": "Minerals",
+      "price": 0,
+      "type": "Basic"
+    },
+    "749": {
+      "name": "Omni Geode",
+      "spriteIndex": 749,
+      "category": "Basic",
+      "price": 0,
+      "type": "Basic"
+    },
+    "750": {
+      "name": "Weeds",
+      "spriteIndex": 750,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "766": {
+      "name": "Slime",
+      "spriteIndex": 766,
+      "category": "Category_-28",
+      "price": 5,
+      "type": "Basic"
+    },
+    "767": {
+      "name": "Bat Wing",
+      "spriteIndex": 767,
+      "category": "Category_-28",
+      "price": 15,
+      "type": "Basic"
+    },
+    "768": {
+      "name": "Solar Essence",
+      "spriteIndex": 768,
+      "category": "Category_-28",
+      "price": 40,
+      "type": "Basic"
+    },
+    "769": {
+      "name": "Void Essence",
+      "spriteIndex": 769,
+      "category": "Category_-28",
+      "price": 50,
+      "type": "Basic"
+    },
+    "770": {
+      "name": "Mixed Seeds",
+      "spriteIndex": 770,
+      "category": "Egg",
+      "price": 0,
+      "type": "Seeds"
+    },
+    "771": {
+      "name": "Fiber",
+      "spriteIndex": 771,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Basic"
+    },
+    "772": {
+      "name": "Oil of Garlic",
+      "spriteIndex": 772,
+      "category": "Bait",
+      "price": 1000,
+      "type": "Cooking"
+    },
+    "773": {
+      "name": "Life Elixir",
+      "spriteIndex": 773,
+      "category": "Bait",
+      "price": 250,
+      "type": "Cooking"
+    },
+    "774": {
+      "name": "Wild Bait",
+      "spriteIndex": 774,
+      "category": "Minerals",
+      "price": 15,
+      "type": "Basic"
+    },
+    "775": {
+      "name": "Glacierfish",
+      "spriteIndex": 775,
+      "category": "Fertilizer",
+      "price": 1000,
+      "type": "Fish"
+    },
+    "784": {
+      "name": "Weeds",
+      "spriteIndex": 784,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "785": {
+      "name": "Weeds",
+      "spriteIndex": 785,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "786": {
+      "name": "Weeds",
+      "spriteIndex": 786,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "787": {
+      "name": "Battery Pack",
+      "spriteIndex": 787,
+      "category": "Minerals",
+      "price": 500,
+      "type": "Basic"
+    },
+    "788": {
+      "name": "Lost Axe",
+      "spriteIndex": 788,
+      "category": "Basic",
+      "price": 0,
+      "type": "Quest"
+    },
+    "789": {
+      "name": "Lucky Purple Shorts",
+      "spriteIndex": 789,
+      "category": "Basic",
+      "price": 0,
+      "type": "Quest"
+    },
+    "790": {
+      "name": "Berry Basket",
+      "spriteIndex": 790,
+      "category": "Basic",
+      "price": 0,
+      "type": "Quest"
+    },
+    "792": {
+      "name": "Weeds",
+      "spriteIndex": 792,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "793": {
+      "name": "Weeds",
+      "spriteIndex": 793,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "794": {
+      "name": "Weeds",
+      "spriteIndex": 794,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "795": {
+      "name": "Void Salmon",
+      "spriteIndex": 795,
+      "category": "Fertilizer",
+      "price": 150,
+      "type": "Fish"
+    },
+    "796": {
+      "name": "Slimejack",
+      "spriteIndex": 796,
+      "category": "Fertilizer",
+      "price": 100,
+      "type": "Fish"
+    },
+    "797": {
+      "name": "Pearl",
+      "spriteIndex": 797,
+      "category": "Basic",
+      "price": 2500,
+      "type": "Basic"
+    },
+    "798": {
+      "name": "Midnight Squid",
+      "spriteIndex": 798,
+      "category": "Fertilizer",
+      "price": 100,
+      "type": "Fish"
+    },
+    "799": {
+      "name": "Spook Fish",
+      "spriteIndex": 799,
+      "category": "Fertilizer",
+      "price": 220,
+      "type": "Fish"
+    },
+    "800": {
+      "name": "Blobfish",
+      "spriteIndex": 800,
+      "category": "Fertilizer",
+      "price": 500,
+      "type": "Fish"
+    },
+    "801": {
+      "name": "Wedding Ring",
+      "spriteIndex": 801,
+      "category": "Basic",
+      "price": 2000,
+      "type": "Ring"
+    },
+    "802": {
+      "name": "Cactus Seeds",
+      "spriteIndex": 802,
+      "category": "Egg",
+      "price": 0,
+      "type": "Seeds"
+    },
+    "803": {
+      "name": "Iridium Milk",
+      "spriteIndex": 803,
+      "category": "Basic",
+      "price": 0,
+      "type": "Basic"
+    },
+    "805": {
+      "name": "Tree Fertilizer",
+      "spriteIndex": 805,
+      "category": "Minerals",
+      "price": 10,
+      "type": "Basic"
+    },
+    "807": {
+      "name": "Dinosaur Mayonnaise",
+      "spriteIndex": 807,
+      "category": "ArtisanGoods",
+      "price": 800,
+      "type": "Basic"
+    },
+    "808": {
+      "name": "Void Ghost Pendant",
+      "spriteIndex": 808,
+      "category": "Basic",
+      "price": 4500,
+      "type": "Basic"
+    },
+    "809": {
+      "name": "Movie Ticket",
+      "spriteIndex": 809,
+      "category": "Basic",
+      "price": 500,
+      "type": "Basic"
+    },
+    "810": {
+      "name": "Crabshell Ring",
+      "spriteIndex": 810,
+      "category": "Basic",
+      "price": 2000,
+      "type": "Ring"
+    },
+    "811": {
+      "name": "Napalm Ring",
+      "spriteIndex": 811,
+      "category": "Basic",
+      "price": 2000,
+      "type": "Ring"
+    },
+    "812": {
+      "name": "Roe",
+      "spriteIndex": 812,
+      "category": "Minerals",
+      "price": 30,
+      "type": "Basic"
+    },
+    "445": {
+      "name": "Caviar",
+      "spriteIndex": 445,
+      "category": "ArtisanGoods",
+      "price": 500,
+      "type": "Basic"
+    },
+    "814": {
+      "name": "Squid Ink",
+      "spriteIndex": 814,
+      "category": "Minerals",
+      "price": 110,
+      "type": "Basic"
+    },
+    "815": {
+      "name": "Tea Leaves",
+      "spriteIndex": 815,
+      "category": "Fruit",
+      "price": 50,
+      "type": "Basic"
+    },
+    "267": {
+      "name": "Flounder",
+      "spriteIndex": 267,
+      "category": "Fertilizer",
+      "price": 100,
+      "type": "Fish"
+    },
+    "265": {
+      "name": "Seafoam Pudding",
+      "spriteIndex": 265,
+      "category": "Bait",
+      "price": 300,
+      "type": "Cooking"
+    },
+    "269": {
+      "name": "Midnight Carp",
+      "spriteIndex": 269,
+      "category": "Fertilizer",
+      "price": 150,
+      "type": "Fish"
+    },
+    "292": {
+      "name": "Mahogany Seed",
+      "spriteIndex": 292,
+      "category": "Egg",
+      "price": 100,
+      "type": "Crafting"
+    },
+    "289": {
+      "name": "Ostrich Egg",
+      "spriteIndex": 289,
+      "category": "Fertilizer",
+      "price": 600,
+      "type": "Basic"
+    },
+    "73": {
+      "name": "Golden Walnut",
+      "spriteIndex": 73,
+      "category": "Basic",
+      "price": 250,
+      "type": "Basic"
+    },
+    "69": {
+      "name": "Banana Sapling",
+      "spriteIndex": 69,
+      "category": "Egg",
+      "price": 850,
+      "type": "Basic"
+    },
+    "91": {
+      "name": "Banana",
+      "spriteIndex": 91,
+      "category": "Seed",
+      "price": 150,
+      "type": "Basic"
+    },
+    "791": {
+      "name": "Golden Coconut",
+      "spriteIndex": 791,
+      "category": "Basic",
+      "price": 0,
+      "type": "Quest"
+    },
+    "820": {
+      "name": "Fossilized Skull",
+      "spriteIndex": 820,
+      "category": "Basic",
+      "price": 100,
+      "type": "Basic"
+    },
+    "821": {
+      "name": "Fossilized Spine",
+      "spriteIndex": 821,
+      "category": "Basic",
+      "price": 100,
+      "type": "Basic"
+    },
+    "822": {
+      "name": "Fossilized Tail",
+      "spriteIndex": 822,
+      "category": "Basic",
+      "price": 100,
+      "type": "Basic"
+    },
+    "823": {
+      "name": "Fossilized Leg",
+      "spriteIndex": 823,
+      "category": "Basic",
+      "price": 100,
+      "type": "Basic"
+    },
+    "824": {
+      "name": "Fossilized Ribs",
+      "spriteIndex": 824,
+      "category": "Basic",
+      "price": 100,
+      "type": "Basic"
+    },
+    "825": {
+      "name": "Snake Skull",
+      "spriteIndex": 825,
+      "category": "Basic",
+      "price": 100,
+      "type": "Basic"
+    },
+    "826": {
+      "name": "Snake Vertebrae",
+      "spriteIndex": 826,
+      "category": "Basic",
+      "price": 100,
+      "type": "Basic"
+    },
+    "827": {
+      "name": "Mummified Bat",
+      "spriteIndex": 827,
+      "category": "Basic",
+      "price": 100,
+      "type": "Basic"
+    },
+    "828": {
+      "name": "Mummified Frog",
+      "spriteIndex": 828,
+      "category": "Basic",
+      "price": 100,
+      "type": "Basic"
+    },
+    "829": {
+      "name": "Ginger",
+      "spriteIndex": 829,
+      "category": "Basic",
+      "price": 60,
+      "type": "Basic"
+    },
+    "830": {
+      "name": "Taro Root",
+      "spriteIndex": 830,
+      "category": "Fruit",
+      "price": 100,
+      "type": "Basic"
+    },
+    "831": {
+      "name": "Taro Tuber",
+      "spriteIndex": 831,
+      "category": "Egg",
+      "price": 20,
+      "type": "Seeds"
+    },
+    "832": {
+      "name": "Pineapple",
+      "spriteIndex": 832,
+      "category": "Seed",
+      "price": 300,
+      "type": "Basic"
+    },
+    "833": {
+      "name": "Pineapple Seeds",
+      "spriteIndex": 833,
+      "category": "Egg",
+      "price": 240,
+      "type": "Seeds"
+    },
+    "834": {
+      "name": "Mango",
+      "spriteIndex": 834,
+      "category": "Seed",
+      "price": 130,
+      "type": "Basic"
+    },
+    "835": {
+      "name": "Mango Sapling",
+      "spriteIndex": 835,
+      "category": "Egg",
+      "price": 850,
+      "type": "Basic"
+    },
+    "836": {
+      "name": "Stingray",
+      "spriteIndex": 836,
+      "category": "Fertilizer",
+      "price": 180,
+      "type": "Fish"
+    },
+    "837": {
+      "name": "Lionfish",
+      "spriteIndex": 837,
+      "category": "Fertilizer",
+      "price": 100,
+      "type": "Fish"
+    },
+    "838": {
+      "name": "Blue Discus",
+      "spriteIndex": 838,
+      "category": "Fertilizer",
+      "price": 120,
+      "type": "Fish"
+    },
+    "839": {
+      "name": "Thorns Ring",
+      "spriteIndex": 839,
+      "category": "Basic",
+      "price": 200,
+      "type": "Ring"
+    },
+    "840": {
+      "name": "Rustic Plank Floor",
+      "spriteIndex": 840,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "841": {
+      "name": "Stone Walkway Floor",
+      "spriteIndex": 841,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "842": {
+      "name": "Journal Scrap",
+      "spriteIndex": 842,
+      "category": "Basic",
+      "price": 1,
+      "type": "asdf"
+    },
+    "848": {
+      "name": "Cinder Shard",
+      "spriteIndex": 848,
+      "category": "Meat",
+      "price": 50,
+      "type": "Basic"
+    },
+    "851": {
+      "name": "Magma Cap",
+      "spriteIndex": 851,
+      "category": "Basic",
+      "price": 400,
+      "type": "Basic"
+    },
+    "852": {
+      "name": "Dragon Tooth",
+      "spriteIndex": 852,
+      "category": "Basic",
+      "price": 500,
+      "type": "Basic"
+    },
+    "856": {
+      "name": "Curiosity Lure",
+      "spriteIndex": 856,
+      "category": "Minerals",
+      "price": 500,
+      "type": "Basic"
+    },
+    "857": {
+      "name": "Tiger Slime Egg",
+      "spriteIndex": 857,
+      "category": "Basic",
+      "price": 8000,
+      "type": "Basic"
+    },
+    "858": {
+      "name": "Qi Gem",
+      "spriteIndex": 858,
+      "category": "Basic",
+      "price": 250,
+      "type": "Basic"
+    },
+    "859": {
+      "name": "Lucky Ring",
+      "spriteIndex": 859,
+      "category": "Basic",
+      "price": 200,
+      "type": "Ring"
+    },
+    "860": {
+      "name": "Hot Java Ring",
+      "spriteIndex": 860,
+      "category": "Basic",
+      "price": 200,
+      "type": "Ring"
+    },
+    "861": {
+      "name": "Protection Ring",
+      "spriteIndex": 861,
+      "category": "Basic",
+      "price": 200,
+      "type": "Ring"
+    },
+    "862": {
+      "name": "Soul Sapper Ring",
+      "spriteIndex": 862,
+      "category": "Basic",
+      "price": 200,
+      "type": "Ring"
+    },
+    "863": {
+      "name": "Phoenix Ring",
+      "spriteIndex": 863,
+      "category": "Basic",
+      "price": 200,
+      "type": "Ring"
+    },
+    "864": {
+      "name": "War Memento",
+      "spriteIndex": 864,
+      "category": "Basic",
+      "price": 0,
+      "type": "Quest"
+    },
+    "865": {
+      "name": "Gourmet Tomato Salt",
+      "spriteIndex": 865,
+      "category": "Basic",
+      "price": 0,
+      "type": "Quest"
+    },
+    "866": {
+      "name": "Stardew Valley Rose",
+      "spriteIndex": 866,
+      "category": "Basic",
+      "price": 0,
+      "type": "Quest"
+    },
+    "867": {
+      "name": "Advanced TV Remote",
+      "spriteIndex": 867,
+      "category": "Basic",
+      "price": 0,
+      "type": "Quest"
+    },
+    "868": {
+      "name": "Arctic Shard",
+      "spriteIndex": 868,
+      "category": "Basic",
+      "price": 0,
+      "type": "Quest"
+    },
+    "869": {
+      "name": "Wriggling Worm",
+      "spriteIndex": 869,
+      "category": "Basic",
+      "price": 0,
+      "type": "Quest"
+    },
+    "870": {
+      "name": "Pirate's Locket",
+      "spriteIndex": 870,
+      "category": "Basic",
+      "price": 0,
+      "type": "Quest"
+    },
+    "872": {
+      "name": "Fairy Dust",
+      "spriteIndex": 872,
+      "category": "Basic",
+      "price": 300,
+      "type": "Basic"
+    },
+    "873": {
+      "name": "Piña Colada",
+      "spriteIndex": 873,
+      "category": "Bait",
+      "price": 300,
+      "type": "Cooking"
+    },
+    "874": {
+      "name": "Bug Steak",
+      "spriteIndex": 874,
+      "category": "Basic",
+      "price": 50,
+      "type": "Crafting"
+    },
+    "875": {
+      "name": "Ectoplasm",
+      "spriteIndex": 875,
+      "category": "Basic",
+      "price": 0,
+      "type": "Quest"
+    },
+    "876": {
+      "name": "Prismatic Jelly",
+      "spriteIndex": 876,
+      "category": "Basic",
+      "price": 0,
+      "type": "Quest"
+    },
+    "877": {
+      "name": "Quality Bobber",
+      "spriteIndex": 877,
+      "category": "Minerals",
+      "price": 300,
+      "type": "Basic"
+    },
+    "879": {
+      "name": "Monster Musk",
+      "spriteIndex": 879,
+      "category": "Basic",
+      "price": 50,
+      "type": "Crafting"
+    },
+    "880": {
+      "name": "Combined Ring",
+      "spriteIndex": 880,
+      "category": "Basic",
+      "price": 100,
+      "type": "Ring"
+    },
+    "881": {
+      "name": "Bone Fragment",
+      "spriteIndex": 881,
+      "category": "Meat",
+      "price": 12,
+      "type": "Basic"
+    },
+    "882": {
+      "name": "Weeds",
+      "spriteIndex": 882,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "883": {
+      "name": "Weeds",
+      "spriteIndex": 883,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "884": {
+      "name": "Weeds",
+      "spriteIndex": 884,
+      "category": "Litter",
+      "price": 0,
+      "type": "Litter"
+    },
+    "885": {
+      "name": "Fiber Seeds",
+      "spriteIndex": 885,
+      "category": "Egg",
+      "price": 5,
+      "type": "Seeds"
+    },
+    "886": {
+      "name": "Warp Totem: Island",
+      "spriteIndex": 886,
+      "category": "Basic",
+      "price": 20,
+      "type": "Crafting"
+    },
+    "887": {
+      "name": "Immunity Band",
+      "spriteIndex": 887,
+      "category": "Basic",
+      "price": 500,
+      "type": "Ring"
+    },
+    "888": {
+      "name": "Glowstone Ring",
+      "spriteIndex": 888,
+      "category": "Basic",
+      "price": 200,
+      "type": "Ring"
+    },
+    "889": {
+      "name": "Qi Fruit",
+      "spriteIndex": 889,
+      "category": "Seed",
+      "price": 1,
+      "type": "Basic"
+    },
+    "890": {
+      "name": "Qi Bean",
+      "spriteIndex": 890,
+      "category": "Egg",
+      "price": 1,
+      "type": "Seeds"
+    },
+    "891": {
+      "name": "Mushroom Tree Seed",
+      "spriteIndex": 891,
+      "category": "Egg",
+      "price": 100,
+      "type": "Crafting"
+    },
+    "892": {
+      "name": "Warp Totem: Qi's Arena",
+      "spriteIndex": 892,
+      "category": "Basic",
+      "price": 20,
+      "type": "Crafting"
+    },
+    "893": {
+      "name": "Fireworks (Red)",
+      "spriteIndex": 893,
+      "category": "Tackle",
+      "price": 50,
+      "type": "Crafting"
+    },
+    "894": {
+      "name": "Fireworks (Purple)",
+      "spriteIndex": 894,
+      "category": "Tackle",
+      "price": 50,
+      "type": "Crafting"
+    },
+    "895": {
+      "name": "Fireworks (Green)",
+      "spriteIndex": 895,
+      "category": "Tackle",
+      "price": 50,
+      "type": "Crafting"
+    },
+    "896": {
+      "name": "Galaxy Soul",
+      "spriteIndex": 896,
+      "category": "Basic",
+      "price": 5000,
+      "type": "Crafting"
+    },
+    "897": {
+      "name": "Pierre's Missing Stocklist",
+      "spriteIndex": 897,
+      "category": "Basic",
+      "price": 0,
+      "type": "Quest"
+    },
+    "898": {
+      "name": "Son of Crimsonfish",
+      "spriteIndex": 898,
+      "category": "Fertilizer",
+      "price": 1500,
+      "type": "Fish"
+    },
+    "899": {
+      "name": "Ms. Angler",
+      "spriteIndex": 899,
+      "category": "Fertilizer",
+      "price": 900,
+      "type": "Fish"
+    },
+    "900": {
+      "name": "Legend II",
+      "spriteIndex": 900,
+      "category": "Fertilizer",
+      "price": 5000,
+      "type": "Fish"
+    },
+    "901": {
+      "name": "Radioactive Carp",
+      "spriteIndex": 901,
+      "category": "Fertilizer",
+      "price": 1000,
+      "type": "Fish"
+    },
+    "902": {
+      "name": "Glacierfish Jr.",
+      "spriteIndex": 902,
+      "category": "Fertilizer",
+      "price": 1000,
+      "type": "Fish"
+    },
+    "903": {
+      "name": "Ginger Ale",
+      "spriteIndex": 903,
+      "category": "Bait",
+      "price": 200,
+      "type": "Cooking"
+    },
+    "904": {
+      "name": "Banana Pudding",
+      "spriteIndex": 904,
+      "category": "Bait",
+      "price": 260,
+      "type": "Cooking"
+    },
+    "905": {
+      "name": "Mango Sticky Rice",
+      "spriteIndex": 905,
+      "category": "Bait",
+      "price": 250,
+      "type": "Cooking"
+    },
+    "906": {
+      "name": "Poi",
+      "spriteIndex": 906,
+      "category": "Bait",
+      "price": 400,
+      "type": "Cooking"
+    },
+    "907": {
+      "name": "Tropical Curry",
+      "spriteIndex": 907,
+      "category": "Bait",
+      "price": 500,
+      "type": "Cooking"
+    },
+    "908": {
+      "name": "Magic Bait",
+      "spriteIndex": 908,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Basic"
+    },
+    "909": {
+      "name": "Radioactive Ore",
+      "spriteIndex": 909,
+      "category": "Meat",
+      "price": 300,
+      "type": "Basic"
+    },
+    "910": {
+      "name": "Radioactive Bar",
+      "spriteIndex": 910,
+      "category": "Meat",
+      "price": 3000,
+      "type": "Basic"
+    },
+    "911": {
+      "name": "Horse Flute",
+      "spriteIndex": 911,
+      "category": "Basic",
+      "price": 3000,
+      "type": "Crafting"
+    },
+    "913": {
+      "name": "Enricher",
+      "spriteIndex": 913,
+      "category": "Basic",
+      "price": 200,
+      "type": "Basic"
+    },
+    "915": {
+      "name": "Pressure Nozzle",
+      "spriteIndex": 915,
+      "category": "Basic",
+      "price": 200,
+      "type": "Basic"
+    },
+    "917": {
+      "name": "Qi Seasoning",
+      "spriteIndex": 917,
+      "category": "Basic",
+      "price": 200,
+      "type": "Basic"
+    },
+    "918": {
+      "name": "Hyper Speed-Gro",
+      "spriteIndex": 918,
+      "category": "Minerals",
+      "price": 70,
+      "type": "Basic"
+    },
+    "919": {
+      "name": "Deluxe Fertilizer",
+      "spriteIndex": 919,
+      "category": "Minerals",
+      "price": 70,
+      "type": "Basic"
+    },
+    "920": {
+      "name": "Deluxe Retaining Soil",
+      "spriteIndex": 920,
+      "category": "Minerals",
+      "price": 30,
+      "type": "Basic"
+    },
+    "921": {
+      "name": "Squid Ink Ravioli",
+      "spriteIndex": 921,
+      "category": "Bait",
+      "price": 150,
+      "type": "Cooking"
+    },
+    "922": {
+      "name": "SupplyCrate",
+      "spriteIndex": 922,
+      "category": "Basic",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "923": {
+      "name": "SupplyCrate",
+      "spriteIndex": 923,
+      "category": "Basic",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "924": {
+      "name": "SupplyCrate",
+      "spriteIndex": 924,
+      "category": "Basic",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "925": {
+      "name": "Slime Crate",
+      "spriteIndex": 925,
+      "category": "Basic",
+      "price": 3000,
+      "type": "Crafting"
+    },
+    "926": {
+      "name": "Cookout Kit",
+      "spriteIndex": 926,
+      "category": "Basic",
+      "price": 80,
+      "type": "Crafting"
+    },
+    "927": {
+      "name": "Camping Stove",
+      "spriteIndex": 927,
+      "category": "Basic",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "928": {
+      "name": "Golden Egg",
+      "spriteIndex": 928,
+      "category": "Fertilizer",
+      "price": 500,
+      "type": "Basic"
+    },
+    "929": {
+      "name": "Hedge",
+      "spriteIndex": 929,
+      "category": "Tackle",
+      "price": 10,
+      "type": "Crafting"
+    },
+    "930": {
+      "name": "???",
+      "spriteIndex": 930,
+      "category": "Basic",
+      "price": 0,
+      "type": "Basic"
+    }
+  },
+  "furniture": {},
+  "tools": {},
+  "food": {
+    "24": {
+      "name": "Parsnip",
+      "spriteIndex": 24,
+      "category": "Fruit",
+      "price": 35,
+      "type": "Basic"
+    },
+    "188": {
+      "name": "Green Bean",
+      "spriteIndex": 188,
+      "category": "Fruit",
+      "price": 40,
+      "type": "Basic"
+    },
+    "190": {
+      "name": "Cauliflower",
+      "spriteIndex": 190,
+      "category": "Fruit",
+      "price": 175,
+      "type": "Basic"
+    },
+    "192": {
+      "name": "Potato",
+      "spriteIndex": 192,
+      "category": "Fruit",
+      "price": 80,
+      "type": "Basic"
+    },
+    "248": {
+      "name": "Garlic",
+      "spriteIndex": 248,
+      "category": "Fruit",
+      "price": 60,
+      "type": "Basic"
+    },
+    "250": {
+      "name": "Kale",
+      "spriteIndex": 250,
+      "category": "Fruit",
+      "price": 110,
+      "type": "Basic"
+    },
+    "256": {
+      "name": "Tomato",
+      "spriteIndex": 256,
+      "category": "Fruit",
+      "price": 60,
+      "type": "Basic"
+    },
+    "259": {
+      "name": "Fiddlehead Fern",
+      "spriteIndex": 259,
+      "category": "Fruit",
+      "price": 90,
+      "type": "Basic"
+    },
+    "262": {
+      "name": "Wheat",
+      "spriteIndex": 262,
+      "category": "Fruit",
+      "price": 25,
+      "type": "Basic"
+    },
+    "264": {
+      "name": "Radish",
+      "spriteIndex": 264,
+      "category": "Fruit",
+      "price": 90,
+      "type": "Basic"
+    },
+    "266": {
+      "name": "Red Cabbage",
+      "spriteIndex": 266,
+      "category": "Fruit",
+      "price": 260,
+      "type": "Basic"
+    },
+    "270": {
+      "name": "Corn",
+      "spriteIndex": 270,
+      "category": "Fruit",
+      "price": 50,
+      "type": "Basic"
+    },
+    "271": {
+      "name": "Unmilled Rice",
+      "spriteIndex": 271,
+      "category": "Fruit",
+      "price": 30,
+      "type": "Basic"
+    },
+    "272": {
+      "name": "Eggplant",
+      "spriteIndex": 272,
+      "category": "Fruit",
+      "price": 60,
+      "type": "Basic"
+    },
+    "274": {
+      "name": "Artichoke",
+      "spriteIndex": 274,
+      "category": "Fruit",
+      "price": 160,
+      "type": "Basic"
+    },
+    "276": {
+      "name": "Pumpkin",
+      "spriteIndex": 276,
+      "category": "Fruit",
+      "price": 320,
+      "type": "Basic"
+    },
+    "278": {
+      "name": "Bok Choy",
+      "spriteIndex": 278,
+      "category": "Fruit",
+      "price": 80,
+      "type": "Basic"
+    },
+    "280": {
+      "name": "Yam",
+      "spriteIndex": 280,
+      "category": "Fruit",
+      "price": 160,
+      "type": "Basic"
+    },
+    "284": {
+      "name": "Beet",
+      "spriteIndex": 284,
+      "category": "Fruit",
+      "price": 100,
+      "type": "Basic"
+    },
+    "300": {
+      "name": "Amaranth",
+      "spriteIndex": 300,
+      "category": "Fruit",
+      "price": 150,
+      "type": "Basic"
+    },
+    "304": {
+      "name": "Hops",
+      "spriteIndex": 304,
+      "category": "Fruit",
+      "price": 25,
+      "type": "Basic"
+    },
+    "815": {
+      "name": "Tea Leaves",
+      "spriteIndex": 815,
+      "category": "Fruit",
+      "price": 50,
+      "type": "Basic"
+    },
+    "830": {
+      "name": "Taro Root",
+      "spriteIndex": 830,
+      "category": "Fruit",
+      "price": 100,
+      "type": "Basic"
+    }
+  },
+  "resources": {
+    "167": {
+      "name": "Joja Cola",
+      "spriteIndex": 167,
+      "category": "Minerals",
+      "price": 25,
+      "type": "Fish"
+    },
+    "168": {
+      "name": "Trash",
+      "spriteIndex": 168,
+      "category": "Minerals",
+      "price": 0,
+      "type": "Fish"
+    },
+    "169": {
+      "name": "Driftwood",
+      "spriteIndex": 169,
+      "category": "Minerals",
+      "price": 0,
+      "type": "Fish"
+    },
+    "170": {
+      "name": "Broken Glasses",
+      "spriteIndex": 170,
+      "category": "Minerals",
+      "price": 0,
+      "type": "Fish"
+    },
+    "171": {
+      "name": "Broken CD",
+      "spriteIndex": 171,
+      "category": "Minerals",
+      "price": 0,
+      "type": "Fish"
+    },
+    "172": {
+      "name": "Soggy Newspaper",
+      "spriteIndex": 172,
+      "category": "Minerals",
+      "price": 0,
+      "type": "Fish"
+    },
+    "293": {
+      "name": "Brick Floor",
+      "spriteIndex": 293,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "328": {
+      "name": "Wood Floor",
+      "spriteIndex": 328,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "329": {
+      "name": "Stone Floor",
+      "spriteIndex": 329,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "330": {
+      "name": "Clay",
+      "spriteIndex": 330,
+      "category": "Minerals",
+      "price": 20,
+      "type": "Basic"
+    },
+    "331": {
+      "name": "Weathered Floor",
+      "spriteIndex": 331,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "333": {
+      "name": "Crystal Floor",
+      "spriteIndex": 333,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "341": {
+      "name": "Tea Set",
+      "spriteIndex": 341,
+      "category": "Minerals",
+      "price": 200,
+      "type": "Basic"
+    },
+    "368": {
+      "name": "Basic Fertilizer",
+      "spriteIndex": 368,
+      "category": "Minerals",
+      "price": 2,
+      "type": "Basic"
+    },
+    "369": {
+      "name": "Quality Fertilizer",
+      "spriteIndex": 369,
+      "category": "Minerals",
+      "price": 10,
+      "type": "Basic"
+    },
+    "370": {
+      "name": "Basic Retaining Soil",
+      "spriteIndex": 370,
+      "category": "Minerals",
+      "price": 4,
+      "type": "Basic"
+    },
+    "371": {
+      "name": "Quality Retaining Soil",
+      "spriteIndex": 371,
+      "category": "Minerals",
+      "price": 5,
+      "type": "Basic"
+    },
+    "388": {
+      "name": "Wood",
+      "spriteIndex": 388,
+      "category": "Minerals",
+      "price": 2,
+      "type": "Basic"
+    },
+    "392": {
+      "name": "Nautilus Shell",
+      "spriteIndex": 392,
+      "category": "Minerals",
+      "price": 120,
+      "type": "Basic"
+    },
+    "393": {
+      "name": "Coral",
+      "spriteIndex": 393,
+      "category": "Minerals",
+      "price": 80,
+      "type": "Basic"
+    },
+    "394": {
+      "name": "Rainbow Shell",
+      "spriteIndex": 394,
+      "category": "Minerals",
+      "price": 300,
+      "type": "Basic"
+    },
+    "397": {
+      "name": "Sea Urchin",
+      "spriteIndex": 397,
+      "category": "Minerals",
+      "price": 160,
+      "type": "Basic"
+    },
+    "401": {
+      "name": "Straw Floor",
+      "spriteIndex": 401,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "405": {
+      "name": "Wood Path",
+      "spriteIndex": 405,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "407": {
+      "name": "Gravel Path",
+      "spriteIndex": 407,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "409": {
+      "name": "Crystal Path",
+      "spriteIndex": 409,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "411": {
+      "name": "Cobblestone Path",
+      "spriteIndex": 411,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "415": {
+      "name": "Stepping Stone Path",
+      "spriteIndex": 415,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "417": {
+      "name": "Sweet Gem Berry",
+      "spriteIndex": 417,
+      "category": "Minerals",
+      "price": 3000,
+      "type": "Basic"
+    },
+    "430": {
+      "name": "Truffle",
+      "spriteIndex": 430,
+      "category": "Minerals",
+      "price": 625,
+      "type": "Basic"
+    },
+    "440": {
+      "name": "Wool",
+      "spriteIndex": 440,
+      "category": "Minerals",
+      "price": 340,
+      "type": "Basic"
+    },
+    "444": {
+      "name": "Duck Feather",
+      "spriteIndex": 444,
+      "category": "Minerals",
+      "price": 250,
+      "type": "Basic"
+    },
+    "446": {
+      "name": "Rabbit's Foot",
+      "spriteIndex": 446,
+      "category": "Minerals",
+      "price": 565,
+      "type": "Basic"
+    },
+    "465": {
+      "name": "Speed-Gro",
+      "spriteIndex": 465,
+      "category": "Minerals",
+      "price": 20,
+      "type": "Basic"
+    },
+    "466": {
+      "name": "Deluxe Speed-Gro",
+      "spriteIndex": 466,
+      "category": "Minerals",
+      "price": 40,
+      "type": "Basic"
+    },
+    "538": {
+      "name": "Alamite",
+      "spriteIndex": 538,
+      "category": "Gem",
+      "price": 150,
+      "type": "Minerals"
+    },
+    "539": {
+      "name": "Bixite",
+      "spriteIndex": 539,
+      "category": "Gem",
+      "price": 300,
+      "type": "Minerals"
+    },
+    "540": {
+      "name": "Baryte",
+      "spriteIndex": 540,
+      "category": "Gem",
+      "price": 50,
+      "type": "Minerals"
+    },
+    "541": {
+      "name": "Aerinite",
+      "spriteIndex": 541,
+      "category": "Gem",
+      "price": 125,
+      "type": "Minerals"
+    },
+    "542": {
+      "name": "Calcite",
+      "spriteIndex": 542,
+      "category": "Gem",
+      "price": 75,
+      "type": "Minerals"
+    },
+    "543": {
+      "name": "Dolomite",
+      "spriteIndex": 543,
+      "category": "Gem",
+      "price": 300,
+      "type": "Minerals"
+    },
+    "544": {
+      "name": "Esperite",
+      "spriteIndex": 544,
+      "category": "Gem",
+      "price": 100,
+      "type": "Minerals"
+    },
+    "545": {
+      "name": "Fluorapatite",
+      "spriteIndex": 545,
+      "category": "Gem",
+      "price": 200,
+      "type": "Minerals"
+    },
+    "546": {
+      "name": "Geminite",
+      "spriteIndex": 546,
+      "category": "Gem",
+      "price": 150,
+      "type": "Minerals"
+    },
+    "547": {
+      "name": "Helvite",
+      "spriteIndex": 547,
+      "category": "Gem",
+      "price": 450,
+      "type": "Minerals"
+    },
+    "548": {
+      "name": "Jamborite",
+      "spriteIndex": 548,
+      "category": "Gem",
+      "price": 150,
+      "type": "Minerals"
+    },
+    "549": {
+      "name": "Jagoite",
+      "spriteIndex": 549,
+      "category": "Gem",
+      "price": 115,
+      "type": "Minerals"
+    },
+    "550": {
+      "name": "Kyanite",
+      "spriteIndex": 550,
+      "category": "Gem",
+      "price": 250,
+      "type": "Minerals"
+    },
+    "551": {
+      "name": "Lunarite",
+      "spriteIndex": 551,
+      "category": "Gem",
+      "price": 200,
+      "type": "Minerals"
+    },
+    "552": {
+      "name": "Malachite",
+      "spriteIndex": 552,
+      "category": "Gem",
+      "price": 100,
+      "type": "Minerals"
+    },
+    "553": {
+      "name": "Neptunite",
+      "spriteIndex": 553,
+      "category": "Gem",
+      "price": 400,
+      "type": "Minerals"
+    },
+    "554": {
+      "name": "Lemon Stone",
+      "spriteIndex": 554,
+      "category": "Gem",
+      "price": 200,
+      "type": "Minerals"
+    },
+    "555": {
+      "name": "Nekoite",
+      "spriteIndex": 555,
+      "category": "Gem",
+      "price": 80,
+      "type": "Minerals"
+    },
+    "556": {
+      "name": "Orpiment",
+      "spriteIndex": 556,
+      "category": "Gem",
+      "price": 80,
+      "type": "Minerals"
+    },
+    "557": {
+      "name": "Petrified Slime",
+      "spriteIndex": 557,
+      "category": "Gem",
+      "price": 120,
+      "type": "Minerals"
+    },
+    "558": {
+      "name": "Thunder Egg",
+      "spriteIndex": 558,
+      "category": "Gem",
+      "price": 100,
+      "type": "Minerals"
+    },
+    "559": {
+      "name": "Pyrite",
+      "spriteIndex": 559,
+      "category": "Gem",
+      "price": 120,
+      "type": "Minerals"
+    },
+    "560": {
+      "name": "Ocean Stone",
+      "spriteIndex": 560,
+      "category": "Gem",
+      "price": 220,
+      "type": "Minerals"
+    },
+    "561": {
+      "name": "Ghost Crystal",
+      "spriteIndex": 561,
+      "category": "Gem",
+      "price": 200,
+      "type": "Minerals"
+    },
+    "562": {
+      "name": "Tigerseye",
+      "spriteIndex": 562,
+      "category": "Gem",
+      "price": 275,
+      "type": "Minerals"
+    },
+    "563": {
+      "name": "Jasper",
+      "spriteIndex": 563,
+      "category": "Gem",
+      "price": 150,
+      "type": "Minerals"
+    },
+    "564": {
+      "name": "Opal",
+      "spriteIndex": 564,
+      "category": "Gem",
+      "price": 150,
+      "type": "Minerals"
+    },
+    "565": {
+      "name": "Fire Opal",
+      "spriteIndex": 565,
+      "category": "Gem",
+      "price": 350,
+      "type": "Minerals"
+    },
+    "566": {
+      "name": "Celestine",
+      "spriteIndex": 566,
+      "category": "Gem",
+      "price": 125,
+      "type": "Minerals"
+    },
+    "567": {
+      "name": "Marble",
+      "spriteIndex": 567,
+      "category": "Gem",
+      "price": 110,
+      "type": "Minerals"
+    },
+    "568": {
+      "name": "Sandstone",
+      "spriteIndex": 568,
+      "category": "Gem",
+      "price": 60,
+      "type": "Minerals"
+    },
+    "569": {
+      "name": "Granite",
+      "spriteIndex": 569,
+      "category": "Gem",
+      "price": 75,
+      "type": "Minerals"
+    },
+    "570": {
+      "name": "Basalt",
+      "spriteIndex": 570,
+      "category": "Gem",
+      "price": 175,
+      "type": "Minerals"
+    },
+    "571": {
+      "name": "Limestone",
+      "spriteIndex": 571,
+      "category": "Gem",
+      "price": 15,
+      "type": "Minerals"
+    },
+    "572": {
+      "name": "Soapstone",
+      "spriteIndex": 572,
+      "category": "Gem",
+      "price": 120,
+      "type": "Minerals"
+    },
+    "573": {
+      "name": "Hematite",
+      "spriteIndex": 573,
+      "category": "Gem",
+      "price": 150,
+      "type": "Minerals"
+    },
+    "574": {
+      "name": "Mudstone",
+      "spriteIndex": 574,
+      "category": "Gem",
+      "price": 25,
+      "type": "Minerals"
+    },
+    "575": {
+      "name": "Obsidian",
+      "spriteIndex": 575,
+      "category": "Gem",
+      "price": 200,
+      "type": "Minerals"
+    },
+    "576": {
+      "name": "Slate",
+      "spriteIndex": 576,
+      "category": "Gem",
+      "price": 85,
+      "type": "Minerals"
+    },
+    "577": {
+      "name": "Fairy Stone",
+      "spriteIndex": 577,
+      "category": "Gem",
+      "price": 250,
+      "type": "Minerals"
+    },
+    "578": {
+      "name": "Star Shards",
+      "spriteIndex": 578,
+      "category": "Gem",
+      "price": 500,
+      "type": "Minerals"
+    },
+    "685": {
+      "name": "Bait",
+      "spriteIndex": 685,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Basic"
+    },
+    "686": {
+      "name": "Spinner",
+      "spriteIndex": 686,
+      "category": "Minerals",
+      "price": 250,
+      "type": "Basic"
+    },
+    "687": {
+      "name": "Dressed Spinner",
+      "spriteIndex": 687,
+      "category": "Minerals",
+      "price": 500,
+      "type": "Basic"
+    },
+    "691": {
+      "name": "Barbed Hook",
+      "spriteIndex": 691,
+      "category": "Minerals",
+      "price": 500,
+      "type": "Basic"
+    },
+    "692": {
+      "name": "Lead Bobber",
+      "spriteIndex": 692,
+      "category": "Minerals",
+      "price": 150,
+      "type": "Basic"
+    },
+    "693": {
+      "name": "Treasure Hunter",
+      "spriteIndex": 693,
+      "category": "Minerals",
+      "price": 250,
+      "type": "Basic"
+    },
+    "694": {
+      "name": "Trap Bobber",
+      "spriteIndex": 694,
+      "category": "Minerals",
+      "price": 200,
+      "type": "Basic"
+    },
+    "695": {
+      "name": "Cork Bobber",
+      "spriteIndex": 695,
+      "category": "Minerals",
+      "price": 250,
+      "type": "Basic"
+    },
+    "703": {
+      "name": "Magnet",
+      "spriteIndex": 703,
+      "category": "Minerals",
+      "price": 15,
+      "type": "Basic"
+    },
+    "709": {
+      "name": "Hardwood",
+      "spriteIndex": 709,
+      "category": "Minerals",
+      "price": 15,
+      "type": "Basic"
+    },
+    "747": {
+      "name": "Rotten Plant",
+      "spriteIndex": 747,
+      "category": "Minerals",
+      "price": 0,
+      "type": "Basic"
+    },
+    "748": {
+      "name": "Rotten Plant",
+      "spriteIndex": 748,
+      "category": "Minerals",
+      "price": 0,
+      "type": "Basic"
+    },
+    "771": {
+      "name": "Fiber",
+      "spriteIndex": 771,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Basic"
+    },
+    "774": {
+      "name": "Wild Bait",
+      "spriteIndex": 774,
+      "category": "Minerals",
+      "price": 15,
+      "type": "Basic"
+    },
+    "787": {
+      "name": "Battery Pack",
+      "spriteIndex": 787,
+      "category": "Minerals",
+      "price": 500,
+      "type": "Basic"
+    },
+    "805": {
+      "name": "Tree Fertilizer",
+      "spriteIndex": 805,
+      "category": "Minerals",
+      "price": 10,
+      "type": "Basic"
+    },
+    "812": {
+      "name": "Roe",
+      "spriteIndex": 812,
+      "category": "Minerals",
+      "price": 30,
+      "type": "Basic"
+    },
+    "814": {
+      "name": "Squid Ink",
+      "spriteIndex": 814,
+      "category": "Minerals",
+      "price": 110,
+      "type": "Basic"
+    },
+    "840": {
+      "name": "Rustic Plank Floor",
+      "spriteIndex": 840,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "841": {
+      "name": "Stone Walkway Floor",
+      "spriteIndex": 841,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Crafting"
+    },
+    "856": {
+      "name": "Curiosity Lure",
+      "spriteIndex": 856,
+      "category": "Minerals",
+      "price": 500,
+      "type": "Basic"
+    },
+    "877": {
+      "name": "Quality Bobber",
+      "spriteIndex": 877,
+      "category": "Minerals",
+      "price": 300,
+      "type": "Basic"
+    },
+    "908": {
+      "name": "Magic Bait",
+      "spriteIndex": 908,
+      "category": "Minerals",
+      "price": 1,
+      "type": "Basic"
+    },
+    "918": {
+      "name": "Hyper Speed-Gro",
+      "spriteIndex": 918,
+      "category": "Minerals",
+      "price": 70,
+      "type": "Basic"
+    },
+    "919": {
+      "name": "Deluxe Fertilizer",
+      "spriteIndex": 919,
+      "category": "Minerals",
+      "price": 70,
+      "type": "Basic"
+    },
+    "920": {
+      "name": "Deluxe Retaining Soil",
+      "spriteIndex": 920,
+      "category": "Minerals",
+      "price": 30,
+      "type": "Basic"
+    }
+  },
+  "seeds": {
+    "88": {
+      "name": "Coconut",
+      "spriteIndex": 88,
+      "category": "Seed",
+      "price": 100,
+      "type": "Basic"
+    },
+    "90": {
+      "name": "Cactus Fruit",
+      "spriteIndex": 90,
+      "category": "Seed",
+      "price": 75,
+      "type": "Basic"
+    },
+    "252": {
+      "name": "Rhubarb",
+      "spriteIndex": 252,
+      "category": "Seed",
+      "price": 220,
+      "type": "Basic"
+    },
+    "254": {
+      "name": "Melon",
+      "spriteIndex": 254,
+      "category": "Seed",
+      "price": 250,
+      "type": "Basic"
+    },
+    "258": {
+      "name": "Blueberry",
+      "spriteIndex": 258,
+      "category": "Seed",
+      "price": 50,
+      "type": "Basic"
+    },
+    "260": {
+      "name": "Hot Pepper",
+      "spriteIndex": 260,
+      "category": "Seed",
+      "price": 40,
+      "type": "Basic"
+    },
+    "268": {
+      "name": "Starfruit",
+      "spriteIndex": 268,
+      "category": "Seed",
+      "price": 750,
+      "type": "Basic"
+    },
+    "282": {
+      "name": "Cranberries",
+      "spriteIndex": 282,
+      "category": "Seed",
+      "price": 75,
+      "type": "Basic"
+    },
+    "296": {
+      "name": "Salmonberry",
+      "spriteIndex": 296,
+      "category": "Seed",
+      "price": 5,
+      "type": "Basic"
+    },
+    "396": {
+      "name": "Spice Berry",
+      "spriteIndex": 396,
+      "category": "Seed",
+      "price": 80,
+      "type": "Basic"
+    },
+    "398": {
+      "name": "Grape",
+      "spriteIndex": 398,
+      "category": "Seed",
+      "price": 80,
+      "type": "Basic"
+    },
+    "400": {
+      "name": "Strawberry",
+      "spriteIndex": 400,
+      "category": "Seed",
+      "price": 120,
+      "type": "Basic"
+    },
+    "406": {
+      "name": "Wild Plum",
+      "spriteIndex": 406,
+      "category": "Seed",
+      "price": 80,
+      "type": "Basic"
+    },
+    "410": {
+      "name": "Blackberry",
+      "spriteIndex": 410,
+      "category": "Seed",
+      "price": 20,
+      "type": "Basic"
+    },
+    "414": {
+      "name": "Crystal Fruit",
+      "spriteIndex": 414,
+      "category": "Seed",
+      "price": 150,
+      "type": "Basic"
+    },
+    "454": {
+      "name": "Ancient Fruit",
+      "spriteIndex": 454,
+      "category": "Seed",
+      "price": 550,
+      "type": "Basic"
+    },
+    "613": {
+      "name": "Apple",
+      "spriteIndex": 613,
+      "category": "Seed",
+      "price": 100,
+      "type": "Basic"
+    },
+    "634": {
+      "name": "Apricot",
+      "spriteIndex": 634,
+      "category": "Seed",
+      "price": 50,
+      "type": "Basic"
+    },
+    "635": {
+      "name": "Orange",
+      "spriteIndex": 635,
+      "category": "Seed",
+      "price": 100,
+      "type": "Basic"
+    },
+    "636": {
+      "name": "Peach",
+      "spriteIndex": 636,
+      "category": "Seed",
+      "price": 140,
+      "type": "Basic"
+    },
+    "637": {
+      "name": "Pomegranate",
+      "spriteIndex": 637,
+      "category": "Seed",
+      "price": 140,
+      "type": "Basic"
+    },
+    "638": {
+      "name": "Cherry",
+      "spriteIndex": 638,
+      "category": "Seed",
+      "price": 80,
+      "type": "Basic"
+    },
+    "91": {
+      "name": "Banana",
+      "spriteIndex": 91,
+      "category": "Seed",
+      "price": 150,
+      "type": "Basic"
+    },
+    "832": {
+      "name": "Pineapple",
+      "spriteIndex": 832,
+      "category": "Seed",
+      "price": 300,
+      "type": "Basic"
+    },
+    "834": {
+      "name": "Mango",
+      "spriteIndex": 834,
+      "category": "Seed",
+      "price": 130,
+      "type": "Basic"
+    },
+    "889": {
+      "name": "Qi Fruit",
+      "spriteIndex": 889,
+      "category": "Seed",
+      "price": 1,
+      "type": "Basic"
+    }
+  },
+  "craftables": {
+    "0": {
+      "name": "House Plant",
+      "spriteIndex": 0,
+      "description": "[LocalizedText Strings\\BigCraftables:HousePlant_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "1": {
+      "name": "House Plant",
+      "spriteIndex": 1,
+      "description": "[LocalizedText Strings\\BigCraftables:HousePlant_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "2": {
+      "name": "House Plant",
+      "spriteIndex": 2,
+      "description": "[LocalizedText Strings\\BigCraftables:HousePlant_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "3": {
+      "name": "House Plant",
+      "spriteIndex": 3,
+      "description": "[LocalizedText Strings\\BigCraftables:HousePlant_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "4": {
+      "name": "House Plant",
+      "spriteIndex": 4,
+      "description": "[LocalizedText Strings\\BigCraftables:HousePlant_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "5": {
+      "name": "House Plant",
+      "spriteIndex": 5,
+      "description": "[LocalizedText Strings\\BigCraftables:HousePlant_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "6": {
+      "name": "House Plant",
+      "spriteIndex": 6,
+      "description": "[LocalizedText Strings\\BigCraftables:HousePlant_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "7": {
+      "name": "House Plant",
+      "spriteIndex": 7,
+      "description": "[LocalizedText Strings\\BigCraftables:HousePlant_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "8": {
+      "name": "Scarecrow",
+      "spriteIndex": 8,
+      "description": "[LocalizedText Strings\\BigCraftables:Scarecrow_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "9": {
+      "name": "Lightning Rod",
+      "spriteIndex": 9,
+      "description": "[LocalizedText Strings\\BigCraftables:LightningRod_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "10": {
+      "name": "Bee House",
+      "spriteIndex": 10,
+      "description": "[LocalizedText Strings\\BigCraftables:BeeHouse_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "12": {
+      "name": "Keg",
+      "spriteIndex": 12,
+      "description": "[LocalizedText Strings\\BigCraftables:Keg_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "13": {
+      "name": "Furnace",
+      "spriteIndex": 13,
+      "description": "[LocalizedText Strings\\BigCraftables:Furnace_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "15": {
+      "name": "Preserves Jar",
+      "spriteIndex": 15,
+      "description": "[LocalizedText Strings\\BigCraftables:PreservesJar_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "16": {
+      "name": "Cheese Press",
+      "spriteIndex": 16,
+      "description": "[LocalizedText Strings\\BigCraftables:CheesePress_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "17": {
+      "name": "Loom",
+      "spriteIndex": 17,
+      "description": "[LocalizedText Strings\\BigCraftables:Loom_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "19": {
+      "name": "Oil Maker",
+      "spriteIndex": 19,
+      "description": "[LocalizedText Strings\\BigCraftables:OilMaker_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "20": {
+      "name": "Recycling Machine",
+      "spriteIndex": 20,
+      "description": "[LocalizedText Strings\\BigCraftables:RecyclingMachine_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "21": {
+      "name": "Crystalarium",
+      "spriteIndex": 21,
+      "description": "[LocalizedText Strings\\BigCraftables:Crystalarium_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "22": {
+      "name": "Table Piece L",
+      "spriteIndex": 22,
+      "description": "[LocalizedText Strings\\BigCraftables:TablePieceL_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "23": {
+      "name": "Table Piece R",
+      "spriteIndex": 23,
+      "description": "[LocalizedText Strings\\BigCraftables:TablePieceR_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "24": {
+      "name": "Mayonnaise Machine",
+      "spriteIndex": 24,
+      "description": "[LocalizedText Strings\\BigCraftables:MayonnaiseMachine_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "25": {
+      "name": "Seed Maker",
+      "spriteIndex": 25,
+      "description": "[LocalizedText Strings\\BigCraftables:SeedMaker_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "26": {
+      "name": "Wood Chair",
+      "spriteIndex": 26,
+      "description": "[LocalizedText Strings\\BigCraftables:WoodChair_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "27": {
+      "name": "Wood Chair",
+      "spriteIndex": 27,
+      "description": "[LocalizedText Strings\\BigCraftables:WoodChair_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "28": {
+      "name": "Skeleton Model",
+      "spriteIndex": 28,
+      "description": "[LocalizedText Strings\\BigCraftables:SkeletonModel_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "29": {
+      "name": "Obelisk",
+      "spriteIndex": 29,
+      "description": "[LocalizedText Strings\\BigCraftables:Obelisk_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "31": {
+      "name": "Chicken Statue",
+      "spriteIndex": 31,
+      "description": "[LocalizedText Strings\\BigCraftables:ChickenStatue_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "32": {
+      "name": "Stone Cairn",
+      "spriteIndex": 32,
+      "description": "[LocalizedText Strings\\BigCraftables:StoneCairn_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "33": {
+      "name": "Suit Of Armor",
+      "spriteIndex": 33,
+      "description": "[LocalizedText Strings\\BigCraftables:SuitOfArmor_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "34": {
+      "name": "Sign Of The Vessel",
+      "spriteIndex": 34,
+      "description": "[LocalizedText Strings\\BigCraftables:SignOfTheVessel_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "35": {
+      "name": "Basic Log",
+      "spriteIndex": 35,
+      "description": "[LocalizedText Strings\\BigCraftables:BasicLog_Description]",
+      "price": 125,
+      "frameHeight": 32
+    },
+    "36": {
+      "name": "Lawn Flamingo",
+      "spriteIndex": 36,
+      "description": "[LocalizedText Strings\\BigCraftables:LawnFlamingo_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "37": {
+      "name": "Wood Sign",
+      "spriteIndex": 37,
+      "description": "[LocalizedText Strings\\BigCraftables:WoodSign_Description]",
+      "price": 5,
+      "frameHeight": 32
+    },
+    "38": {
+      "name": "Stone Sign",
+      "spriteIndex": 38,
+      "description": "[LocalizedText Strings\\BigCraftables:StoneSign_Description]",
+      "price": 5,
+      "frameHeight": 32
+    },
+    "39": {
+      "name": "Dark Sign",
+      "spriteIndex": 39,
+      "description": "[LocalizedText Strings\\BigCraftables:DarkSign_Description]",
+      "price": 5,
+      "frameHeight": 32
+    },
+    "40": {
+      "name": "Big Green Cane",
+      "spriteIndex": 40,
+      "description": "[LocalizedText Strings\\BigCraftables:BigGreenCane_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "41": {
+      "name": "Green Canes",
+      "spriteIndex": 41,
+      "description": "[LocalizedText Strings\\BigCraftables:GreenCanes_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "42": {
+      "name": "Mixed Cane",
+      "spriteIndex": 42,
+      "description": "[LocalizedText Strings\\BigCraftables:MixedCane_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "43": {
+      "name": "Red Canes",
+      "spriteIndex": 43,
+      "description": "[LocalizedText Strings\\BigCraftables:RedCanes_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "44": {
+      "name": "Big Red Cane",
+      "spriteIndex": 44,
+      "description": "[LocalizedText Strings\\BigCraftables:BigRedCane_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "45": {
+      "name": "Ornamental Hay Bale",
+      "spriteIndex": 45,
+      "description": "[LocalizedText Strings\\BigCraftables:OrnamentalHayBale_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "46": {
+      "name": "Log Section",
+      "spriteIndex": 46,
+      "description": "[LocalizedText Strings\\BigCraftables:LogSection_Description]",
+      "price": 175,
+      "frameHeight": 32
+    },
+    "47": {
+      "name": "Grave Stone",
+      "spriteIndex": 47,
+      "description": "[LocalizedText Strings\\BigCraftables:GraveStone_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "48": {
+      "name": "Seasonal Decor",
+      "spriteIndex": 48,
+      "description": "[LocalizedText Strings\\BigCraftables:SeasonalDecor_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "52": {
+      "name": "Stone Frog",
+      "spriteIndex": 52,
+      "description": "[LocalizedText Strings\\BigCraftables:StoneFrog_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "53": {
+      "name": "Stone Parrot",
+      "spriteIndex": 53,
+      "description": "[LocalizedText Strings\\BigCraftables:StoneParrot_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "54": {
+      "name": "Stone Owl",
+      "spriteIndex": 54,
+      "description": "[LocalizedText Strings\\BigCraftables:StoneOwl_Decorative_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "55": {
+      "name": "Stone Junimo",
+      "spriteIndex": 55,
+      "description": "[LocalizedText Strings\\BigCraftables:StoneJunimo_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "56": {
+      "name": "Slime Ball",
+      "spriteIndex": 56,
+      "description": "[LocalizedText Strings\\BigCraftables:SlimeBall_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "62": {
+      "name": "Garden Pot",
+      "spriteIndex": 62,
+      "description": "[LocalizedText Strings\\BigCraftables:GardenPot_Description]",
+      "price": 1000,
+      "frameHeight": 32
+    },
+    "64": {
+      "name": "Bookcase",
+      "spriteIndex": 64,
+      "description": "[LocalizedText Strings\\BigCraftables:Bookcase_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "65": {
+      "name": "Fancy Table",
+      "spriteIndex": 65,
+      "description": "[LocalizedText Strings\\BigCraftables:FancyTable_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "66": {
+      "name": "Ancient Table",
+      "spriteIndex": 66,
+      "description": "[LocalizedText Strings\\BigCraftables:AncientTable_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "67": {
+      "name": "Ancient Stool",
+      "spriteIndex": 67,
+      "description": "[LocalizedText Strings\\BigCraftables:AncientStool_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "68": {
+      "name": "Grandfather Clock",
+      "spriteIndex": 68,
+      "description": "[LocalizedText Strings\\BigCraftables:GrandfatherClock_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "69": {
+      "name": "Teddy Timer",
+      "spriteIndex": 69,
+      "description": "[LocalizedText Strings\\BigCraftables:TeddyTimer_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "70": {
+      "name": "Dead Tree",
+      "spriteIndex": 70,
+      "description": "[LocalizedText Strings\\BigCraftables:DeadTree_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "71": {
+      "name": "Staircase",
+      "spriteIndex": 71,
+      "description": "[LocalizedText Strings\\BigCraftables:Staircase_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "72": {
+      "name": "Tall Torch",
+      "spriteIndex": 72,
+      "description": "[LocalizedText Strings\\BigCraftables:TallTorch_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "73": {
+      "name": "Ritual Mask",
+      "spriteIndex": 73,
+      "description": "[LocalizedText Strings\\BigCraftables:RitualMask_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "74": {
+      "name": "Bonfire",
+      "spriteIndex": 74,
+      "description": "[LocalizedText Strings\\BigCraftables:Bonfire_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "75": {
+      "name": "Bongo",
+      "spriteIndex": 75,
+      "description": "[LocalizedText Strings\\BigCraftables:Bongo_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "76": {
+      "name": "Decorative Spears",
+      "spriteIndex": 76,
+      "description": "[LocalizedText Strings\\BigCraftables:DecorativeSpears_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "78": {
+      "name": "Boulder",
+      "spriteIndex": 78,
+      "description": "[LocalizedText Strings\\BigCraftables:Boulder_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "79": {
+      "name": "Door",
+      "spriteIndex": 79,
+      "description": "[LocalizedText Strings\\BigCraftables:Door_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "80": {
+      "name": "Door",
+      "spriteIndex": 80,
+      "description": "[LocalizedText Strings\\BigCraftables:Door_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "81": {
+      "name": "Locked Door",
+      "spriteIndex": 81,
+      "description": "[LocalizedText Strings\\BigCraftables:LockedDoor_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "82": {
+      "name": "Locked Door",
+      "spriteIndex": 82,
+      "description": "[LocalizedText Strings\\BigCraftables:LockedDoor_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "83": {
+      "name": "Wicked Statue",
+      "spriteIndex": 83,
+      "description": "[LocalizedText Strings\\BigCraftables:WickedStatue_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "84": {
+      "name": "Wicked Statue",
+      "spriteIndex": 84,
+      "description": "[LocalizedText Strings\\BigCraftables:WickedStatue_LitEyes_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "85": {
+      "name": "Sloth Skeleton L",
+      "spriteIndex": 85,
+      "description": "[LocalizedText Strings\\BigCraftables:SlothSkeletonL_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "86": {
+      "name": "Sloth Skeleton M",
+      "spriteIndex": 86,
+      "description": "[LocalizedText Strings\\BigCraftables:SlothSkeletonM_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "87": {
+      "name": "Sloth Skeleton R",
+      "spriteIndex": 87,
+      "description": "[LocalizedText Strings\\BigCraftables:SlothSkeletonR_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "88": {
+      "name": "Standing Geode",
+      "spriteIndex": 88,
+      "description": "[LocalizedText Strings\\BigCraftables:StandingGeode_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "89": {
+      "name": "Obsidian Vase",
+      "spriteIndex": 89,
+      "description": "[LocalizedText Strings\\BigCraftables:ObsidianVase_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "94": {
+      "name": "Singing Stone",
+      "spriteIndex": 94,
+      "description": "[LocalizedText Strings\\BigCraftables:SingingStone_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "95": {
+      "name": "Stone Owl",
+      "spriteIndex": 95,
+      "description": "[LocalizedText Strings\\BigCraftables:StoneOwl_Secret_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "96": {
+      "name": "Strange Capsule",
+      "spriteIndex": 96,
+      "description": "[LocalizedText Strings\\BigCraftables:StrangeCapsule_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "98": {
+      "name": "Empty Capsule",
+      "spriteIndex": 98,
+      "description": "[LocalizedText Strings\\BigCraftables:EmptyCapsule_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "99": {
+      "name": "Feed Hopper",
+      "spriteIndex": 99,
+      "description": "[LocalizedText Strings\\BigCraftables:FeedHopper_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "101": {
+      "name": "Incubator",
+      "spriteIndex": 101,
+      "description": "[LocalizedText Strings\\BigCraftables:Incubator_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "104": {
+      "name": "Heater",
+      "spriteIndex": 104,
+      "description": "[LocalizedText Strings\\BigCraftables:Heater_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "105": {
+      "name": "Tapper",
+      "spriteIndex": 105,
+      "description": "[LocalizedText Strings\\BigCraftables:Tapper_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "106": {
+      "name": "Camera",
+      "spriteIndex": 106,
+      "description": "[LocalizedText Strings\\BigCraftables:Camera_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "107": {
+      "name": "Plush Bunny",
+      "spriteIndex": 107,
+      "description": "[LocalizedText Strings\\BigCraftables:PlushBunny_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "108": {
+      "name": "Tub o' Flowers",
+      "spriteIndex": 108,
+      "description": "[LocalizedText Strings\\BigCraftables:TuboFlowers_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "109": {
+      "name": "Tub o' Flowers",
+      "spriteIndex": 109,
+      "description": "[LocalizedText Strings\\BigCraftables:TuboFlowers_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "110": {
+      "name": "Rarecrow",
+      "spriteIndex": 110,
+      "description": "[LocalizedText Strings\\BigCraftables:RareCrow_1_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "111": {
+      "name": "Decorative Pitcher",
+      "spriteIndex": 111,
+      "description": "[LocalizedText Strings\\BigCraftables:DecorativePitcher_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "112": {
+      "name": "Dried Sunflowers",
+      "spriteIndex": 112,
+      "description": "[LocalizedText Strings\\BigCraftables:DriedSunflowers_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "113": {
+      "name": "Rarecrow",
+      "spriteIndex": 113,
+      "description": "[LocalizedText Strings\\BigCraftables:RareCrow_2_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "114": {
+      "name": "Charcoal Kiln",
+      "spriteIndex": 114,
+      "description": "[LocalizedText Strings\\BigCraftables:CharcoalKiln_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "116": {
+      "name": "Stardew Hero Trophy",
+      "spriteIndex": 116,
+      "description": "[LocalizedText Strings\\BigCraftables:StardewHeroTrophy_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "117": {
+      "name": "Soda Machine",
+      "spriteIndex": 117,
+      "description": "[LocalizedText Strings\\BigCraftables:SodaMachine_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "118": {
+      "name": "Barrel",
+      "spriteIndex": 118,
+      "description": "[LocalizedText Strings\\BigCraftables:Barrel_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "119": {
+      "name": "Crate",
+      "spriteIndex": 119,
+      "description": "[LocalizedText Strings\\BigCraftables:Crate_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "120": {
+      "name": "Barrel",
+      "spriteIndex": 120,
+      "description": "[LocalizedText Strings\\BigCraftables:Barrel_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "121": {
+      "name": "Crate",
+      "spriteIndex": 121,
+      "description": "[LocalizedText Strings\\BigCraftables:Crate_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "122": {
+      "name": "Barrel",
+      "spriteIndex": 122,
+      "description": "[LocalizedText Strings\\BigCraftables:Barrel_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "123": {
+      "name": "Crate",
+      "spriteIndex": 123,
+      "description": "[LocalizedText Strings\\BigCraftables:Crate_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "124": {
+      "name": "Barrel",
+      "spriteIndex": 124,
+      "description": "[LocalizedText Strings\\BigCraftables:Barrel_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "125": {
+      "name": "Crate",
+      "spriteIndex": 125,
+      "description": "[LocalizedText Strings\\BigCraftables:Crate_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "126": {
+      "name": "Rarecrow",
+      "spriteIndex": 126,
+      "description": "[LocalizedText Strings\\BigCraftables:RareCrow_3_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "127": {
+      "name": "Statue Of Endless Fortune",
+      "spriteIndex": 127,
+      "description": "[LocalizedText Strings\\BigCraftables:StatueOfEndlessFortune_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "128": {
+      "name": "Mushroom Box",
+      "spriteIndex": 128,
+      "description": "[LocalizedText Strings\\BigCraftables:MushroomBox_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "130": {
+      "name": "Chest",
+      "spriteIndex": 130,
+      "description": "[LocalizedText Strings\\BigCraftables:Chest_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "136": {
+      "name": "Rarecrow",
+      "spriteIndex": 136,
+      "description": "[LocalizedText Strings\\BigCraftables:RareCrow_4_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "137": {
+      "name": "Rarecrow",
+      "spriteIndex": 137,
+      "description": "[LocalizedText Strings\\BigCraftables:RareCrow_5_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "138": {
+      "name": "Rarecrow",
+      "spriteIndex": 138,
+      "description": "[LocalizedText Strings\\BigCraftables:RareCrow_6_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "139": {
+      "name": "Rarecrow",
+      "spriteIndex": 139,
+      "description": "[LocalizedText Strings\\BigCraftables:RareCrow_7_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "140": {
+      "name": "Rarecrow",
+      "spriteIndex": 140,
+      "description": "[LocalizedText Strings\\BigCraftables:RareCrow_8_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "141": {
+      "name": "Prairie King Arcade System",
+      "spriteIndex": 141,
+      "description": "[LocalizedText Strings\\BigCraftables:PrairieKingArcadeSystem_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "143": {
+      "name": "Wooden Brazier",
+      "spriteIndex": 143,
+      "description": "[LocalizedText Strings\\BigCraftables:WoodenBrazier_Description]",
+      "price": 25,
+      "frameHeight": 32
+    },
+    "144": {
+      "name": "Stone Brazier",
+      "spriteIndex": 144,
+      "description": "[LocalizedText Strings\\BigCraftables:StoneBrazier_Description]",
+      "price": 40,
+      "frameHeight": 32
+    },
+    "145": {
+      "name": "Gold Brazier",
+      "spriteIndex": 145,
+      "description": "[LocalizedText Strings\\BigCraftables:GoldBrazier_Description]",
+      "price": 100,
+      "frameHeight": 32
+    },
+    "146": {
+      "name": "Campfire",
+      "spriteIndex": 146,
+      "description": "[LocalizedText Strings\\BigCraftables:Campfire_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "147": {
+      "name": "Stump Brazier",
+      "spriteIndex": 147,
+      "description": "[LocalizedText Strings\\BigCraftables:StumpBrazier_Description]",
+      "price": 80,
+      "frameHeight": 32
+    },
+    "148": {
+      "name": "Carved Brazier",
+      "spriteIndex": 148,
+      "description": "[LocalizedText Strings\\BigCraftables:CarvedBrazier_Description]",
+      "price": 200,
+      "frameHeight": 32
+    },
+    "149": {
+      "name": "Skull Brazier",
+      "spriteIndex": 149,
+      "description": "[LocalizedText Strings\\BigCraftables:SkullBrazier_Description]",
+      "price": 300,
+      "frameHeight": 32
+    },
+    "150": {
+      "name": "Barrel Brazier",
+      "spriteIndex": 150,
+      "description": "[LocalizedText Strings\\BigCraftables:BarrelBrazier_Description]",
+      "price": 80,
+      "frameHeight": 32
+    },
+    "151": {
+      "name": "Marble Brazier",
+      "spriteIndex": 151,
+      "description": "[LocalizedText Strings\\BigCraftables:MarbleBrazier_Description]",
+      "price": 500,
+      "frameHeight": 32
+    },
+    "152": {
+      "name": "Wood Lamp-post",
+      "spriteIndex": 152,
+      "description": "[LocalizedText Strings\\BigCraftables:WoodLamppost_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "153": {
+      "name": "Iron Lamp-post",
+      "spriteIndex": 153,
+      "description": "[LocalizedText Strings\\BigCraftables:IronLamppost_Description]",
+      "price": 100,
+      "frameHeight": 32
+    },
+    "154": {
+      "name": "Worm Bin",
+      "spriteIndex": 154,
+      "description": "[LocalizedText Strings\\BigCraftables:WormBin_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "155": {
+      "name": "??HMTGF??",
+      "spriteIndex": 155,
+      "description": "[LocalizedText Strings\\BigCraftables:HMTGF_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "156": {
+      "name": "Slime Incubator",
+      "spriteIndex": 156,
+      "description": "[LocalizedText Strings\\BigCraftables:SlimeIncubator_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "158": {
+      "name": "Slime Egg-Press",
+      "spriteIndex": 158,
+      "description": "[LocalizedText Strings\\BigCraftables:SlimeEggPress_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "159": {
+      "name": "Junimo Kart Arcade System",
+      "spriteIndex": 159,
+      "description": "[LocalizedText Strings\\BigCraftables:JunimoKartArcadeSystem_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "160": {
+      "name": "Statue Of Perfection",
+      "spriteIndex": 160,
+      "description": "[LocalizedText Strings\\BigCraftables:StatueOfPerfection_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "161": {
+      "name": "??Pinky Lemon??",
+      "spriteIndex": 161,
+      "description": "[LocalizedText Strings\\BigCraftables:PinkyLemon_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "162": {
+      "name": "??Foroguemon??",
+      "spriteIndex": 162,
+      "description": "[LocalizedText Strings\\BigCraftables:Foroguemon_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "163": {
+      "name": "Cask",
+      "spriteIndex": 163,
+      "description": "[LocalizedText Strings\\BigCraftables:Cask_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "164": {
+      "name": "Solid Gold Lewis",
+      "spriteIndex": 164,
+      "description": "[LocalizedText Strings\\BigCraftables:SolidGoldLewis_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "165": {
+      "name": "Auto-Grabber",
+      "spriteIndex": 165,
+      "description": "[LocalizedText Strings\\BigCraftables:AutoGrabber_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "167": {
+      "name": "Deluxe Scarecrow",
+      "spriteIndex": 167,
+      "description": "[LocalizedText Strings\\BigCraftables:DeluxeScarecrow_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "174": {
+      "name": "Barrel",
+      "spriteIndex": 174,
+      "description": "[LocalizedText Strings\\BigCraftables:Barrel_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "175": {
+      "name": "Crate",
+      "spriteIndex": 175,
+      "description": "[LocalizedText Strings\\BigCraftables:Crate_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "184": {
+      "name": "Seasonal Plant",
+      "spriteIndex": 184,
+      "description": "[LocalizedText Strings\\BigCraftables:SeasonalPlant_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "188": {
+      "name": "Seasonal Plant",
+      "spriteIndex": 188,
+      "description": "[LocalizedText Strings\\BigCraftables:SeasonalPlant_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "192": {
+      "name": "Seasonal Plant",
+      "spriteIndex": 192,
+      "description": "[LocalizedText Strings\\BigCraftables:SeasonalPlant_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "196": {
+      "name": "Seasonal Plant",
+      "spriteIndex": 196,
+      "description": "[LocalizedText Strings\\BigCraftables:SeasonalPlant_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "200": {
+      "name": "Seasonal Plant",
+      "spriteIndex": 200,
+      "description": "[LocalizedText Strings\\BigCraftables:SeasonalPlant_Description]",
+      "price": 200,
+      "frameHeight": 32
+    },
+    "204": {
+      "name": "Seasonal Plant",
+      "spriteIndex": 204,
+      "description": "[LocalizedText Strings\\BigCraftables:SeasonalPlant_Description]",
+      "price": 50,
+      "frameHeight": 32
+    },
+    "208": {
+      "name": "Workbench",
+      "spriteIndex": 208,
+      "description": "[LocalizedText Strings\\BigCraftables:Workbench_Description]",
+      "price": 1000,
+      "frameHeight": 32
+    },
+    "209": {
+      "name": "Mini-Jukebox",
+      "spriteIndex": 209,
+      "description": "[LocalizedText Strings\\BigCraftables:MiniJukebox_Description]",
+      "price": 1500,
+      "frameHeight": 32
+    },
+    "211": {
+      "name": "Wood Chipper",
+      "spriteIndex": 211,
+      "description": "[LocalizedText Strings\\BigCraftables:WoodChipper_Description]",
+      "price": 500,
+      "frameHeight": 32
+    },
+    "214": {
+      "name": "Telephone",
+      "spriteIndex": 214,
+      "description": "[LocalizedText Strings\\BigCraftables:Telephone_Description]",
+      "price": 1000,
+      "frameHeight": 32
+    },
+    "216": {
+      "name": "Mini-Fridge",
+      "spriteIndex": 216,
+      "description": "[LocalizedText Strings\\BigCraftables:MiniFridge_Description]",
+      "price": 1500,
+      "frameHeight": 32
+    },
+    "219": {
+      "name": "Cursed P.K. Arcade System",
+      "spriteIndex": 219,
+      "description": "[LocalizedText Strings\\BigCraftables:CursedPKArcadeSystem_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "221": {
+      "name": "Item Pedestal",
+      "spriteIndex": 221,
+      "description": "[LocalizedText Strings\\BigCraftables:ItemPedestal_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "232": {
+      "name": "Stone Chest",
+      "spriteIndex": 232,
+      "description": "[LocalizedText Strings\\BigCraftables:StoneChest_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "238": {
+      "name": "Mini-Obelisk",
+      "spriteIndex": 238,
+      "description": "[LocalizedText Strings\\BigCraftables:MiniObelisk_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "239": {
+      "name": "Farm Computer",
+      "spriteIndex": 239,
+      "description": "[LocalizedText Strings\\BigCraftables:FarmComputer_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "248": {
+      "name": "Mini-Shipping Bin",
+      "spriteIndex": 248,
+      "description": "[LocalizedText Strings\\BigCraftables:MiniShippingBin_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "254": {
+      "name": "Ostrich Incubator",
+      "spriteIndex": 254,
+      "description": "[LocalizedText Strings\\BigCraftables:OstrichIncubator_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "182": {
+      "name": "Geode Crusher",
+      "spriteIndex": 182,
+      "description": "[LocalizedText Strings\\BigCraftables:GeodeCrusher_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "246": {
+      "name": "Coffee Maker",
+      "spriteIndex": 246,
+      "description": "[LocalizedText Strings\\BigCraftables:CoffeeMaker_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "247": {
+      "name": "Sewing Machine",
+      "spriteIndex": 247,
+      "description": "[LocalizedText Strings\\BigCraftables:SewingMachine_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "231": {
+      "name": "Solar Panel",
+      "spriteIndex": 231,
+      "description": "[LocalizedText Strings\\BigCraftables:SolarPanel_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "90": {
+      "name": "Bone Mill",
+      "spriteIndex": 90,
+      "description": "[LocalizedText Strings\\BigCraftables:BoneMill_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "256": {
+      "name": "Junimo Chest",
+      "spriteIndex": 256,
+      "description": "[LocalizedText Strings\\BigCraftables:JunimoChest_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "262": {
+      "name": "Barrel",
+      "spriteIndex": 262,
+      "description": "[LocalizedText Strings\\BigCraftables:Barrel_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "263": {
+      "name": "Crate",
+      "spriteIndex": 263,
+      "description": "[LocalizedText Strings\\BigCraftables:Crate_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "264": {
+      "name": "Heavy Tapper",
+      "spriteIndex": 264,
+      "description": "[LocalizedText Strings\\BigCraftables:HeavyTapper_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "265": {
+      "name": "Deconstructor",
+      "spriteIndex": 265,
+      "description": "[LocalizedText Strings\\BigCraftables:Deconstructor_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "272": {
+      "name": "Auto-Petter",
+      "spriteIndex": 272,
+      "description": "[LocalizedText Strings\\BigCraftables:AutoPetter_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "275": {
+      "name": "Hopper",
+      "spriteIndex": 275,
+      "description": "[LocalizedText Strings\\BigCraftables:Hopper_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "278": {
+      "name": "Campfire",
+      "spriteIndex": 278,
+      "description": "[LocalizedText Strings\\BigCraftables:Campfire_2_Description]",
+      "price": 0,
+      "frameHeight": 32
+    },
+    "280": {
+      "name": "Statue Of True Perfection",
+      "spriteIndex": 280,
+      "description": "[LocalizedText Strings\\BigCraftables:StatueOfTruePerfection_Description]",
+      "price": 0,
+      "frameHeight": 32
+    }
+  }
+}
